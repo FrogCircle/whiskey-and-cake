@@ -52,3 +52,4 @@ View the game's original official rules [here](http://s3.amazonaws.com/cah/CAH_R
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.
+[![Stories in Ready](https://badge.waffle.io/FrogCircle/whiskey-and-cake.png?label=ready&title=Ready)](http://waffle.io/FrogCircle/whiskey-and-cake)
