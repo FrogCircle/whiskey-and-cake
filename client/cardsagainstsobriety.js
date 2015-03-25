@@ -22,3 +22,9 @@ Template.initialPage.helpers = {
 
   }
 };
+
+Template.initialPage.events({
+  "click #cardsAgainstSobriety": function(event, template) {
+
+  }
+});
