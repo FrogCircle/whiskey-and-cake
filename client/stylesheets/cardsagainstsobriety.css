@@ -1,7 +1,8 @@
 /* CSS declarations go here */
 
 .container {
-  width: 1350px;
+  width: 940px;
+  margin: 0 auto;
 }
 
 .playerButton {
@@ -29,7 +30,6 @@
 
 /****** Navbar Group ******/
 .navbar {
-  margin-bottom: 0;
 }
 
 .navbar-brand {
@@ -38,6 +38,8 @@
   font-size: 7em;
   overflow: hidden;
   text-overflow: clip;
+  line-height: 75px;
+  height: auto;
 }
 
 a:hover, a:focus {
