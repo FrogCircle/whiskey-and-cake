@@ -4,34 +4,50 @@
   <link href='http://fonts.googleapis.com/css?family=Pinyon+Script' rel='stylesheet' type='text/css'></head>
 
 <body class="bs-docs-home">
-  <header class="navbar navbar-static-top bs-docs-nav">
-    <div class="container">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="#">Cards Against Sobriety</a>
-      </div>
-      <nav class="collapse navbar-collapse bs-navbar-collapse">
-        <ul class="nav navbar-nav navbar-right">
-          <li>
-            <button class="btn btn-default">
-              {{> loginButtons}}
-            </button>
-          </li>
-        </ul>
-      </nav>
+<header class="navbar navbar-static-top bs-docs-nav">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Cards Against Sobriety</a>
     </div>
-  </header>
+    <nav class="collapse navbar-collapse bs-navbar-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <button class="btn btn-default">
+            {{> loginButtons}}
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<div class="container">
+  {{> initialPage }}
+</div>
 
+</body>
+
+<!--
+All of these templates will be moved into their own JS files
+-->
+
+<template name="initialPage">
+  <button id="createRoom" name="createRoom">Create Room</button>
+  <button id="joinRoom" name="joinRoom">Join Room</button>
+  <!--list of available rooms here-->
+</template>
+
+<template name="cardsAgainstHumanity">
   <div class="bs-docs-header">
     <div class="container">
       <h1>
         Welcome to Cards Against Sobriety,
-      {{#if currentUser}}
-        Beautiful {{currentUser.username}}.
-        <br/>
-        Let's get <strong>DRUNK</strong>
-      {{else}}
-        Dangerous Stranger, please sign in.
-      {{/if}}
+        {{#if currentUser}}
+          Beautiful {{currentUser.username}}.
+          <br/>
+          Let's get <strong>DRUNK</strong>
+        {{else}}
+          Dangerous Stranger, please sign in.
+        {{/if}}
       </h1>
 
       {{#if currentUser}}
@@ -42,13 +58,13 @@
 
   <div class="bs-docs-container" id="player">
     <div class="container">
-    {{#if currentUser}}
-      {{> playerHand}}
-    {{else}}
-      <div class="footer">“A lady came up to me one day and said 'Sir! You are drunk', to which I replied 'I am drunk
-        today madam,
-        and tomorrow I shall be sober but you will still be ugly.” - Winston Churchill</div>
-    {{/if}}
+      {{#if currentUser}}
+        {{> playerHand}}
+      {{else}}
+        <div class="footer">“A lady came up to me one day and said 'Sir! You are drunk', to which I replied 'I am drunk
+          today madam,
+          and tomorrow I shall be sober but you will still be ugly.” - Winston Churchill</div>
+      {{/if}}
     </div>
   </div>
-</body>
+</template>

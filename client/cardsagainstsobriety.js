@@ -12,3 +12,13 @@ Meteor.subscribe('PlayerHand');
 Meteor.subscribe('GameBoard');
 Meteor.subscribe("userData");
 Meteor.subscribe("RoundInfo");
+
+//THESE WILL ALL BE MOVED INTO RESPECTIVE TEMPLATE HELPER METHOD FILES
+Template.initialPage.helpers = {
+  loadRooms: function() {
+
+  },
+  createRooms: function() {
+
+  }
+};
