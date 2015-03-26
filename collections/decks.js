@@ -2,15 +2,12 @@
 Room = new Meteor.Collection('Room');
 
 // create collection with all user hands
-PlayerHand = new Meteor.Collection("PlayerHand");
 
 // create collection of all cards on the game table (one black card & all played white cards)
-GameBoard = new Meteor.Collection("GameBoard");
 
 // Currently this collection provides a check for whether the round is over
 // This is done by initializing a roundOver property of this collection when the judge picks a winner
 // Then that property is deleted when a new round is started
-RoundInfo = new Meteor.Collection("RoundInfo");
 
 //This is where we hold our methods that get called from the client side
 Meteor.methods({
