@@ -3,23 +3,23 @@ Router.configure({
 });
 
 Router.route('/', function(){
-  this.render('home', {to: 'home'});
+  this.render('home', {to: 'show'});
 });
 
 Router.route('/cardsagainstsobriety', function(){
-  this.render('cardsAgainstSobriety', {to: 'cardsagainstsobriety'});
+  this.render('cardsAgainstSobriety', {to: 'show'});
 }, {
   name: 'cardsagainstsobriety'
 });
 
 Router.route('/moviecloud', function() {
-  this.render('movieCloud', {to: 'moviecloud'});
+  this.render('movieCloud', {to: 'show'});
 }, {
   name: 'moviecloud'
 });
 
 Router.route('/timeshistorian', function() {
-  this.render('timesHistorian', {to: 'timeshistorian'});
+  this.render('timesHistorian', {to: 'show'});
 }, {
   name: 'timeshistorian'
 });
