@@ -52,8 +52,6 @@ if (WhiteDeck.find().count() === 0) {
 
 /* USERS */
 
-Meteor.users.remove({});
-
 // fields added to Meteor.user on instantiation
 Accounts.onCreateUser(function(options, user) {
     user.score = 0;

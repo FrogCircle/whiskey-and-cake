@@ -1,0 +1,28 @@
+<template name="cardsAgainstSobriety">
+  <div class="bs-docs-header">
+      <h1>
+        Welcome to Cards Against Sobriety,
+        {{#if currentUser}}
+          Beautiful {{currentUser.username}}.
+          <br/>
+          Let's get <strong>DRUNK</strong>
+        {{else}}
+          Dangerous Stranger, please sign in.
+        {{/if}}
+      </h1>
+
+      {{#if currentUser}}
+        {{> gameBoard}}
+      {{/if}}
+  </div>
+
+  <div class="bs-docs-container" id="player">
+      {{#if currentUser}}
+        {{> playerHand}}
+      {{else}}
+        <div class="footer">“A lady came up to me one day and said 'Sir! You are drunk', to which I replied 'I am drunk
+          today madam,
+          and tomorrow I shall be sober but you will still be ugly.” - Winston Churchill</div>
+      {{/if}}
+  </div>
+</template>
