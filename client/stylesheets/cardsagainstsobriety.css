@@ -193,6 +193,12 @@ header {
 
 .roundCounter {
   float: right;
+  border: 1px solid black;
+  padding: 5px 10px;
+  background-color: #eaeaea;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
 }
 /* End of Gameboard Group **/
 
@@ -206,6 +212,10 @@ header {
 
 .text {
   text-align: center;
+}
+
+.textarea {
+  width: 250px;
 }
 
 .playCard {
