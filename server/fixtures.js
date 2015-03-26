@@ -1,72 +1,78 @@
 //Cmd line if meteor running on port 3000 already.
 //kill -9 `ps ax | grep node | grep meteor | awk '{print $1}'`
-
+/**
 /* DECK INSTANTIATION */
 
 // on meteor start, clear current decks
-WhiteDeck.remove({});
-BlackDeck.remove({});
-PlayerHand.remove({});
-GameBoard.remove({});
-RoundInfo.remove({});
+var PlayerHand = {};
+var GameBoard = {};
+var RoundInfo = {};
 
-// in-place shuffle algorithm for CardsMaster
+var CreateRoom = function() {
+  var WhiteDeck = [];
+  var BlackDeck = [];
+// in-place shuffle algorithm for BlackCards
 // cards are shuffled prior to instantiating the database
-for (var i=0; i<CardsMaster.length; i++) {
-  var j = Math.floor(Math.random() * i);
-  var hole = CardsMaster[i];
-  CardsMaster[i] = CardsMaster[j];
-  CardsMaster[j] = hole;
-}
-
-// order number for database deck
-var _incrementBlack = 0;
-var _incrementWhite = 0;
+  for (var i = 0; i < BlackCards.length; i++) {
+    var j = Math.floor(Math.random() * i);
+    var hole = BlackCards[i];
+    BlackCards[i] = BlackCards[j];
+    BlackCards[j] = hole;
+  }
 
 // instantiate databases with shuffled data
-if (BlackDeck.find().count() === 0) {
-  for (var i=0; i<CardsMaster.length; i++) {
-    if (CardsMaster[i]["cardType"] === "Black") {
-      BlackDeck.insert({
-        no: _incrementBlack,
-        text: CardsMaster[i]["text"],
-        expansion: CardsMaster[i]["expansion"]
-      });
-      _incrementBlack++;
-    }
+  for (var i = 0; i < BlackCards.length; i++) {
+    BlackDeck.push({
+      text: BlackCards[i]["text"],
+      expansion: BlackCards[i]["expansion"]
+    });
   }
-}
 
-if (WhiteDeck.find().count() === 0) {
-  for (var i=0; i<CardsMaster.length; i++) {
-    if (CardsMaster[i]["cardType"] === "White") {
-      WhiteDeck.insert({
-        no: _incrementWhite,
-        text: CardsMaster[i]["text"],
-        expansion: CardsMaster[i]["expansion"]
-      });
-      _incrementWhite++;
-    }
+  for (var i = 0; i < WhiteCards.length; i++) {
+    WhiteDeck.push({
+      text: WhiteCards[i]["text"],
+      expansion: WhiteCards[i]["expansion"]
+    });
   }
-}
-
-/* USERS */
-
-Meteor.users.remove({});
-
+  Room.insert({
+    createdBy:(Meteor.userId()),
+    createdAt: new Date(),
+    WhiteDeck: WhiteDeck,
+    BlackDeck: BlackDeck,
+    RoundInfo: {},
+    PlayerHand: [],
+    GameBoard: [],
+    users: []
+  });
+};
 // fields added to Meteor.user on instantiation
 Accounts.onCreateUser(function(options, user) {
-    user.score = 0;
-    user.judge = false;
-    return user;
-  });
+  user.score = 0;
+  user.judge = false;
+  return user;
+});
 
 /* PUBLISHING */
 
-Meteor.publish("WhiteDeck", function() { return WhiteDeck.find(); });
-Meteor.publish("BlackDeck", function() { return BlackDeck.find(); });
-Meteor.publish("PlayerHand", function() { return PlayerHand.find({owner: this.userId}); });
-Meteor.publish("GameBoard", function() { return GameBoard.find(); });
-Meteor.publish("userData", function () { return Meteor.users.find() });
-Meteor.publish("RoundInfo", function () { return RoundInfo.find() });
+Meteor.publish("Room", function() {
+  return Room.find();
+});
+Meteor.publish("WhiteDeck", function() {
+  return WhiteDeck.find();
+});
+Meteor.publish("BlackDeck", function() {
+  return BlackDeck.find();
+});
+Meteor.publish("PlayerHand", function() {
+  return PlayerHand.find({owner: this.userId});
+});
+Meteor.publish("GameBoard", function() {
+  return GameBoard.find();
+});
+Meteor.publish("userData", function() {
+  return Meteor.users.find()
+});
+Meteor.publish("RoundInfo", function() {
+  return RoundInfo.find()
+});
 
