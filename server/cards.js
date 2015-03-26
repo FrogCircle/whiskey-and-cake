@@ -2,7 +2,7 @@
  * Cards that require more than white card to be played have been commented out.
  */
 
-CardsMaster = [{"cardType":"White","text":"Flying sex snakes.","expansion": "Base"},
+BlackCards = [{"cardType":"White","text":"Flying sex snakes.","expansion": "Base"},
   {"cardType":"White","text":"Michelle Obama's arms.","expansion": "Base"},
   {"cardType":"White","text":"German dungeon porn.","expansion": "Base"},
   {"cardType":"White","text":"White people.","expansion": "Base"},
