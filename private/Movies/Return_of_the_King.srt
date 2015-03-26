@@ -1,0 +1,4876 @@
+﻿1
+00:00:23,009 --> 00:00:24,373
+Hear you now...
+
+2
+00:00:24,732 --> 00:00:26,978
+...a story of good against evil.
+
+3
+00:00:27,500 --> 00:00:30,226
+An epoch that has its beginning
+at an ending...
+
+4
+00:00:30,870 --> 00:00:32,632
+...and ends at a beginning.
+
+5
+00:00:33,435 --> 00:00:36,563
+Listen, as we speak of the fall
+of a lord of darkness...
+
+6
+00:00:36,962 --> 00:00:39,207
+...and the return of a king of light.
+
+7
+00:00:40,008 --> 00:00:42,856
+Concern yourselves
+with armies and wizards...
+
+8
+00:00:43,297 --> 00:00:45,061
+...phantoms and emperors...
+
+9
+00:00:45,141 --> 00:00:49,352
+...cloud-capped towers
+and bloodied fields of horrendous carnage.
+
+10
+00:00:50,394 --> 00:00:51,918
+Consider no less...
+
+11
+00:00:51,998 --> 00:00:53,844
+...than the cataclysmic transformation...
+
+12
+00:00:53,922 --> 00:00:56,609
+...of that ancient world
+of wonder and magic...
+
+13
+00:00:56,889 --> 00:00:59,494
+...to the world we know now, of Man.
+
+14
+00:01:00,781 --> 00:01:03,505
+What mighty lord, you may ask,
+is hero enough...
+
+15
+00:01:03,707 --> 00:01:06,672
+...to evoke such cosmic metamorphosis?
+
+16
+00:01:09,639 --> 00:01:12,485
+Why, no lord at all,
+but the littlest of fellows...
+
+17
+00:01:13,290 --> 00:01:14,811
+...Frodo the Hobbit...
+
+18
+00:01:14,892 --> 00:01:17,096
+...and his faithful squire, Samwise.
+
+19
+00:01:18,220 --> 00:01:21,587
+Who, beginning at the ending,
+now approach Rivendell...
+
+20
+00:01:21,870 --> 00:01:23,874
+...the Elvish home of Elrond...
+
+21
+00:01:24,154 --> 00:01:27,159
+...there to help celebrate
+the 129th birthday...
+
+22
+00:01:27,723 --> 00:01:29,609
+...of Frodo's aged kin...
+
+23
+00:01:30,168 --> 00:01:33,616
+...Bilbo Baggins,
+renowned tormentor of dragons.
+
+24
+00:01:34,299 --> 00:01:39,269
+Bless my soul!
+You're a match for Smaug himself.
+
+25
+00:01:47,651 --> 00:01:49,816
+All of us, Frodo and Samwise...
+
+26
+00:01:50,375 --> 00:01:53,103
+...their Hobbit companions,
+Merry and Pippin...
+
+27
+00:01:53,262 --> 00:01:56,791
+...EIrond the Elf-Lord, and l, Gandalf...
+
+28
+00:01:57,434 --> 00:01:59,638
+...wished Bilbo only the best.
+
+29
+00:02:00,722 --> 00:02:03,086
+But as we celebrated
+far into the Elvish night...
+
+30
+00:02:03,126 --> 00:02:06,695
+...we found it difficult
+to keep our aging guest of honor awake.
+
+31
+00:02:07,696 --> 00:02:10,143
+Nay, Pippin. Not till Bilbo has cut it.
+
+32
+00:02:10,423 --> 00:02:13,510
+Blast. What a time to fall asleep.
+
+33
+00:02:13,872 --> 00:02:15,355
+Who's asleep?
+
+34
+00:02:15,596 --> 00:02:17,681
+Just resting my eyes...
+
+35
+00:02:18,044 --> 00:02:20,128
+...and remembering.
+
+36
+00:02:21,610 --> 00:02:23,736
+There And Back Again...
+
+37
+00:02:23,936 --> 00:02:26,262
+...and what happened after.
+
+38
+00:02:26,664 --> 00:02:28,026
+Remembering, sir?
+
+39
+00:02:28,427 --> 00:02:29,951
+So many things.
+
+40
+00:02:30,231 --> 00:02:31,876
+Old Smaug...
+
+41
+00:02:32,478 --> 00:02:34,240
+...dear Thorin...
+
+42
+00:02:34,321 --> 00:02:37,047
+...that terrible Gollum chap...
+
+43
+00:02:37,888 --> 00:02:40,014
+...the Ring of Invisibility.
+
+44
+00:02:41,017 --> 00:02:42,981
+What's become of my ring?
+
+45
+00:02:43,582 --> 00:02:46,509
+That ring I gave you and you took away.
+
+46
+00:02:47,112 --> 00:02:48,152
+Yes.
+
+47
+00:02:48,233 --> 00:02:50,199
+I've lost it, Bilbo dear.
+
+48
+00:02:50,478 --> 00:02:51,803
+I got rid of it, you know.
+
+49
+00:02:52,282 --> 00:02:55,732
+Pity. I should have liked to see it again.
+
+50
+00:02:56,372 --> 00:02:57,375
+But...
+
+51
+00:02:57,456 --> 00:02:59,902
+...now, how silly of me.
+
+52
+00:03:00,464 --> 00:03:02,627
+That's what you went for, wasn't it?
+
+53
+00:03:02,709 --> 00:03:04,313
+To get rid of it.
+
+54
+00:03:05,071 --> 00:03:10,045
+But why destroy a thing
+of such wondrous magic?
+
+55
+00:03:10,526 --> 00:03:12,571
+It was an evil thing, sir.
+
+56
+00:03:12,811 --> 00:03:13,853
+Nay!
+
+57
+00:03:13,933 --> 00:03:15,779
+Without its powers...
+
+58
+00:03:15,939 --> 00:03:19,708
+...I could never have faced
+the worm, Smaug.
+
+59
+00:03:20,310 --> 00:03:24,118
+You unwittingly used its
+evil forces for good, dear Uncle.
+
+60
+00:03:24,399 --> 00:03:26,365
+Your innocence protected you.
+
+61
+00:03:26,604 --> 00:03:28,729
+But had you continued to wear it...
+
+62
+00:03:28,809 --> 00:03:31,498
+...instead of keeping it
+above your mantle as a trophy...
+
+63
+00:03:31,858 --> 00:03:35,425
+...its ever-growing malignancy
+would have consumed you...
+
+64
+00:03:35,825 --> 00:03:40,758
+...as it almost consumed Samwise and me
+and the whole of Middle-earth.
+
+65
+00:03:41,078 --> 00:03:44,528
+But this is all so confusing.
+
+66
+00:03:45,367 --> 00:03:48,134
+So confusing.
+
+67
+00:03:48,535 --> 00:03:52,466
+-Will he never cut the cake?
+-Patience, Merry.
+
+68
+00:03:53,349 --> 00:03:55,312
+Me for a good smoke, while we wait.
+
+69
+00:03:55,392 --> 00:03:58,082
+-What say, master?
+-Good notion, Sam.
+
+70
+00:04:00,685 --> 00:04:02,770
+Bless my soul!
+
+71
+00:04:04,535 --> 00:04:07,942
+You are missing a finger!
+
+72
+00:04:09,506 --> 00:04:12,233
+You not only lost my ring...
+
+73
+00:04:12,673 --> 00:04:15,841
+...you lost the finger on which it rode?
+
+74
+00:04:17,044 --> 00:04:20,051
+Frodo, you must explain.
+
+75
+00:04:20,773 --> 00:04:22,337
+We have brought with us someone...
+
+76
+00:04:22,417 --> 00:04:25,343
+...who has written a ballad
+about the adventures of Frodo:
+
+77
+00:04:25,382 --> 00:04:27,230
+The Minstrel of Gondor.
+
+78
+00:04:29,716 --> 00:04:33,605
+"Frodo of the nine fingers
+
+79
+00:04:34,123 --> 00:04:37,450
+"And the Ring of Doom"
+
+80
+00:04:41,140 --> 00:04:43,505
+It has its beginnings two ages past...
+
+81
+00:04:43,668 --> 00:04:46,794
+...when Bilbo set forth to reclaim
+the Dwarves' gold...
+
+82
+00:04:46,835 --> 00:04:48,919
+...from the dragon, Smaug.
+
+83
+00:04:52,769 --> 00:04:57,741
+While on his quest,
+Bilbo stumbled into a deep, dank cave.
+
+84
+00:04:59,585 --> 00:05:02,192
+This part I remember.
+
+85
+00:05:03,153 --> 00:05:06,962
+"When Bilbo found that shiny ring
+
+86
+00:05:07,724 --> 00:05:10,691
+"In Gollum's cave of gloom
+
+87
+00:05:11,453 --> 00:05:13,016
+"He never thought
+
+88
+00:05:13,498 --> 00:05:18,468
+"That it would turn into a ring of doom
+
+89
+00:05:19,433 --> 00:05:23,159
+"The dragon Smaug
+The spiders too
+
+90
+00:05:23,400 --> 00:05:26,368
+"The Goblins, the Elven-king
+
+91
+00:05:27,211 --> 00:05:30,218
+"They came to know the power
+
+92
+00:05:30,298 --> 00:05:34,666
+"Of the Hobbit and his ring
+
+93
+00:05:43,729 --> 00:05:47,419
+"Frodo of the nine fingers
+
+94
+00:05:48,260 --> 00:05:51,348
+"And the Ring of Doom
+
+95
+00:05:51,589 --> 00:05:54,556
+"It started with a Hobbit
+
+96
+00:05:55,236 --> 00:05:58,725
+"In Gollum's cave of gloom
+
+97
+00:06:01,774 --> 00:06:04,940
+"The power of the Ring, it grew
+
+98
+00:06:05,741 --> 00:06:08,226
+"And Gandalf sat in thought
+
+99
+00:06:09,429 --> 00:06:13,039
+"He knew that it must be destroyed
+
+100
+00:06:13,440 --> 00:06:16,247
+"In fires where it was wrought
+
+101
+00:06:17,529 --> 00:06:21,176
+"For if in evil hands it fell
+
+102
+00:06:21,659 --> 00:06:24,667
+"The Earth would know its end
+
+103
+00:06:25,509 --> 00:06:29,198
+"No force of arms would win the day
+
+104
+00:06:29,598 --> 00:06:32,765
+"No army could contend"
+
+105
+00:06:37,537 --> 00:06:40,062
+For evil flourished everywhere...
+
+106
+00:06:40,943 --> 00:06:43,830
+...and lay on the land
+like a festering malignancy.
+
+107
+00:06:44,714 --> 00:06:46,437
+There was one hope, though:
+
+108
+00:06:47,077 --> 00:06:49,443
+In a distant land, the noble Aragorn...
+
+109
+00:06:49,562 --> 00:06:51,609
+...heir to the empty throne of Gondor...
+
+110
+00:06:52,211 --> 00:06:55,658
+...awaited with a small band
+to return and become king.
+
+111
+00:06:56,863 --> 00:06:59,910
+But he could not triumph
+until the Ring was destroyed.
+
+112
+00:07:00,270 --> 00:07:01,874
+So went the prophecy.
+
+113
+00:07:02,998 --> 00:07:06,723
+"Frodo of the nine fingers
+
+114
+00:07:07,366 --> 00:07:09,651
+"And the Ring of Doom
+
+115
+00:07:10,775 --> 00:07:13,943
+"Accepted a heavy burden
+
+116
+00:07:14,384 --> 00:07:17,631
+"For the fires to consume"
+
+117
+00:07:22,403 --> 00:07:25,009
+Frodo and his gallant
+companion, Samwise...
+
+118
+00:07:25,089 --> 00:07:27,374
+...had many brave adventures...
+
+119
+00:07:27,735 --> 00:07:31,105
+...until finally they reached
+the rocky border of Mordor...
+
+120
+00:07:31,424 --> 00:07:33,950
+...domain of the Black Lord, Sauron.
+
+121
+00:07:35,510 --> 00:07:39,322
+There, Frodo was captured and imprisoned
+in the Tower of Cirith Ungol.
+
+122
+00:07:40,004 --> 00:07:44,052
+Samwise vowed to enter
+the Orc-infested tower alone...
+
+123
+00:07:44,133 --> 00:07:45,177
+...to save him.
+
+124
+00:07:54,118 --> 00:07:56,041
+The Ring of Doom was missing...
+
+125
+00:07:56,081 --> 00:07:57,606
+...from 'round Frodo's neck!
+
+126
+00:07:58,208 --> 00:08:01,978
+"Frodo of the nine fingers
+
+127
+00:08:02,660 --> 00:08:05,705
+"And the Ring of Doom
+
+128
+00:08:05,985 --> 00:08:09,633
+"Why does he have nine fingers?
+
+129
+00:08:09,795 --> 00:08:14,806
+"Where is the Ring of Doom?"
+
+130
+00:08:36,578 --> 00:08:41,070
+One tiny Hobbit against all the evil
+the world could muster.
+
+131
+00:08:42,111 --> 00:08:44,196
+A sane being would have given up.
+
+132
+00:08:44,676 --> 00:08:47,764
+But Samwise burned
+with a magnificent madness...
+
+133
+00:08:48,165 --> 00:08:51,172
+...a glowing obsession
+to surmount every obstacle...
+
+134
+00:08:51,656 --> 00:08:55,825
+...to find Frodo, destroy the Ring,
+and cleanse Middle-earth...
+
+135
+00:08:55,904 --> 00:08:58,029
+...of its festering malignancy.
+
+136
+00:09:00,196 --> 00:09:04,964
+He knew he would try again,
+fail perhaps and try once more...
+
+137
+00:09:05,445 --> 00:09:08,653
+...a thousand, thousand times, if need be.
+
+138
+00:09:09,215 --> 00:09:11,380
+But he would not give up the quest.
+
+139
+00:11:06,695 --> 00:11:09,219
+You cannot die, Master Frodo!
+
+140
+00:11:10,182 --> 00:11:12,107
+I'll get to you somehow!
+
+141
+00:11:26,340 --> 00:11:31,314
+You. I can feel you
+throbbing with excitement!
+
+142
+00:11:32,395 --> 00:11:37,205
+You know the gates to the land
+of Mordor and your dark lord, Sauron.
+
+143
+00:11:38,290 --> 00:11:42,979
+Now I must bear your loathsome weight.
+
+144
+00:11:44,303 --> 00:11:48,272
+But I do it for he who lies
+in that accursed tower...
+
+145
+00:11:48,475 --> 00:11:50,479
+...Cirith Ungol:
+
+146
+00:11:51,322 --> 00:11:54,086
+My sweet master, Frodo.
+
+147
+00:11:57,695 --> 00:11:59,419
+And, 'tis Sting...
+
+148
+00:11:59,660 --> 00:12:01,986
+...Master Frodo's sword.
+
+149
+00:12:02,547 --> 00:12:04,270
+And his hero's cloak!
+
+150
+00:12:05,633 --> 00:12:08,480
+Lost 'em with the Ring
+while doing battle, he did.
+
+151
+00:12:09,282 --> 00:12:12,731
+They're safe with me
+till I find you again, master!
+
+152
+00:12:14,894 --> 00:12:16,379
+He can't hear.
+
+153
+00:12:17,141 --> 00:12:19,868
+Half dead, behind walls of stone.
+
+154
+00:12:21,672 --> 00:12:25,360
+Serve me, Sting, till I can return you.
+
+155
+00:12:30,655 --> 00:12:31,657
+Here now.
+
+156
+00:12:32,056 --> 00:12:33,420
+What's this?
+
+157
+00:12:34,822 --> 00:12:36,909
+Dank and foul-smelling...
+
+158
+00:12:37,829 --> 00:12:39,554
+...but it may be a way in.
+
+159
+00:12:51,302 --> 00:12:53,387
+I've got through!
+
+160
+00:12:54,832 --> 00:12:57,837
+So I've finally crossed into Mordor.
+
+161
+00:13:06,098 --> 00:13:07,782
+Orcs in the tower!
+
+162
+00:13:09,024 --> 00:13:11,229
+Old Bilbo called them Goblins.
+
+163
+00:13:12,511 --> 00:13:16,961
+But whatever the name,
+I loathe the vile creatures.
+
+164
+00:13:20,692 --> 00:13:22,417
+Fighting among themselves?
+
+165
+00:13:23,379 --> 00:13:25,064
+I could get in!
+
+166
+00:13:25,503 --> 00:13:27,227
+They wouldn't notice me!
+
+167
+00:13:30,636 --> 00:13:32,801
+The Ring holds me back?
+
+168
+00:13:34,886 --> 00:13:35,886
+True.
+
+169
+00:13:37,411 --> 00:13:38,813
+Once the Orcs saw me...
+
+170
+00:13:38,895 --> 00:13:42,344
+...they'd forget their own arguments
+for the head of an enemy!
+
+171
+00:13:44,589 --> 00:13:46,353
+Useless to face such odds.
+
+172
+00:13:46,792 --> 00:13:48,437
+Don't take any chances.
+
+173
+00:13:48,718 --> 00:13:50,602
+Destroy the thing yourself.
+
+174
+00:13:52,526 --> 00:13:54,611
+I do it for you, Frodo!
+
+175
+00:13:55,133 --> 00:13:57,380
+I must be ring bearer now!
+
+176
+00:14:02,592 --> 00:14:05,277
+"The bearer of the Ring
+
+177
+00:14:05,358 --> 00:14:08,004
+"The wearer of the Ring
+
+178
+00:14:08,125 --> 00:14:13,256
+"Stands on the very brink of fate
+
+179
+00:14:13,818 --> 00:14:18,789
+"Staring into eyes of darkness and despair
+
+180
+00:14:18,989 --> 00:14:22,959
+"That rise and shrink with hate"
+
+181
+00:14:29,934 --> 00:14:34,026
+I can feel you change
+as we draw near the great furnaces...
+
+182
+00:14:34,225 --> 00:14:38,156
+...where in the depths of time,
+you were shaped and formed.
+
+183
+00:14:40,441 --> 00:14:41,803
+Mount Doom!
+
+184
+00:14:46,374 --> 00:14:49,543
+I could claim you, Ring!
+
+185
+00:14:50,626 --> 00:14:55,638
+I would be Samwise the Strong!
+
+186
+00:14:57,521 --> 00:15:00,007
+"The bearer of the Ring
+
+187
+00:15:00,087 --> 00:15:02,814
+"The wearer of the Ring
+
+188
+00:15:02,895 --> 00:15:06,824
+"He hears a voice compelling him
+
+189
+00:15:08,668 --> 00:15:13,638
+"Filling him with thoughts
+That echo in his mind
+
+190
+00:15:13,840 --> 00:15:18,090
+"It should be telling him
+
+191
+00:15:19,414 --> 00:15:24,346
+"Beware the power
+is a power never known
+
+192
+00:15:24,746 --> 00:15:28,435
+"Beware the power that was simple
+
+193
+00:15:28,515 --> 00:15:30,120
+"Now has grown
+
+194
+00:15:30,240 --> 00:15:33,967
+"Beware, bearer of the Ring
+
+195
+00:15:34,969 --> 00:15:39,820
+"The final power has yet to be shown
+
+196
+00:15:41,145 --> 00:15:43,670
+"The bearer of the Ring
+
+197
+00:15:43,990 --> 00:15:46,117
+"The wearer of the Ring
+
+198
+00:15:46,677 --> 00:15:50,327
+"Through forces tempting to resist
+
+199
+00:15:52,492 --> 00:15:54,176
+"Must recall the quest
+
+200
+00:15:54,818 --> 00:15:57,103
+"To end this darkest age
+
+201
+00:15:57,624 --> 00:16:01,553
+"That mortal death has kissed
+
+202
+00:16:03,157 --> 00:16:05,642
+"The bearer of the Ring
+
+203
+00:16:05,883 --> 00:16:08,447
+"The wearer of the Ring
+
+204
+00:16:08,528 --> 00:16:13,461
+"Beware who wears the Ring"
+
+205
+00:16:21,040 --> 00:16:23,765
+Hail Samwise the Strong!
+
+206
+00:16:24,206 --> 00:16:26,533
+Hail the Conqueror!
+
+207
+00:16:26,653 --> 00:16:28,898
+Hail the War-King!
+
+208
+00:16:29,140 --> 00:16:31,143
+Hero of the Age!
+
+209
+00:16:31,705 --> 00:16:34,070
+To the Dark Tower!
+
+210
+00:16:34,190 --> 00:16:36,115
+To Barad-dur!
+
+211
+00:16:46,619 --> 00:16:49,307
+I claim thee, Barad-dur!
+
+212
+00:16:49,827 --> 00:16:52,635
+You are Sauron's no more!
+
+213
+00:16:58,729 --> 00:17:01,176
+Hail Samwise the Strong!
+
+214
+00:17:01,776 --> 00:17:04,381
+The sun shines for thee alone!
+
+215
+00:17:08,272 --> 00:17:13,123
+And now I claim all
+of the Vale of Gorgoroth!
+
+216
+00:17:15,048 --> 00:17:18,336
+Now let this foul desolation...
+
+217
+00:17:18,495 --> 00:17:21,784
+...this cursed plateau
+of the Dark Lord, Sauron...
+
+218
+00:17:21,944 --> 00:17:25,512
+...this Orc-infested,
+desert of nameless horrors...
+
+219
+00:17:25,751 --> 00:17:29,562
+...let it blossom forth, and live!
+
+220
+00:17:29,964 --> 00:17:33,771
+Let it live for Samwise the Strong!
+
+221
+00:17:36,579 --> 00:17:39,064
+Samwise the Strong!
+
+222
+00:17:50,411 --> 00:17:51,412
+Behold!
+
+223
+00:17:53,257 --> 00:17:56,465
+The gardens of my delight!
+
+224
+00:17:57,068 --> 00:18:01,277
+So I shall transform the world!
+
+225
+00:18:11,141 --> 00:18:13,907
+All could be mine...
+
+226
+00:18:14,186 --> 00:18:18,277
+...if I but claim thee, Ring!
+
+227
+00:18:23,691 --> 00:18:24,732
+No!
+
+228
+00:18:33,674 --> 00:18:35,477
+What brought me back?
+
+229
+00:18:37,162 --> 00:18:39,246
+Plain Hobbit sense.
+
+230
+00:18:40,690 --> 00:18:44,700
+I know in my heart I'm not
+enough to bear such a burden.
+
+231
+00:18:46,504 --> 00:18:49,191
+One small garden of a free gardener...
+
+232
+00:18:49,431 --> 00:18:51,598
+...is all my need and due.
+
+233
+00:18:52,678 --> 00:18:54,565
+My own hands to use...
+
+234
+00:18:55,404 --> 00:18:57,811
+...not the hands of others to command.
+
+235
+00:20:17,039 --> 00:20:20,005
+No, such a quest is not for me.
+
+236
+00:20:21,168 --> 00:20:22,331
+Frodo lives.
+
+237
+00:20:22,931 --> 00:20:25,538
+And only he knows
+how to destroy the Ring...
+
+238
+00:20:25,659 --> 00:20:27,383
+...in the Cracks of Doom.
+
+239
+00:20:27,783 --> 00:20:29,548
+Only he can find the fire.
+
+240
+00:20:32,315 --> 00:20:33,757
+Dear Master Frodo.
+
+241
+00:20:34,358 --> 00:20:36,122
+I will find you.
+
+242
+00:20:37,084 --> 00:20:38,048
+Somehow.
+
+243
+00:20:49,676 --> 00:20:52,563
+An ancient world of towered fortress cities.
+
+244
+00:20:53,084 --> 00:20:54,286
+Cirith Ungol...
+
+245
+00:20:54,366 --> 00:20:57,093
+...guarding the entrance
+to the lands of Mordor.
+
+246
+00:20:58,657 --> 00:21:02,186
+Barad-dur, palace of the Dark Lord, Sauron.
+
+247
+00:21:02,666 --> 00:21:04,750
+And now, look you to yet another.
+
+248
+00:21:05,993 --> 00:21:09,441
+Minas-Tirith, chief city of Gondor...
+
+249
+00:21:09,925 --> 00:21:13,211
+...last bastion of hope
+for the powers of light and good.
+
+250
+00:21:21,393 --> 00:21:26,002
+From the battlement atop the citadel,
+like a mariner in a mountainous ship...
+
+251
+00:21:26,081 --> 00:21:30,492
+...one could look sheer down
+upon the gate 700 feet below.
+
+252
+00:21:31,414 --> 00:21:33,420
+And still this was not the top.
+
+253
+00:21:35,063 --> 00:21:37,668
+Behold! The White Tower.
+
+254
+00:21:41,076 --> 00:21:45,247
+At the top, the banner of the stewards
+who governed the city...
+
+255
+00:21:45,488 --> 00:21:49,497
+...its silken arms embracing
+a domain more fitting Gwaihir...
+
+256
+00:21:49,859 --> 00:21:52,905
+...Lord of the Eagles
+than those whose emblem it bore.
+
+257
+00:21:53,867 --> 00:21:57,476
+All this, Minas-Tirith was.
+
+258
+00:22:00,684 --> 00:22:04,452
+But now, under siege,
+the sparkling gem of Gondor...
+
+259
+00:22:04,613 --> 00:22:08,060
+...had become dull and flawed
+with the hell of war.
+
+260
+00:22:10,387 --> 00:22:14,195
+The once-lush fields of Pelennor,
+now a wasted battleground...
+
+261
+00:22:14,516 --> 00:22:19,206
+...upon which Sauron's forces of evil
+celebrated their victories.
+
+262
+00:22:27,267 --> 00:22:30,635
+Far superior in number
+to the battle-ravaged Gondor forces...
+
+263
+00:22:30,995 --> 00:22:33,362
+...they mounted their monster oliphaunts...
+
+264
+00:22:33,482 --> 00:22:38,491
+...to ride in the rocking, armored towers,
+to their almost certain victory.
+
+265
+00:22:39,734 --> 00:22:43,666
+And in the heavens,
+where no living thing dare now venture...
+
+266
+00:22:44,508 --> 00:22:49,478
+...Sauron's phantom lieutenants,
+the Nazgul, astride their devil steeds...
+
+267
+00:22:50,282 --> 00:22:53,410
+...scream battle cries
+of vile encouragement.
+
+268
+00:23:10,168 --> 00:23:14,779
+High in the White Tower, Lord Denethor,
+Chief Steward of Gondor...
+
+269
+00:23:14,939 --> 00:23:17,826
+...his mind broken
+as his city crumbled about him...
+
+270
+00:23:17,907 --> 00:23:20,835
+...had succumbed
+to an eerie fire of the brain...
+
+271
+00:23:20,874 --> 00:23:24,562
+...and, in his madness,
+ordered his own execution.
+
+272
+00:23:26,767 --> 00:23:29,774
+-You must stop him!
+-His word is law!
+
+273
+00:23:29,895 --> 00:23:31,579
+I'll find Gandalf!
+
+274
+00:23:33,385 --> 00:23:37,432
+The Hobbit, Pippin, who had proved
+a most valuable assistant for me...
+
+275
+00:23:37,592 --> 00:23:39,439
+...rushed to the battlement.
+
+276
+00:23:39,759 --> 00:23:41,521
+Where l, Gandalf...
+
+277
+00:23:42,044 --> 00:23:45,332
+...and the Gondor generals searched
+the distance in vain...
+
+278
+00:23:45,811 --> 00:23:47,738
+...for a sign of our rescuers.
+
+279
+00:23:48,339 --> 00:23:49,983
+For we awaited Theoden...
+
+280
+00:23:50,503 --> 00:23:53,631
+...a valuable ally,
+lord of the friendly nation of Rohan...
+
+281
+00:23:53,713 --> 00:23:58,204
+...for whom we had dispatched
+Pippin's Hobbit friend, little Merry...
+
+282
+00:23:59,325 --> 00:24:03,855
+...to inform him of our perilous condition
+and to beseech his aid.
+
+283
+00:24:03,936 --> 00:24:07,744
+For we wondered, would he
+and his armies come to our rescue?
+
+284
+00:24:10,029 --> 00:24:12,677
+Forward! To Minas-Tirith!
+
+285
+00:24:14,921 --> 00:24:16,125
+Forward!
+
+286
+00:24:18,851 --> 00:24:21,298
+For only Theoden could save our city...
+
+287
+00:24:21,536 --> 00:24:24,224
+...and make it safe
+for the return of Aragorn.
+
+288
+00:24:24,785 --> 00:24:27,392
+But we feared he would come too late.
+
+289
+00:24:30,759 --> 00:24:34,087
+-What? Denethor?
+-He's gone loony, I tell you!
+
+290
+00:24:34,168 --> 00:24:35,370
+Come quickly.
+
+291
+00:24:39,620 --> 00:24:41,103
+You cannot do this!
+
+292
+00:24:42,346 --> 00:24:44,352
+Soon all shall be burned.
+
+293
+00:24:45,314 --> 00:24:47,079
+The West has failed.
+
+294
+00:24:47,519 --> 00:24:51,288
+It shall go up in a great fire...
+
+295
+00:24:51,368 --> 00:24:54,176
+...and all shall be ended.
+
+296
+00:24:56,060 --> 00:25:00,149
+Ash and smoke blown away on the wind.
+
+297
+00:25:00,830 --> 00:25:05,843
+All shall not be ended.
+Theoden's forces are on their way!
+
+298
+00:25:12,296 --> 00:25:15,424
+Pride and despair!
+
+299
+00:25:16,267 --> 00:25:18,232
+Pride and despair!
+
+300
+00:25:18,875 --> 00:25:22,081
+Didst thou think the eyes
+of the White Tower were blind?
+
+301
+00:25:26,289 --> 00:25:31,023
+I have looked inside my palantir.
+
+302
+00:25:31,182 --> 00:25:35,150
+-What is that?
+-Palantir. The stuff of wizards.
+
+303
+00:25:35,591 --> 00:25:37,558
+A crystal ball to see the future.
+
+304
+00:25:38,279 --> 00:25:43,251
+I have seen more than thou knowest,
+gray fool.
+
+305
+00:25:43,891 --> 00:25:46,340
+Thy hope is but ignorance.
+
+306
+00:25:47,543 --> 00:25:51,552
+Even with the forces of Theoden,
+there is no hope.
+
+307
+00:25:51,671 --> 00:25:54,117
+Go forth and fight!
+
+308
+00:25:55,118 --> 00:25:56,321
+Vanity!
+
+309
+00:25:57,044 --> 00:26:00,693
+For a little space you may triumph
+on the field...
+
+310
+00:26:00,773 --> 00:26:02,417
+...for a day.
+
+311
+00:26:03,779 --> 00:26:08,270
+But against the dark power...
+
+312
+00:26:08,351 --> 00:26:11,919
+...that now rises, there is no victory.
+
+313
+00:26:12,520 --> 00:26:16,930
+To this dying city,
+only the first fingers of its hand...
+
+314
+00:26:16,971 --> 00:26:18,774
+...have yet been stretched.
+
+315
+00:26:19,697 --> 00:26:23,628
+All the East is moving!
+
+316
+00:26:24,711 --> 00:26:29,402
+And even now,
+the wind of thy hope cheats thee...
+
+317
+00:26:29,762 --> 00:26:34,372
+...and wafts up an enemy fleet
+with black sails.
+
+318
+00:26:35,215 --> 00:26:40,184
+Up the Great River, Anduin they come,
+even now.
+
+319
+00:26:40,546 --> 00:26:43,355
+The river which leads to the edge...
+
+320
+00:26:43,434 --> 00:26:45,920
+...of the Pelennor Fields.
+
+321
+00:26:51,813 --> 00:26:54,902
+A black fleet? A devil's armada?
+
+322
+00:26:54,981 --> 00:26:58,831
+-Do those palantir things ever lie?
+-Never!
+
+323
+00:27:01,477 --> 00:27:03,843
+The West has failed!
+
+324
+00:27:04,443 --> 00:27:07,530
+It is time for all to depart this life...
+
+325
+00:27:07,610 --> 00:27:10,175
+...who would not be slaves!
+
+326
+00:27:11,179 --> 00:27:14,707
+Servants, come hither!
+
+327
+00:27:21,003 --> 00:27:24,653
+So passes Denethor, son of Ecthelion.
+
+328
+00:27:25,214 --> 00:27:28,100
+And so pass also the days of Gondor.
+
+329
+00:27:28,862 --> 00:27:31,669
+For good or evil they have ended.
+
+330
+00:27:34,915 --> 00:27:36,840
+You must take charge, Gandalf.
+
+331
+00:27:37,160 --> 00:27:38,844
+You must lead our forces now...
+
+332
+00:27:38,924 --> 00:27:42,053
+...until Aragorn returns
+to claim the throne of Gondor.
+
+333
+00:27:42,132 --> 00:27:43,415
+If he returns.
+
+334
+00:27:43,937 --> 00:27:44,900
+Gandalf, you...
+
+335
+00:27:45,138 --> 00:27:48,987
+I saw the vision in the palantir.
+A dark fleet.
+
+336
+00:27:49,189 --> 00:27:51,515
+-ls there no hope?
+-None.
+
+337
+00:27:51,997 --> 00:27:53,923
+Unless the Ring be destroyed.
+
+338
+00:27:54,763 --> 00:27:57,690
+But alas, it is lost with its bearer, Frodo.
+
+339
+00:27:58,295 --> 00:27:59,413
+All is gone.
+
+340
+00:28:01,340 --> 00:28:03,624
+l, Gandalf was without hope.
+
+341
+00:28:04,625 --> 00:28:07,313
+For I did not know
+that at that very moment...
+
+342
+00:28:07,471 --> 00:28:09,678
+...at that other towered fortress...
+
+343
+00:28:10,040 --> 00:28:12,364
+...the future of all good in the world...
+
+344
+00:28:12,405 --> 00:28:15,973
+...rested upon the wits
+and the tiny shoulders...
+
+345
+00:28:16,212 --> 00:28:18,339
+...of poor little Samwise...
+
+346
+00:28:19,301 --> 00:28:21,466
+...who, still undetected
+by the Orcs within...
+
+347
+00:28:21,548 --> 00:28:25,115
+...approached the gates
+of the Tower of Cirith Ungol.
+
+348
+00:28:26,238 --> 00:28:28,324
+But to get through those gates...
+
+349
+00:28:28,404 --> 00:28:31,652
+...he would have to pass
+the Two Watchers.
+
+350
+00:28:36,061 --> 00:28:39,708
+Though carved
+from huge blocks of solid stone...
+
+351
+00:28:40,271 --> 00:28:43,718
+...some dreadful spirit of evil vigilance
+abode in them...
+
+352
+00:28:44,402 --> 00:28:46,364
+...and they were aware.
+
+353
+00:28:53,782 --> 00:28:56,348
+My imagination's running away with me.
+
+354
+00:28:57,513 --> 00:29:00,760
+They're made of stone.
+What harm can they do?
+
+355
+00:29:05,569 --> 00:29:07,736
+Don't get too cocky, Samwise.
+
+356
+00:29:08,456 --> 00:29:12,907
+Orcs aren't made of stone,
+and they have ears.
+
+357
+00:29:14,794 --> 00:29:16,917
+Though where the blazes are they?
+
+358
+00:29:17,959 --> 00:29:20,124
+I thought the tower was full of them.
+
+359
+00:29:23,132 --> 00:29:25,177
+But they give me the shivers.
+
+360
+00:29:26,820 --> 00:29:30,591
+Forget about them.
+Get past as quick as I can!
+
+361
+00:29:37,728 --> 00:29:39,692
+Bless my soul.
+
+362
+00:29:41,417 --> 00:29:44,303
+Like some invisible gate.
+
+363
+00:29:46,107 --> 00:29:48,633
+That's how the Watchers keep guard.
+
+364
+00:29:50,758 --> 00:29:51,920
+Blast!
+
+365
+00:29:52,202 --> 00:29:57,013
+How do I get through, or climb over,
+or under something I can't see?
+
+366
+00:29:58,698 --> 00:29:59,738
+How?
+
+367
+00:29:59,820 --> 00:30:00,903
+Ouch!
+
+368
+00:30:02,266 --> 00:30:03,908
+Something's burning me.
+
+369
+00:30:05,353 --> 00:30:09,242
+What's this? A phial?
+
+370
+00:30:10,968 --> 00:30:15,176
+And what magic is in it
+to make it glow so?
+
+371
+00:30:22,754 --> 00:30:24,478
+They're opening up!
+
+372
+00:30:28,367 --> 00:30:29,852
+Thank you, old boys.
+
+373
+00:30:30,693 --> 00:30:33,059
+It was bad manners you showed me before.
+
+374
+00:30:36,024 --> 00:30:37,549
+Handy, this thing.
+
+375
+00:30:48,054 --> 00:30:50,460
+An alarm! That's done it.
+
+376
+00:31:03,972 --> 00:31:05,856
+I'm ready for you.
+
+377
+00:31:07,099 --> 00:31:10,988
+Tell your captains
+that a great Elf warrior has called...
+
+378
+00:31:11,068 --> 00:31:12,793
+...with his Elf blade!
+
+379
+00:31:21,693 --> 00:31:23,577
+They're all dead.
+
+380
+00:31:25,062 --> 00:31:26,065
+Why?
+
+381
+00:31:26,625 --> 00:31:29,913
+The tower was crawling
+with them just a few hours ago.
+
+382
+00:31:32,600 --> 00:31:35,045
+Looks like they were
+fighting among themselves.
+
+383
+00:31:35,084 --> 00:31:36,568
+But what for?
+
+384
+00:31:38,453 --> 00:31:41,779
+There's a lot less of you left
+to attack Minas-Tirith!
+
+385
+00:31:42,703 --> 00:31:44,747
+Goodbye and good riddance!
+
+386
+00:31:50,201 --> 00:31:53,289
+The whole tower climbs backwards-like.
+
+387
+00:31:54,613 --> 00:31:56,336
+I'll follow these lights.
+
+388
+00:32:01,509 --> 00:32:05,717
+This must be the entrance to the top tier.
+
+389
+00:32:06,880 --> 00:32:09,166
+Frodo can't be far away.
+
+390
+00:32:18,026 --> 00:32:20,633
+An Orc! They're not all dead!
+
+391
+00:32:21,796 --> 00:32:25,163
+Kill him! Bone him! Boil him!
+
+392
+00:32:25,604 --> 00:32:27,971
+There's a sweet one for you!
+
+393
+00:32:28,855 --> 00:32:30,697
+Split him in two!
+
+394
+00:32:31,901 --> 00:32:34,305
+Can't let him have the Ring!
+
+395
+00:32:47,537 --> 00:32:48,540
+No!
+
+396
+00:32:54,473 --> 00:32:57,122
+What the blazes made him do that?
+
+397
+00:32:57,963 --> 00:32:59,044
+Come back here!
+
+398
+00:33:00,929 --> 00:33:02,813
+No!
+
+399
+00:33:04,899 --> 00:33:07,303
+The great Elf warrior is loose! Stop.
+
+400
+00:33:08,867 --> 00:33:11,272
+Stop, or I'll skin you alive!
+
+401
+00:33:14,200 --> 00:33:16,447
+Mercy!
+
+402
+00:33:16,567 --> 00:33:19,853
+I'll think about it!
+I have some questions, filthy one.
+
+403
+00:33:19,934 --> 00:33:22,382
+Yes? I'll tell you anything.
+
+404
+00:33:22,459 --> 00:33:24,866
+The Hobbit, Frodo, is he still alive?
+
+405
+00:33:25,267 --> 00:33:28,593
+If anything still lives here, he does.
+
+406
+00:33:28,836 --> 00:33:31,723
+What happened here?
+Why all this carnage?
+
+407
+00:33:31,921 --> 00:33:36,613
+Our captains made battle
+and ordered us to fight also.
+
+408
+00:33:36,693 --> 00:33:38,296
+What was in contest?
+
+409
+00:33:38,657 --> 00:33:40,984
+The Hobbit's pretty coat...
+
+410
+00:33:41,223 --> 00:33:44,551
+...when he reveals its hiding place.
+
+411
+00:33:45,155 --> 00:33:48,642
+You killed each other
+for that blasted cloak?
+
+412
+00:33:49,445 --> 00:33:51,810
+Well, I have it! Not Frodo.
+
+413
+00:33:52,812 --> 00:33:53,775
+You?
+
+414
+00:33:54,456 --> 00:33:56,702
+You're just a Hobbit.
+
+415
+00:33:57,141 --> 00:33:59,306
+-Give me the coat.
+-Get back!
+
+416
+00:34:11,896 --> 00:34:14,622
+This must be the top.
+
+417
+00:34:17,670 --> 00:34:19,193
+Anything above?
+
+418
+00:34:21,239 --> 00:34:22,239
+Yes.
+
+419
+00:34:22,802 --> 00:34:24,606
+There is something!
+
+420
+00:34:29,376 --> 00:34:30,820
+Frodo!
+
+421
+00:34:38,719 --> 00:34:40,965
+Stop that, you pig!
+
+422
+00:34:59,529 --> 00:35:00,693
+Frodo.
+
+423
+00:35:01,535 --> 00:35:04,180
+Dear master. Frodo.
+
+424
+00:35:06,064 --> 00:35:07,027
+You live.
+
+425
+00:35:07,868 --> 00:35:09,832
+You live!
+
+426
+00:35:10,795 --> 00:35:14,444
+-Am I still dreaming?
+-No dream, master.
+
+427
+00:35:15,205 --> 00:35:17,810
+It's real. I've come.
+
+428
+00:35:18,694 --> 00:35:21,784
+Sam. Dear Sam.
+
+429
+00:35:23,426 --> 00:35:26,634
+I feel like a child at rest.
+
+430
+00:35:27,397 --> 00:35:29,441
+When night fears are driven away.
+
+431
+00:35:30,204 --> 00:35:33,849
+By some loved voice.
+
+432
+00:35:35,453 --> 00:35:37,097
+Come, Mr. Frodo.
+
+433
+00:35:37,818 --> 00:35:40,507
+I still must get you out of this place.
+
+434
+00:35:41,187 --> 00:35:44,558
+Please, dear master, wake up.
+
+435
+00:35:46,160 --> 00:35:47,683
+They hovered over me.
+
+436
+00:35:48,285 --> 00:35:51,491
+Gloating, fingering their knives.
+
+437
+00:35:51,653 --> 00:35:54,378
+The whips, their claws, their eyes...
+
+438
+00:35:54,419 --> 00:35:56,545
+Don't think about it.
+
+439
+00:35:57,065 --> 00:35:59,072
+Let me help you to your feet.
+
+440
+00:36:00,273 --> 00:36:02,917
+Oh, dear. The quest.
+
+441
+00:36:02,957 --> 00:36:05,085
+The quest has failed.
+
+442
+00:36:05,524 --> 00:36:07,972
+Failed? No, sir.
+
+443
+00:36:08,651 --> 00:36:11,699
+Yes. The Ring is gone, dear Sam.
+
+444
+00:36:13,584 --> 00:36:16,471
+Even if we could get out of here,
+we can't escape.
+
+445
+00:36:17,153 --> 00:36:19,759
+For evil is everywhere.
+
+446
+00:36:20,521 --> 00:36:23,166
+And only Elves can escape Middle-earth.
+
+447
+00:36:23,927 --> 00:36:26,537
+They board the white ships
+at the Gray Havens...
+
+448
+00:36:26,616 --> 00:36:30,064
+...and sail off to the lands beyond.
+
+449
+00:36:57,767 --> 00:37:00,255
+Don't even think of passing on!
+
+450
+00:37:00,536 --> 00:37:02,941
+The quest has not failed, master!
+
+451
+00:37:03,300 --> 00:37:07,472
+You don't understand.
+The Orcs took everything!
+
+452
+00:37:07,831 --> 00:37:10,719
+Not everything. Look.
+
+453
+00:37:12,405 --> 00:37:15,371
+You've got it? You've got it here?
+
+454
+00:37:15,492 --> 00:37:18,579
+You must have lost it in the struggle.
+I found it.
+
+455
+00:37:19,140 --> 00:37:21,465
+Samwise, you are a marvel!
+
+456
+00:37:21,906 --> 00:37:23,590
+I'll keep it 'round my neck...
+
+457
+00:37:23,631 --> 00:37:26,597
+...for it's too heavy
+for you to bear in your condition.
+
+458
+00:37:30,527 --> 00:37:34,136
+Give it to me at once! You can't have it!
+
+459
+00:37:34,218 --> 00:37:37,782
+All right, Mr. Frodo. Here it is.
+
+460
+00:37:39,950 --> 00:37:44,961
+"Beware the power
+is a power never known
+
+461
+00:37:45,403 --> 00:37:50,333
+"Beware the power that was simple
+now has grown
+
+462
+00:37:51,014 --> 00:37:53,261
+"Beware"
+
+463
+00:38:01,281 --> 00:38:04,004
+You filthy, slimy thief!
+
+464
+00:38:04,607 --> 00:38:07,774
+-I have the power now.
+-Master, no.
+
+465
+00:38:08,095 --> 00:38:10,541
+Don't say such things. Please don't.
+
+466
+00:38:11,021 --> 00:38:13,028
+It's the Ring.
+
+467
+00:38:15,312 --> 00:38:20,005
+Sam. What have I said?
+What have I done? Forgive me.
+
+468
+00:38:20,767 --> 00:38:23,854
+I'd forgotten its malevolent trickery.
+
+469
+00:38:24,575 --> 00:38:27,262
+I'm fine now. Fine. Sam, forgive me.
+
+470
+00:38:28,143 --> 00:38:30,390
+I must carry the burden to the end.
+
+471
+00:38:30,429 --> 00:38:32,916
+It can't be altered.
+You can't come between...
+
+472
+00:38:32,995 --> 00:38:34,921
+...me and this doom.
+
+473
+00:38:35,518 --> 00:38:39,490
+As you wish, master.
+I also have found Sting.
+
+474
+00:38:40,612 --> 00:38:43,019
+Might I keep it with me a little longer?
+
+475
+00:38:43,460 --> 00:38:47,270
+I have the strength to use it.
+And you, with your wound and all...
+
+476
+00:38:47,829 --> 00:38:50,518
+Yes, of course, dear Sam.
+
+477
+00:38:51,438 --> 00:38:53,244
+And your cloak which I wear.
+
+478
+00:38:54,045 --> 00:38:56,131
+In a pocket I found this.
+
+479
+00:38:57,132 --> 00:39:00,823
+It has powers.
+It got me past the Watchers. What is it?
+
+480
+00:39:01,183 --> 00:39:04,468
+The Phial of Galadriel! I can say no more.
+
+481
+00:39:04,951 --> 00:39:09,041
+If I betray the trust and give the secret,
+its powers will die.
+
+482
+00:39:09,563 --> 00:39:14,012
+-I understand.
+-But now we must get out of here quickly.
+
+483
+00:39:18,782 --> 00:39:22,553
+I know the chain mail's heavy for you.
+But we may need it.
+
+484
+00:39:22,633 --> 00:39:27,164
+And I can't leave anything behind,
+so I'll wear the Orc garb over my own.
+
+485
+00:39:29,170 --> 00:39:34,141
+Don't we make a fine, matching pair.
+Now, off to Mount Doom.
+
+486
+00:39:35,181 --> 00:39:37,829
+Hope you've made inquiries
+about inns along the road?
+
+487
+00:39:38,511 --> 00:39:41,156
+-lnns, master?
+-For food and drink.
+
+488
+00:39:41,637 --> 00:39:43,963
+Only the best for two fine Orcs.
+
+489
+00:39:44,363 --> 00:39:47,491
+There's nothing, master,
+and you know it well.
+
+490
+00:39:48,253 --> 00:39:52,104
+Save for the few crumbs of cake
+and drops of water left in my pack.
+
+491
+00:39:52,185 --> 00:39:55,831
+Courage, Sam. That's enough to start on.
+
+492
+00:39:56,071 --> 00:39:59,961
+The food we might manage,
+but the water's going to be bad business.
+
+493
+00:40:00,442 --> 00:40:01,725
+We'll make it.
+
+494
+00:40:01,927 --> 00:40:05,452
+But we'd best start,
+or a whole lake of it won't do us any good!
+
+495
+00:40:09,102 --> 00:40:11,588
+No, I'm all right. It's the mail.
+
+496
+00:40:11,669 --> 00:40:13,994
+I'll get used to it. Come.
+
+497
+00:40:22,577 --> 00:40:26,906
+I'm going to faint, Sam.
+I don't know what's come over me.
+
+498
+00:40:27,466 --> 00:40:31,236
+It's that invisible gate.
+There's some devilry there.
+
+499
+00:40:31,918 --> 00:40:33,520
+But I got through once.
+
+500
+00:40:35,205 --> 00:40:36,567
+Now for it!
+
+501
+00:40:43,946 --> 00:40:45,789
+It's still there!
+
+502
+00:40:46,351 --> 00:40:47,834
+This is not working.
+
+503
+00:40:47,955 --> 00:40:51,563
+They were expecting it!
+Their will is strong.
+
+504
+00:40:52,085 --> 00:40:54,011
+It needs helping.
+
+505
+00:41:00,264 --> 00:41:02,790
+We've broken the Watchers' will!
+
+506
+00:41:29,855 --> 00:41:32,261
+We've still a chance, Samwise.
+
+507
+00:41:32,420 --> 00:41:35,869
+There's still a chance to destroy the Ring.
+
+508
+00:41:54,434 --> 00:41:59,286
+-A Black Rider. The Nazgul.
+-Run, Mr. Frodo.
+
+509
+00:41:59,566 --> 00:42:02,050
+Not that way! There's a drop, follow me.
+
+510
+00:42:20,335 --> 00:42:21,939
+Careful, Mr. Frodo.
+
+511
+00:42:22,579 --> 00:42:26,869
+I can't. Not another step.
+
+512
+00:42:27,231 --> 00:42:29,316
+We must keep going, master.
+
+513
+00:42:29,677 --> 00:42:32,043
+The Nazgul is in charge of the Tower now!
+
+514
+00:42:32,082 --> 00:42:34,848
+A Black Rider is not
+so easy to fool as the Orcs.
+
+515
+00:42:35,168 --> 00:42:37,814
+Just give me a moment.
+
+516
+00:42:38,214 --> 00:42:41,143
+Begging your pardon, sir,
+but there's no time.
+
+517
+00:42:41,785 --> 00:42:44,432
+Listen as the foul flying demon...
+
+518
+00:42:44,511 --> 00:42:46,836
+...gives alarm
+to the whole Vale of Gorgoroth!
+
+519
+00:42:47,598 --> 00:42:50,688
+He's rallying the dark forces
+to defend the Tower.
+
+520
+00:42:50,768 --> 00:42:54,054
+Soon they'll be upon us.
+We've got to get away and hide!
+
+521
+00:42:54,614 --> 00:42:57,101
+Yes, of course, dear Sam.
+
+522
+00:43:02,476 --> 00:43:03,477
+Listen.
+
+523
+00:43:05,921 --> 00:43:10,132
+We'd best get across the bridge,
+while we've still time.
+
+524
+00:43:15,744 --> 00:43:20,676
+If Sauron himself was to offer me
+a glass of water, I'd shake his hand.
+
+525
+00:43:21,439 --> 00:43:25,249
+Don't say such things.
+It only makes it worse.
+
+526
+00:43:27,534 --> 00:43:28,535
+Sam.
+
+527
+00:43:30,101 --> 00:43:33,667
+A spot of dizziness there. I'm sorry.
+
+528
+00:43:35,472 --> 00:43:39,723
+'Tis a long time, Mr. Frodo,
+since I had a proper sleep.
+
+529
+00:43:40,322 --> 00:43:43,211
+Come, Sam, we shall support each other.
+
+530
+00:43:47,702 --> 00:43:49,708
+It's no good, Sam.
+
+531
+00:43:50,909 --> 00:43:53,837
+I can't manage
+the weight of this mail shirt.
+
+532
+00:43:53,917 --> 00:43:58,165
+It's of no use anyway.
+We shall never get through by fighting.
+
+533
+00:43:58,768 --> 00:44:00,691
+We may have some to do.
+
+534
+00:44:01,975 --> 00:44:04,460
+We won't take on armies.
+
+535
+00:44:04,864 --> 00:44:07,708
+Who knows
+what's down here in this canyon...
+
+536
+00:44:08,149 --> 00:44:09,632
+...slithering behind the rocks?
+
+537
+00:44:10,755 --> 00:44:12,919
+No, Sam, it must go.
+
+538
+00:44:13,601 --> 00:44:16,770
+What about that Gollum creature,
+for instance?
+
+539
+00:44:17,732 --> 00:44:21,659
+The Gollum isn't dead,
+and he's still after that ring!
+
+540
+00:44:22,946 --> 00:44:26,073
+I'd hate to think of you
+with naught but a bit of leather...
+
+541
+00:44:26,113 --> 00:44:28,639
+...between you and a stab in the dark.
+
+542
+00:44:33,166 --> 00:44:34,732
+This hellish Mordor.
+
+543
+00:44:34,813 --> 00:44:37,780
+First it sears you, then it freezes you.
+
+544
+00:44:38,623 --> 00:44:39,986
+Mr. Frodo...
+
+545
+00:44:40,026 --> 00:44:43,553
+...maybe we could rest just a little.
+
+546
+00:44:44,356 --> 00:44:48,445
+My eyes are fair closing by themselves.
+
+547
+00:44:48,525 --> 00:44:49,648
+Not here.
+
+548
+00:44:49,848 --> 00:44:51,333
+I didn't want to say anything...
+
+549
+00:44:51,412 --> 00:44:55,662
+...but there's a black rider,
+a Nazgul, over us.
+
+550
+00:44:55,741 --> 00:44:58,791
+I can feel it. We must keep moving.
+
+551
+00:45:17,113 --> 00:45:22,085
+Only a little more
+to climb out of the canyon.
+
+552
+00:45:23,849 --> 00:45:25,613
+Then we'll take a look...
+
+553
+00:45:26,094 --> 00:45:30,265
+...and see what the Vale of Gorgoroth
+holds for us.
+
+554
+00:45:33,831 --> 00:45:36,880
+I told you, you'd see it, Mr. Frodo.
+
+555
+00:45:38,204 --> 00:45:40,086
+Just look at it.
+
+556
+00:45:43,736 --> 00:45:45,981
+God help us.
+
+557
+00:45:48,266 --> 00:45:51,715
+Behold Gorgoroth!
+
+558
+00:45:54,361 --> 00:45:56,767
+I don't like the looks of things at all.
+
+559
+00:45:57,048 --> 00:45:58,811
+Pretty hopeless, I call it.
+
+560
+00:45:58,891 --> 00:46:03,302
+Yes. And these dark armies
+are not only of Orcs.
+
+561
+00:46:03,663 --> 00:46:05,306
+There are Men, too!
+
+562
+00:46:05,988 --> 00:46:10,559
+We just can't cross all that open country
+crawling with enemies.
+
+563
+00:46:10,841 --> 00:46:14,127
+Still, Sam, we shall have to try.
+
+564
+00:46:49,732 --> 00:46:51,777
+It's no worse than I expected.
+
+565
+00:46:52,298 --> 00:46:54,262
+I never hoped to get across...
+
+566
+00:46:54,343 --> 00:46:57,310
+...but I've got to do the best I can.
+
+567
+00:47:02,683 --> 00:47:05,532
+I think we can make it
+to the next boulder, master.
+
+568
+00:47:05,609 --> 00:47:06,973
+No one is about.
+
+569
+00:47:07,654 --> 00:47:09,298
+Blasted moonlight.
+
+570
+00:47:09,459 --> 00:47:13,388
+Traveling by night's
+almost as bad as by day.
+
+571
+00:47:13,870 --> 00:47:16,075
+Come now, sir. I'll help.
+
+572
+00:47:20,647 --> 00:47:22,572
+Got to rest.
+
+573
+00:47:23,893 --> 00:47:27,022
+If you please, sir. Me too.
+
+574
+00:47:29,147 --> 00:47:30,910
+Just for a few minutes.
+
+575
+00:47:44,264 --> 00:47:45,786
+"Where there's a whip
+
+576
+00:47:46,266 --> 00:47:47,710
+"There's a way
+
+577
+00:47:48,190 --> 00:47:49,916
+"Where there's a whip
+
+578
+00:47:50,196 --> 00:47:51,717
+"There's a way
+
+579
+00:47:51,999 --> 00:47:53,362
+"Where there's a whip
+
+580
+00:47:53,443 --> 00:47:56,170
+"We don't want to go to war today
+
+581
+00:47:56,250 --> 00:48:00,100
+"But the Lord of the Lash says,
+'Nay, nay, nay'
+
+582
+00:48:01,221 --> 00:48:05,590
+"We're gonna march all day
+
+583
+00:48:06,993 --> 00:48:09,681
+"Where there's a whip, there's a way
+
+584
+00:48:10,282 --> 00:48:12,166
+"Where there's a whip
+
+585
+00:48:12,247 --> 00:48:13,690
+"There's a way
+
+586
+00:48:14,171 --> 00:48:16,137
+"Where there's a whip
+
+587
+00:48:16,257 --> 00:48:17,618
+"There's a way
+
+588
+00:48:18,181 --> 00:48:20,425
+"Where there's a whip, there's a way
+
+589
+00:48:20,507 --> 00:48:22,912
+"Left, right, left, right, left
+
+590
+00:48:22,990 --> 00:48:25,358
+"Where there's a whip, there's a way
+
+591
+00:48:25,438 --> 00:48:26,601
+"Left, right
+
+592
+00:48:26,681 --> 00:48:30,492
+"A crack on the back says,
+'we're gonna fight'
+
+593
+00:48:30,972 --> 00:48:34,459
+"We're gonna march all day and night
+
+594
+00:48:34,541 --> 00:48:36,505
+"And more
+
+595
+00:48:36,705 --> 00:48:41,677
+"For we're the slaves
+of the Dark Lord's war
+
+596
+00:48:43,922 --> 00:48:46,167
+"Where there's a whip
+
+597
+00:48:46,288 --> 00:48:47,812
+"There's a way
+
+598
+00:48:48,293 --> 00:48:49,817
+"Where there's a whip
+
+599
+00:48:50,297 --> 00:48:51,740
+"There's a way
+
+600
+00:48:52,100 --> 00:48:53,427
+"Where there's a whip
+
+601
+00:48:53,506 --> 00:48:56,433
+"We don't want to go to war today
+
+602
+00:48:56,513 --> 00:48:59,921
+"But the Lord of the Lash says,
+'Nay, nay, nay'
+
+603
+00:49:01,244 --> 00:49:04,691
+"We're going to march all day
+
+604
+00:49:06,935 --> 00:49:09,421
+"Where there's a whip, there's a way
+
+605
+00:49:09,503 --> 00:49:11,990
+"Left, right, left, right"
+
+606
+00:49:18,445 --> 00:49:19,526
+Mr. Frodo.
+
+607
+00:49:21,249 --> 00:49:24,378
+-What is it?
+-Now we've gone and done it.
+
+608
+00:49:24,458 --> 00:49:26,344
+Slept through till daylight.
+
+609
+00:49:26,824 --> 00:49:30,553
+With only this fool rock between us
+and them armies.
+
+610
+00:49:31,114 --> 00:49:32,118
+Look out.
+
+611
+00:49:33,600 --> 00:49:36,969
+What have we here? Two deserters?
+
+612
+00:49:37,370 --> 00:49:39,535
+Up with you! Get in line!
+
+613
+00:49:39,815 --> 00:49:41,017
+We're in luck.
+
+614
+00:49:41,099 --> 00:49:43,103
+-He thinks we're Orcs.
+-Luck?
+
+615
+00:49:44,145 --> 00:49:48,556
+Good sir, we're gonna be marching
+with the whole blinking army...
+
+616
+00:49:48,636 --> 00:49:51,242
+...back to Cirith Ungol
+where we started from!
+
+617
+00:49:52,445 --> 00:49:54,170
+Come on, you slugs!
+
+618
+00:49:57,457 --> 00:49:58,779
+"Where's there's a whip
+
+619
+00:49:58,860 --> 00:50:01,426
+"We don't wanna go to war today
+
+620
+00:50:02,267 --> 00:50:05,515
+"But the Lord of the Lash says,
+'Nay, nay, nay'
+
+621
+00:50:06,356 --> 00:50:11,009
+"We're gonna march all day
+
+622
+00:50:12,372 --> 00:50:15,099
+"Where there's a whip, there's a way"
+
+623
+00:50:19,469 --> 00:50:22,034
+I can't continue.
+
+624
+00:50:22,597 --> 00:50:25,886
+I'd rather be singing
+a good old Hobbit song myself.
+
+625
+00:50:36,309 --> 00:50:39,356
+At least they gave us
+provisions for our packs.
+
+626
+00:50:39,717 --> 00:50:42,805
+But Orc food is enough
+to turn a rodent sick.
+
+627
+00:50:42,885 --> 00:50:45,652
+Samwise, we have got to break ranks.
+
+628
+00:50:45,692 --> 00:50:47,817
+Not while old whipper there is watching.
+
+629
+00:50:48,056 --> 00:50:51,264
+Don't worry, master.
+The opportunity will come.
+
+630
+00:50:55,233 --> 00:50:56,237
+Halt.
+
+631
+00:50:56,836 --> 00:50:58,722
+What do you mean, "halt"?
+
+632
+00:50:59,043 --> 00:51:02,489
+I have a battalion of Men
+to move across your road.
+
+633
+00:51:02,972 --> 00:51:06,901
+Well I've got a battalion of Orcs
+to move across yours.
+
+634
+00:51:06,980 --> 00:51:08,025
+You wait!
+
+635
+00:51:08,344 --> 00:51:11,191
+Men come before Orcs. Get back.
+
+636
+00:51:11,434 --> 00:51:14,680
+I think this is it! You stay right here, sir.
+
+637
+00:51:16,885 --> 00:51:18,811
+You going to stand for that, sir?
+
+638
+00:51:19,812 --> 00:51:21,375
+Get back in line!
+
+639
+00:51:21,455 --> 00:51:26,388
+You mean you're going to let a pack
+of filthy Man-creatures go before us?
+
+640
+00:51:29,196 --> 00:51:31,721
+And you call yourself an Orc?
+
+641
+00:51:33,765 --> 00:51:34,968
+You're right.
+
+642
+00:51:37,535 --> 00:51:42,545
+Kill them, bone them, cut them to bits!
+
+643
+00:51:43,949 --> 00:51:46,115
+Smash them, bash them!
+
+644
+00:51:47,196 --> 00:51:48,559
+Skin them alive!
+
+645
+00:52:12,538 --> 00:52:13,899
+Not an inch.
+
+646
+00:52:14,302 --> 00:52:17,028
+Not an inch further can I move.
+
+647
+00:52:17,670 --> 00:52:19,592
+Come, Mr. Frodo.
+
+648
+00:52:20,475 --> 00:52:25,487
+One more crawl and then you can lie still.
+
+649
+00:52:27,412 --> 00:52:29,177
+A bit further.
+
+650
+00:52:30,339 --> 00:52:32,144
+This way, sir.
+
+651
+00:52:34,026 --> 00:52:37,959
+No use. Going to die. Can't see a thing.
+
+652
+00:52:39,561 --> 00:52:40,923
+Mr. Frodo.
+
+653
+00:52:48,782 --> 00:52:50,426
+Don't die, Mr. Frodo.
+
+654
+00:52:51,028 --> 00:52:54,234
+You can't die. Please, master.
+
+655
+00:52:55,959 --> 00:53:00,170
+If any power of good can hear us
+in this accursed land...
+
+656
+00:53:00,370 --> 00:53:02,014
+...give us help.
+
+657
+00:53:02,494 --> 00:53:04,020
+Help us.
+
+658
+00:53:14,122 --> 00:53:15,327
+Power of good?
+
+659
+00:53:16,287 --> 00:53:20,177
+Indeed, was there none left
+in all Middle-earth...
+
+660
+00:53:20,258 --> 00:53:23,385
+...with strength to aid our dying cause?
+
+661
+00:53:25,469 --> 00:53:30,162
+At that moment, the forces of darkness
+made ready to break the main gate...
+
+662
+00:53:30,323 --> 00:53:33,929
+...with a mighty battering ram
+which they had named Grond.
+
+663
+00:53:38,421 --> 00:53:41,869
+Long had it been forging
+in the dark smithies of Mordor...
+
+664
+00:53:42,591 --> 00:53:44,636
+...and on it spells of ruin lay.
+
+665
+00:53:54,739 --> 00:53:59,712
+-The gate will never stand up to that thing!
+-Like the arm of the devil himself!
+
+666
+00:54:01,074 --> 00:54:03,919
+When the gates break
+I shall be there to greet it!
+
+667
+00:54:04,403 --> 00:54:06,967
+Have my steed, Shadowfax, made ready!
+
+668
+00:54:07,330 --> 00:54:09,977
+-Farewell, Pippin.
+-I go with you, sir.
+
+669
+00:54:10,176 --> 00:54:14,025
+Then we leave this life together.
+Come, little one.
+
+670
+00:54:26,453 --> 00:54:28,019
+On, Shadowfax!
+
+671
+00:54:46,542 --> 00:54:48,265
+The Lord of the Nazgul...
+
+672
+00:54:48,506 --> 00:54:50,712
+...Sauron's second-in-command.
+
+673
+00:54:51,073 --> 00:54:53,238
+A creature of the super-natural...
+
+674
+00:54:53,760 --> 00:54:56,846
+...and so no living Man could hinder him...
+
+675
+00:54:57,368 --> 00:54:59,572
+...nor bring him harm in any way.
+
+676
+00:55:00,135 --> 00:55:02,619
+He was invulnerable!
+
+677
+00:55:57,230 --> 00:55:59,075
+You cannot enter here!
+
+678
+00:55:59,958 --> 00:56:02,602
+Go back to the abyss prepared for you!
+
+679
+00:56:02,923 --> 00:56:07,935
+Go back! Fall to the nothingness
+that awaits you and your master. Go!
+
+680
+00:56:15,915 --> 00:56:18,120
+Old fool!
+
+681
+00:56:18,520 --> 00:56:21,365
+This is my hour.
+
+682
+00:56:21,968 --> 00:56:25,657
+Do you not know Death when you see it?
+
+683
+00:56:26,098 --> 00:56:30,227
+Die now and curse in vain!
+
+684
+00:56:39,409 --> 00:56:43,900
+And, as from some courtyard of the city,
+a cock crowed...
+
+685
+00:56:44,341 --> 00:56:46,426
+...recking nothing of wizardry or war...
+
+686
+00:56:47,026 --> 00:56:48,991
+...welcoming only the morning...
+
+687
+00:56:49,072 --> 00:56:52,000
+...that in the sky far above
+the shadows of death...
+
+688
+00:56:52,120 --> 00:56:53,964
+...was coming with the dawn.
+
+689
+00:56:54,966 --> 00:56:58,855
+For as if in answer there came
+from far away, another note.
+
+690
+00:57:02,624 --> 00:57:04,668
+Horns! Horns! Horns!
+
+691
+00:57:04,749 --> 00:57:07,998
+Over the fields of Pelennor,
+they echoed from the distance.
+
+692
+00:57:08,237 --> 00:57:11,204
+Great horns in the north, wildly blowing.
+
+693
+00:57:11,645 --> 00:57:16,096
+Theoden and the rescuing arms of Rohan
+had come at last.
+
+694
+00:57:28,568 --> 00:57:31,575
+Ride now.
+
+695
+00:57:31,855 --> 00:57:33,577
+Ride now, to Gondor.
+
+696
+00:57:36,344 --> 00:57:38,990
+Victory was slipping
+from the grasp of evil...
+
+697
+00:57:39,431 --> 00:57:42,238
+...even as he stretched
+out his hand to seize it.
+
+698
+00:57:42,480 --> 00:57:45,725
+And the strength of goodness
+began to be felt once more...
+
+699
+00:57:46,168 --> 00:57:48,253
+...throughout the lands.
+
+700
+00:57:50,899 --> 00:57:52,983
+Had a prayer been answered?
+
+701
+00:57:53,906 --> 00:57:55,871
+Water. Give me water.
+
+702
+00:57:56,593 --> 00:57:58,676
+Master! Thank heaven!
+
+703
+00:57:58,958 --> 00:58:01,124
+Here, not too much now.
+
+704
+00:58:02,044 --> 00:58:03,850
+Not all at once.
+
+705
+00:58:06,737 --> 00:58:08,019
+He's weakening.
+
+706
+00:58:08,620 --> 00:58:11,869
+I feel it. Sauron is weakening.
+
+707
+00:58:12,750 --> 00:58:14,556
+But he is still in command.
+
+708
+00:58:15,197 --> 00:58:18,605
+His arm is long, and it wields great power.
+
+709
+00:58:19,125 --> 00:58:22,132
+No, master. You must rest.
+
+710
+00:58:22,453 --> 00:58:24,700
+I must still destroy the Ring.
+
+711
+00:58:25,141 --> 00:58:27,345
+I've more of a chance now...
+
+712
+00:58:27,786 --> 00:58:30,914
+...but there's still such a long way to go.
+
+713
+00:58:31,076 --> 00:58:35,524
+That's tomorrow, Mr. Frodo, tomorrow.
+
+714
+01:00:28,953 --> 01:00:32,161
+And as the battle raged anew
+on the fields of Pelennor...
+
+715
+01:00:32,401 --> 01:00:35,970
+...the carnage continuing endlessly
+through the days and nights...
+
+716
+01:00:36,332 --> 01:00:41,023
+...the real victory still lay
+in the hands of Frodo and Samwise...
+
+717
+01:00:41,222 --> 01:00:44,189
+...and the terrible weight
+they bore closer and closer...
+
+718
+01:00:44,269 --> 01:00:46,917
+...to the destruction,
+which was our only hope.
+
+719
+01:00:51,006 --> 01:00:53,291
+And finally, almost dead...
+
+720
+01:00:53,813 --> 01:00:56,898
+...without fully realizing
+they had reached the roots...
+
+721
+01:00:57,141 --> 01:01:00,629
+...of the accursed Mount Doom.
+
+722
+01:01:01,831 --> 01:01:04,357
+Come, Sam. Dear Sam.
+
+723
+01:01:04,880 --> 01:01:08,446
+For the rest of the way we shall crawl.
+
+724
+01:01:09,610 --> 01:01:11,816
+And so foot by foot...
+
+725
+01:01:12,094 --> 01:01:14,581
+...like small gray insects...
+
+726
+01:01:14,621 --> 01:01:16,067
+...they crept up the slope...
+
+727
+01:01:16,145 --> 01:01:19,193
+...ever closer to that which lay
+inside the mountain...
+
+728
+01:01:20,315 --> 01:01:23,362
+...the fire, and the Cracks of Doom.
+
+729
+01:01:30,619 --> 01:01:32,905
+"Doom
+
+730
+01:01:33,668 --> 01:01:37,715
+"The Cracks of Doom
+
+731
+01:01:37,955 --> 01:01:41,966
+"The chambers of fire
+
+732
+01:01:42,167 --> 01:01:47,178
+"The fires of doom "
+
+733
+01:01:52,189 --> 01:01:54,996
+Who causes the minutes to fall dead...
+
+734
+01:01:55,558 --> 01:01:58,044
+...adding up to no passing hour...
+
+735
+01:01:58,646 --> 01:02:01,010
+...bringing no change from day to night...
+
+736
+01:02:01,332 --> 01:02:06,143
+...as the unseen sun fails to filter
+into the ever-present shadows?
+
+737
+01:02:06,704 --> 01:02:11,595
+Who is this dark lord who turns
+starless nights into sunless days?
+
+738
+01:02:12,237 --> 01:02:15,765
+How does his piercing eye
+see through the ever-present darkness?
+
+739
+01:02:16,327 --> 01:02:18,412
+Seeing all and nothing.
+
+740
+01:02:19,657 --> 01:02:23,103
+The Restless Eye, in his dark tower...
+
+741
+01:02:23,343 --> 01:02:27,796
+...wearing a veil of protective shadow
+he has woven from fear.
+
+742
+01:02:28,757 --> 01:02:31,285
+And yet he fears, too.
+
+743
+01:02:31,723 --> 01:02:34,330
+In the security of his protective realm...
+
+744
+01:02:34,609 --> 01:02:38,137
+...he fears the winds of the world
+are turning against him.
+
+745
+01:02:38,660 --> 01:02:41,546
+Tearing aside his veils and troubling him...
+
+746
+01:02:41,867 --> 01:02:46,878
+...with tidings of bold spies
+that have passed through his fences.
+
+747
+01:02:52,413 --> 01:02:54,699
+"Doom
+
+748
+01:02:55,419 --> 01:02:59,591
+"The Cracks of Doom
+
+749
+01:02:59,670 --> 01:03:03,639
+"The chambers of fire
+
+750
+01:03:04,079 --> 01:03:09,051
+"The fires of doom "
+
+751
+01:03:17,033 --> 01:03:21,160
+-Did you see when the clouds parted?
+-Yes.
+
+752
+01:03:21,242 --> 01:03:22,646
+He's spotted us!
+
+753
+01:03:23,007 --> 01:03:25,974
+It's all up, or will soon be.
+
+754
+01:03:26,174 --> 01:03:28,018
+This is the end of ends!
+
+755
+01:03:29,022 --> 01:03:31,506
+Still have a chance.
+
+756
+01:03:32,546 --> 01:03:35,675
+Bless you, sir, for your bravery!
+
+757
+01:03:36,557 --> 01:03:38,362
+Give me the strength.
+
+758
+01:03:39,083 --> 01:03:43,814
+I ask you:
+Give me the strength to try once more.
+
+759
+01:04:00,295 --> 01:04:03,861
+Wicked master.
+
+760
+01:04:04,664 --> 01:04:07,670
+-God help us.
+-Gollum.
+
+761
+01:04:08,072 --> 01:04:10,197
+Wicked master cheats us.
+
+762
+01:04:12,883 --> 01:04:14,889
+He mustn't go that way!
+
+763
+01:04:15,569 --> 01:04:18,658
+He mustn't hurt Precious.
+
+764
+01:04:18,977 --> 01:04:21,142
+Away, you scum.
+
+765
+01:04:21,223 --> 01:04:22,786
+What do you want of us?
+
+766
+01:04:22,868 --> 01:04:26,155
+Give it to Gollum, yes, give it to us!
+
+767
+01:04:28,279 --> 01:04:30,324
+Give it to us!
+
+768
+01:04:44,999 --> 01:04:48,046
+My Precious, my ring.
+
+769
+01:04:48,126 --> 01:04:51,175
+Soon it will be mine...
+
+770
+01:04:51,455 --> 01:04:54,623
+...all mine!
+
+771
+01:04:55,024 --> 01:04:58,753
+Precious, my Precious.
+
+772
+01:04:59,554 --> 01:05:00,717
+Precious.
+
+773
+01:05:34,115 --> 01:05:37,043
+Precious is mine.
+
+774
+01:05:46,145 --> 01:05:49,151
+You foul, reeking scum!
+
+775
+01:05:49,392 --> 01:05:50,875
+I'll kill you!
+
+776
+01:05:54,245 --> 01:05:57,372
+I can't strike! I may hit Mr. Frodo.
+
+777
+01:05:57,412 --> 01:06:00,538
+Let me get hold of the Ring.
+
+778
+01:06:12,045 --> 01:06:14,893
+"The bearer of the Ring
+
+779
+01:06:14,932 --> 01:06:17,138
+"The wearer of the Ring
+
+780
+01:06:17,339 --> 01:06:22,351
+"Stands on the very brink of fate
+
+781
+01:06:22,992 --> 01:06:28,125
+"Staring into eyes of darkness and despair
+
+782
+01:06:28,245 --> 01:06:33,258
+"That rise and shrink with hate"
+
+783
+01:06:35,420 --> 01:06:37,706
+Be gone and trouble me no more!
+
+784
+01:06:38,309 --> 01:06:40,232
+If you touch me ever again...
+
+785
+01:06:40,312 --> 01:06:44,363
+...you shall be cast, yourself,
+into the Fire of Doom.
+
+786
+01:06:49,855 --> 01:06:51,860
+Look out! He'll spring again.
+
+787
+01:06:51,900 --> 01:06:56,232
+Quick, master, no time to lose.
+Go on! I'll deal with him!
+
+788
+01:07:03,046 --> 01:07:05,332
+Now I can deal with you!
+
+789
+01:07:06,374 --> 01:07:09,903
+Don't kill us. Don't hurt us.
+
+790
+01:07:11,145 --> 01:07:13,552
+Let us live, please.
+
+791
+01:07:13,633 --> 01:07:18,524
+Let us live, just a little longer.
+
+792
+01:07:20,287 --> 01:07:21,572
+Live.
+
+793
+01:07:34,119 --> 01:07:35,443
+Lost.
+
+794
+01:07:39,612 --> 01:07:41,258
+We're lost!
+
+795
+01:07:41,939 --> 01:07:45,308
+And when Precious goes...
+
+796
+01:07:45,346 --> 01:07:48,875
+...we'll die, yes.
+
+797
+01:07:49,157 --> 01:07:54,008
+All of us die into the dust.
+
+798
+01:08:02,027 --> 01:08:06,438
+How can I kill such a pitiful
+and cringing abomination?
+
+799
+01:08:06,838 --> 01:08:11,329
+I have come to know the strain of bearing
+the Ring for even a little while.
+
+800
+01:08:11,651 --> 01:08:16,663
+But this miserable creature
+enslaved to it for years...
+
+801
+01:08:17,343 --> 01:08:19,949
+Curse you, you stinking thing!
+
+802
+01:08:20,431 --> 01:08:23,718
+Be off! I don't trust you,
+not as far as I could kick you.
+
+803
+01:08:24,080 --> 01:08:29,051
+But be off or I shall hurt you
+with nasty cruel steel. Yes!
+
+804
+01:08:43,925 --> 01:08:47,776
+Now to find Mr. Frodo again.
+
+805
+01:08:52,908 --> 01:08:56,556
+And here it is. Sammath Naur!
+
+806
+01:08:57,437 --> 01:09:02,369
+Doorway to the gut of the mountain,
+and to hell itself, for all I know.
+
+807
+01:09:06,138 --> 01:09:10,949
+Dark, hot, reeking.
+
+808
+01:09:13,034 --> 01:09:17,644
+Frodo! Master!
+
+809
+01:09:20,734 --> 01:09:22,739
+There's no choice.
+
+810
+01:09:23,458 --> 01:09:25,064
+I have to go in.
+
+811
+01:09:39,578 --> 01:09:43,629
+And at the Battle of the Pelennor Fields
+the tide had turned...
+
+812
+01:09:43,748 --> 01:09:47,476
+...with the arrival of Theoden
+and the armies of Rohan.
+
+813
+01:10:04,637 --> 01:10:07,644
+-Hail proud Merry!
+-Hail Pippin.
+
+814
+01:10:08,407 --> 01:10:12,016
+Bless you for a sure eye, old friend.
+How good to see you!
+
+815
+01:10:12,096 --> 01:10:14,540
+Bless you for bringing Theoden
+and his army.
+
+816
+01:10:14,581 --> 01:10:16,185
+You've won the day for us!
+
+817
+01:10:32,143 --> 01:10:36,473
+In the midst of Theoden's glory,
+his golden shield was dimmed.
+
+818
+01:10:37,114 --> 01:10:41,764
+The new morning was blotted
+from the sky. And the dark fell upon him.
+
+819
+01:10:47,660 --> 01:10:49,824
+Fear no darkness, Snowmane.
+
+820
+01:10:51,951 --> 01:10:54,195
+No, Snowmane!
+
+821
+01:11:00,249 --> 01:11:04,818
+And the Dark Force had claimed
+our savior, Lord of Rohan.
+
+822
+01:11:05,742 --> 01:11:08,710
+Lord Theoden! Nay.
+
+823
+01:11:09,271 --> 01:11:13,318
+Oh, my dear master. Oh, the horror.
+
+824
+01:11:13,922 --> 01:11:16,849
+No, my friend. He is gone!
+
+825
+01:11:17,530 --> 01:11:19,093
+You can do nothing.
+
+826
+01:11:20,539 --> 01:11:23,024
+Hear me, O Darkness!
+
+827
+01:11:23,466 --> 01:11:26,273
+I will avenge my lord!
+
+828
+01:11:35,573 --> 01:11:36,576
+And what event...
+
+829
+01:11:37,217 --> 01:11:41,546
+...at just that moment
+caused evil to enlist such power?
+
+830
+01:11:42,268 --> 01:11:44,034
+Nothing here, surely.
+
+831
+01:11:46,158 --> 01:11:48,523
+But in the bowels of Mount Doom...
+
+832
+01:11:50,528 --> 01:11:55,220
+Master! Mr. Frodo.
+
+833
+01:11:57,145 --> 01:12:00,071
+Master, where are you?
+
+834
+01:12:02,758 --> 01:12:05,964
+Behold! The Crack of Doom!
+
+835
+01:12:06,045 --> 01:12:08,250
+-Master.
+-Hold. Get back!
+
+836
+01:12:08,612 --> 01:12:11,017
+Master, it is me, Samwise!
+
+837
+01:12:11,859 --> 01:12:14,064
+And if that be the Crack of Doom...
+
+838
+01:12:14,144 --> 01:12:18,955
+...at last do what you've come
+all this distance to do!
+
+839
+01:12:19,075 --> 01:12:20,039
+Now!
+
+840
+01:12:20,358 --> 01:12:24,850
+I have come. But I do not choose
+to do now what I have come to do!
+
+841
+01:12:26,535 --> 01:12:31,265
+"The bearer of the Ring
+The wearer of the Ring
+
+842
+01:12:31,866 --> 01:12:36,597
+"He hears a voice compelling him
+
+843
+01:12:37,640 --> 01:12:42,572
+"Filling him with thoughts
+that echo in his mind
+
+844
+01:12:42,813 --> 01:12:47,264
+"It should be telling him "
+
+845
+01:12:49,227 --> 01:12:53,958
+No, Mr. Frodo.
+Don't let the Ring claim you!
+
+846
+01:12:55,082 --> 01:13:00,094
+"Beware the power
+is a power never known
+
+847
+01:13:00,494 --> 01:13:05,464
+"Beware the power
+that was simple now has grown
+
+848
+01:13:05,987 --> 01:13:10,118
+"Beware, oh wearer of the Ring
+
+849
+01:13:10,678 --> 01:13:15,691
+"The final power has yet to be shown"
+
+850
+01:13:18,978 --> 01:13:21,946
+Get back! I am not the Ring's!
+
+851
+01:13:21,987 --> 01:13:24,914
+The Ring is mine. Look!
+
+852
+01:13:32,048 --> 01:13:33,574
+Master!
+
+853
+01:13:33,894 --> 01:13:35,015
+No!
+
+854
+01:13:35,858 --> 01:13:37,180
+Please!
+
+855
+01:13:52,578 --> 01:13:55,787
+He had come again, bringing ruin...
+
+856
+01:13:55,867 --> 01:13:59,476
+...turning hope to despair,
+and victory to death.
+
+857
+01:14:03,484 --> 01:14:06,852
+Be gone, foul Dwimmerlaik,
+Lord of Carrion.
+
+858
+01:14:06,932 --> 01:14:08,174
+Leave the dead in peace!
+
+859
+01:14:08,655 --> 01:14:13,268
+Come not between the Nazgul
+and his prey!
+
+860
+01:14:13,468 --> 01:14:16,996
+Or he will slay thee in turn.
+
+861
+01:14:17,195 --> 01:14:20,083
+Do what you will. I will hinder it, if I may!
+
+862
+01:14:20,162 --> 01:14:24,535
+Hinder me? Thou fool.
+
+863
+01:14:24,897 --> 01:14:27,822
+Dost thou not know the prophecy?
+
+864
+01:14:27,943 --> 01:14:32,351
+"No living man may hinder me."
+
+865
+01:14:32,512 --> 01:14:34,917
+But no living man am I!
+
+866
+01:14:34,999 --> 01:14:37,604
+You look upon a woman. Eowyn am I.
+
+867
+01:14:37,724 --> 01:14:40,491
+You stand between me
+and my lord and kin.
+
+868
+01:14:40,891 --> 01:14:45,783
+Be gone for living or dark undead
+I will smite you if you touch him!
+
+869
+01:14:46,464 --> 01:14:49,190
+A woman? Eowyn?
+
+870
+01:14:50,996 --> 01:14:53,000
+'Tis Lord Theoden's niece!
+
+871
+01:14:53,563 --> 01:14:56,369
+She wanted to ride with us, but he forbade.
+
+872
+01:14:57,091 --> 01:14:59,899
+She disguised as a knight
+and she came hither!
+
+873
+01:15:05,150 --> 01:15:07,715
+A foul, putrid wind!
+
+874
+01:15:08,037 --> 01:15:10,242
+How does she bear the stench of it?
+
+875
+01:15:10,323 --> 01:15:12,608
+Strong she is, and brave.
+
+876
+01:15:12,887 --> 01:15:14,731
+I must to her aid!
+
+877
+01:15:45,164 --> 01:15:45,847
+No!
+
+878
+01:15:59,198 --> 01:16:00,200
+It's empty!
+
+879
+01:16:00,282 --> 01:16:03,728
+Uncle, I have avenged thee!
+
+880
+01:16:06,534 --> 01:16:09,541
+Theoden was borne
+from the field with honor.
+
+881
+01:16:09,862 --> 01:16:14,554
+And we wondered if, when our own lord,
+King Aragorn, returned...
+
+882
+01:16:14,594 --> 01:16:16,879
+...would his fate be the same?
+
+883
+01:16:20,970 --> 01:16:25,340
+With the death of the Nazgul lord,
+Sauron's forces lost heart...
+
+884
+01:16:25,701 --> 01:16:28,426
+...and began a retreat of abysmal disarray.
+
+885
+01:16:31,032 --> 01:16:34,401
+And then, as if our triumph
+were but a child's toy...
+
+886
+01:16:34,843 --> 01:16:38,450
+...a game with which Sauron
+was playing and taunting us...
+
+887
+01:16:38,609 --> 01:16:41,016
+...the tide of battle suddenly changed.
+
+888
+01:16:41,657 --> 01:16:45,387
+For from the wretched forces of evil,
+a new cry of hope went up.
+
+889
+01:16:49,357 --> 01:16:50,921
+The Black Fleet!
+
+890
+01:16:51,763 --> 01:16:53,927
+That which I dreaded had happened.
+
+891
+01:16:54,167 --> 01:16:57,697
+For if enemy-laden ships had come
+from this direction...
+
+892
+01:16:57,817 --> 01:17:02,546
+...it meant that the black forces had
+already conquered Ethir and Lebennin...
+
+893
+01:17:02,828 --> 01:17:05,355
+...lands we had thought safely ours.
+
+894
+01:17:11,890 --> 01:17:14,898
+The tide had turned still one more time...
+
+895
+01:17:15,337 --> 01:17:17,744
+...and this time, against us!
+
+896
+01:17:20,432 --> 01:17:21,832
+But behold!
+
+897
+01:17:22,273 --> 01:17:25,121
+As the flagship's standard broke the wind...
+
+898
+01:17:25,242 --> 01:17:28,569
+...it displayed the sign no lord
+had borne for years...
+
+899
+01:17:28,809 --> 01:17:31,414
+...and which only one lord could bear:
+
+900
+01:17:32,578 --> 01:17:36,266
+Aragon! He who would be our king...
+
+901
+01:17:36,508 --> 01:17:37,671
+...had returned!
+
+902
+01:17:42,442 --> 01:17:45,609
+And the hosts of Mordor
+were seized with bewilderment...
+
+903
+01:17:45,770 --> 01:17:47,372
+...and they fled.
+
+904
+01:17:49,540 --> 01:17:51,583
+That night we held council.
+
+905
+01:17:52,588 --> 01:17:55,272
+While Aragorn had the enemy on the run...
+
+906
+01:17:55,354 --> 01:17:57,758
+...he decided to pursue them into Mordor...
+
+907
+01:17:58,201 --> 01:18:00,445
+...across the Gorgoroth Plateau...
+
+908
+01:18:00,645 --> 01:18:05,455
+...and to the bastion of Sauron himself,
+the Dark Tower of Barad-dur.
+
+909
+01:18:06,861 --> 01:18:10,147
+The shortest way would be
+through the pass at Cirith Ungol.
+
+910
+01:18:10,707 --> 01:18:13,554
+But that is narrow and dangerous
+to move an army through.
+
+911
+01:18:13,634 --> 01:18:17,045
+And so he decided to march
+along the mountains, north...
+
+912
+01:18:17,243 --> 01:18:18,728
+...and then west...
+
+913
+01:18:18,808 --> 01:18:21,775
+...to the haunted pass of Cirith Gorgor...
+
+914
+01:18:21,855 --> 01:18:24,862
+...and the untold legions of the Black Lord.
+
+915
+01:18:25,865 --> 01:18:27,669
+Why so glum, Wizard?
+
+916
+01:18:28,150 --> 01:18:32,361
+Does the mere thought of Sauron's
+vast forces overwhelm your spirit?
+
+917
+01:18:32,882 --> 01:18:35,248
+This war is without final hope.
+
+918
+01:18:35,609 --> 01:18:38,334
+Victory cannot be achieved
+by force of arms...
+
+919
+01:18:38,576 --> 01:18:41,302
+...whether you sit here to endure
+siege after siege...
+
+920
+01:18:41,384 --> 01:18:43,587
+...or march out to be overwhelmed.
+
+921
+01:18:43,868 --> 01:18:45,632
+You have only a choice of evils!
+
+922
+01:18:45,992 --> 01:18:48,638
+Then, if the choice be mine...
+
+923
+01:18:49,321 --> 01:18:51,484
+...I choose to march!
+
+924
+01:18:54,052 --> 01:18:56,537
+And for days and nights march we did.
+
+925
+01:18:56,899 --> 01:18:58,784
+But my spirit was leaden.
+
+926
+01:19:06,923 --> 01:19:10,610
+"Win the battle, lose the war
+
+927
+01:19:10,891 --> 01:19:15,262
+"Choice of evils lie before your feet
+
+928
+01:19:16,504 --> 01:19:19,392
+"Retreat, retreat, retreat"
+
+929
+01:19:24,004 --> 01:19:26,367
+And finally, the pass.
+
+930
+01:19:27,373 --> 01:19:30,018
+Guarded by The Towers of the Teeth.
+
+931
+01:19:30,541 --> 01:19:34,226
+And inside, the Orcs made song
+to match my spirit.
+
+932
+01:19:34,426 --> 01:19:37,956
+"If you win then you will lose
+
+933
+01:19:38,317 --> 01:19:41,685
+"Choice of evils yours to choose
+
+934
+01:19:41,766 --> 01:19:46,737
+"Retreat, retreat, retreat
+
+935
+01:19:49,503 --> 01:19:53,153
+"You are standing in the eye of the storm
+
+936
+01:19:53,514 --> 01:19:56,960
+"Move an inch and you'll be dead
+
+937
+01:19:57,481 --> 01:19:59,607
+"You are standing underneath
+
+938
+01:19:59,688 --> 01:20:04,539
+"The Towers of the Teeth
+and the Eye blazes red
+
+939
+01:20:05,739 --> 01:20:09,469
+"Win the battle lose the war
+
+940
+01:20:09,751 --> 01:20:14,121
+"Choice of evils lie before your feet
+
+941
+01:20:15,404 --> 01:20:18,412
+"Retreat, retreat, retreat"
+
+942
+01:20:18,572 --> 01:20:19,815
+Silence!
+
+943
+01:20:21,698 --> 01:20:23,465
+Come forth!
+
+944
+01:20:24,145 --> 01:20:26,270
+The King of Gondor...
+
+945
+01:20:26,351 --> 01:20:29,517
+...demands the Black Lord to come forth...
+
+946
+01:20:29,638 --> 01:20:33,448
+...atone for his evils
+and depart them forever!
+
+947
+01:20:34,089 --> 01:20:35,451
+Come forth!
+
+948
+01:20:54,816 --> 01:20:57,584
+I am the mouth of Sauron!
+
+949
+01:20:58,186 --> 01:21:00,431
+His emissary, you mean.
+
+950
+01:21:00,509 --> 01:21:03,638
+For you be no wraith,
+but made from flesh and blood...
+
+951
+01:21:03,719 --> 01:21:07,930
+...beneath that mask
+and those robes, even as I!
+
+952
+01:21:08,810 --> 01:21:13,705
+Is there anyone in this rout
+with authority to treat with me?
+
+953
+01:21:14,105 --> 01:21:16,269
+Not thou, Aragorn.
+
+954
+01:21:16,309 --> 01:21:20,198
+It needs more to make a king
+than a rabble such as this.
+
+955
+01:21:20,880 --> 01:21:22,364
+We shall see!
+
+956
+01:21:22,804 --> 01:21:24,127
+Be warned.
+
+957
+01:21:24,328 --> 01:21:27,776
+You are hopelessly outnumbered here.
+
+958
+01:21:27,855 --> 01:21:29,541
+Our decision is made.
+
+959
+01:21:29,700 --> 01:21:30,903
+Be gone!
+
+960
+01:21:31,266 --> 01:21:34,951
+We did not come here to waste words
+in treating with the likes of you...
+
+961
+01:21:35,553 --> 01:21:37,559
+...one of Sauron's slaves.
+
+962
+01:21:37,999 --> 01:21:39,202
+Be gone!
+
+963
+01:21:39,644 --> 01:21:42,130
+We will meet your armies!
+
+964
+01:21:47,984 --> 01:21:51,233
+"You are standing in the eye of the storm
+
+965
+01:21:51,833 --> 01:21:55,762
+"Move an inch and you'll be dead
+
+966
+01:21:55,842 --> 01:21:59,814
+"You are standing underneath
+The Towers of the Teeth
+
+967
+01:21:59,935 --> 01:22:03,461
+"And the Eye blazes red"
+
+968
+01:22:08,151 --> 01:22:10,879
+As I faced my own, almost certain death...
+
+969
+01:22:11,240 --> 01:22:14,047
+...I wondered, "Has he the Ring?
+
+970
+01:22:14,287 --> 01:22:16,653
+"Has Sauron really got the Ring?
+
+971
+01:22:16,975 --> 01:22:18,937
+"Where is the Ring?"
+
+972
+01:22:22,909 --> 01:22:25,794
+Had I but known that deep
+in the bowels of Mount Doom...
+
+973
+01:22:25,836 --> 01:22:30,326
+...Samwise had been searching
+these many days for his master...
+
+974
+01:22:30,605 --> 01:22:35,335
+...until he himself had reached the core,
+the fiery forge itself.
+
+975
+01:22:37,743 --> 01:22:39,747
+And this, at last, is it...
+
+976
+01:22:40,349 --> 01:22:42,393
+...the end of Frodo's quest.
+
+977
+01:22:42,512 --> 01:22:46,681
+But instead of his triumph,
+it ends with his madness.
+
+978
+01:22:48,207 --> 01:22:49,609
+What's that?
+
+979
+01:22:52,497 --> 01:22:53,500
+Gollum!
+
+980
+01:22:53,860 --> 01:22:54,983
+Here?
+
+981
+01:22:55,343 --> 01:22:57,991
+Fighting with something that is not there?
+
+982
+01:22:58,632 --> 01:23:00,397
+Mr. Frodo!
+
+983
+01:23:01,236 --> 01:23:02,840
+Invisible!
+
+984
+01:23:04,124 --> 01:23:09,097
+"Frodo of the nine fingers
+
+985
+01:23:10,379 --> 01:23:13,546
+"And the Ring of Doom
+
+986
+01:23:15,071 --> 01:23:19,440
+"Why does he have nine fingers"
+
+987
+01:23:38,245 --> 01:23:39,969
+Mr. Frodo!
+
+988
+01:23:41,091 --> 01:23:46,063
+"Where is the Ring of Doom?"
+
+989
+01:23:55,487 --> 01:23:58,094
+Precious! Precious!
+
+990
+01:23:59,496 --> 01:24:02,021
+My Precious!
+
+991
+01:24:06,755 --> 01:24:09,599
+My master! Your poor hand!
+
+992
+01:24:09,680 --> 01:24:11,524
+My master!
+
+993
+01:24:11,565 --> 01:24:12,928
+'Tis better this way!
+
+994
+01:24:12,968 --> 01:24:15,453
+'Tis better than that madness!
+
+995
+01:24:16,656 --> 01:24:17,658
+Look!
+
+996
+01:24:17,861 --> 01:24:18,820
+Mine!
+
+997
+01:24:26,200 --> 01:24:28,244
+Precious!
+
+998
+01:24:33,656 --> 01:24:35,982
+Gollum has completed our quest.
+
+999
+01:24:36,422 --> 01:24:40,633
+The Ring is destroyed in the fires
+where it was wrought!
+
+1000
+01:24:41,317 --> 01:24:42,558
+At last...
+
+1001
+01:24:42,678 --> 01:24:45,644
+...the Ring exists no more!
+
+1002
+01:24:49,775 --> 01:24:51,098
+She's erupting!
+
+1003
+01:24:51,418 --> 01:24:54,627
+Quick, master,
+back through these cracks, run.
+
+1004
+01:25:39,771 --> 01:25:41,538
+All Mordor is being destroyed!
+
+1005
+01:25:41,938 --> 01:25:43,101
+How?
+
+1006
+01:25:43,381 --> 01:25:46,309
+How? There is but one answer.
+
+1007
+01:25:46,829 --> 01:25:49,357
+The ring bearer has fulfilled his quest.
+
+1008
+01:25:49,798 --> 01:25:51,843
+The realm of Sauron is ended!
+
+1009
+01:25:52,243 --> 01:25:53,888
+And with him, us!
+
+1010
+01:25:54,126 --> 01:25:56,933
+For the quake cannot tell good from evil.
+
+1011
+01:25:57,536 --> 01:25:59,900
+Look! See ye!
+
+1012
+01:26:04,993 --> 01:26:07,279
+The Lord of the Eagles and his legions!
+
+1013
+01:26:07,600 --> 01:26:09,843
+Our armies are saved!
+
+1014
+01:26:20,391 --> 01:26:22,873
+It's no use! The lava will have us!
+
+1015
+01:26:23,677 --> 01:26:27,487
+I am glad you are with me
+here at the end of all things, Sam.
+
+1016
+01:26:27,768 --> 01:26:29,733
+And you with me, master.
+
+1017
+01:26:31,134 --> 01:26:33,421
+I don't want to give up yet.
+
+1018
+01:26:33,860 --> 01:26:36,827
+It's not like me somehow,
+if you understand.
+
+1019
+01:26:37,109 --> 01:26:41,079
+Maybe not, Sam.
+But it's like things are in the world.
+
+1020
+01:26:42,123 --> 01:26:43,284
+Hopes fail.
+
+1021
+01:26:43,765 --> 01:26:45,169
+An end comes.
+
+1022
+01:26:45,769 --> 01:26:47,495
+There is no escape.
+
+1023
+01:27:20,934 --> 01:27:23,178
+Die well, Samwise!
+
+1024
+01:27:39,097 --> 01:27:40,620
+Yes, once again...
+
+1025
+01:27:41,021 --> 01:27:43,867
+...as he had so many times in the past...
+
+1026
+01:27:44,389 --> 01:27:48,998
+...Gwaihir, the magnificent Lord of
+The Eagles, had come to our rescue.
+
+1027
+01:27:49,802 --> 01:27:53,049
+The mighty war birds
+returned us to Minas-Tirith...
+
+1028
+01:27:53,490 --> 01:27:54,934
+...where months later...
+
+1029
+01:27:55,455 --> 01:27:58,784
+...our dead buried, our wounded healed...
+
+1030
+01:27:59,184 --> 01:28:02,672
+...the fields of Pelennor
+green with springtime...
+
+1031
+01:28:02,793 --> 01:28:04,956
+...the city cleansed and rebuilt...
+
+1032
+01:28:05,319 --> 01:28:08,608
+...the standard of King Aragorn
+was raised finally...
+
+1033
+01:28:08,847 --> 01:28:11,053
+...to the top of the White Tower.
+
+1034
+01:28:11,534 --> 01:28:14,900
+And down below,
+the restored Great Gate swung open...
+
+1035
+01:28:15,902 --> 01:28:20,195
+...and King Aragorn officially
+took possession of his capital city.
+
+1036
+01:28:21,517 --> 01:28:23,801
+Behold! The return of the King!
+
+1037
+01:28:24,083 --> 01:28:28,695
+"The end of the Ring, the return of the King
+
+1038
+01:28:29,375 --> 01:28:34,388
+"A new age has come to the land
+
+1039
+01:28:35,469 --> 01:28:40,123
+"The end of the Ring, the return of the King
+
+1040
+01:28:40,800 --> 01:28:44,772
+"He shall rule with a true healing hand
+
+1041
+01:28:50,465 --> 01:28:52,871
+"The quest is done
+
+1042
+01:28:53,434 --> 01:28:55,316
+"The battle won
+
+1043
+01:28:55,958 --> 01:29:00,250
+"And all have lost in the winning
+
+1044
+01:29:01,890 --> 01:29:04,175
+"Oft hope is born
+
+1045
+01:29:04,697 --> 01:29:06,942
+"When all's forlorn
+
+1046
+01:29:07,465 --> 01:29:11,395
+"And there's a new beginning
+
+1047
+01:29:12,716 --> 01:29:17,570
+"He who had the courage not to fail
+
+1048
+01:29:18,291 --> 01:29:23,225
+"The bearer of the Ring we hail
+
+1049
+01:29:24,024 --> 01:29:26,350
+"Praise them
+
+1050
+01:29:26,749 --> 01:29:29,157
+"Praise them
+
+1051
+01:29:29,758 --> 01:29:34,088
+"Praise them with great praise
+
+1052
+01:29:35,450 --> 01:29:39,500
+"Praise them with great praise
+
+1053
+01:29:43,630 --> 01:29:48,562
+"The end of the Ring, the return of the King
+
+1054
+01:29:48,802 --> 01:29:53,734
+"A new age has come to the land
+
+1055
+01:29:54,978 --> 01:29:59,749
+"The end of the Ring, the return of the King
+
+1056
+01:30:00,271 --> 01:30:02,836
+"He shall rule
+
+1057
+01:30:02,955 --> 01:30:05,042
+"With a true
+
+1058
+01:30:05,121 --> 01:30:08,969
+"Healing hand"
+
+1059
+01:30:19,715 --> 01:30:23,486
+"Frodo of the nine fingers
+
+1060
+01:30:24,207 --> 01:30:29,139
+"And the Ring of Doom "
+
+1061
+01:30:30,982 --> 01:30:32,466
+And now we all know.
+
+1062
+01:30:33,107 --> 01:30:34,750
+But alas, look.
+
+1063
+01:30:39,443 --> 01:30:42,208
+Just resting my eyes.
+
+1064
+01:30:43,012 --> 01:30:46,822
+Sweet Bilbo, you will return with us
+tomorrow to Hobbitown...
+
+1065
+01:30:47,220 --> 01:30:50,068
+...where you may rest your eyes
+as much as you wish.
+
+1066
+01:30:50,587 --> 01:30:51,833
+Return?
+
+1067
+01:30:52,276 --> 01:30:53,476
+Nay.
+
+1068
+01:30:53,555 --> 01:30:54,880
+On the morrow...
+
+1069
+01:30:54,959 --> 01:30:58,849
+...I depart with Elrond and Gandalf.
+
+1070
+01:30:59,369 --> 01:31:00,573
+Depart?
+
+1071
+01:31:00,694 --> 01:31:02,658
+From the Gray Havens.
+
+1072
+01:31:03,059 --> 01:31:05,384
+On the white ship.
+
+1073
+01:31:05,905 --> 01:31:07,509
+What means this?
+
+1074
+01:31:07,829 --> 01:31:10,796
+We are old, our job is done.
+
+1075
+01:31:12,363 --> 01:31:15,006
+The Third Age of Middle-earth is over...
+
+1076
+01:31:15,448 --> 01:31:18,298
+...and as we pass on to the lands
+beyond the sea...
+
+1077
+01:31:18,376 --> 01:31:21,862
+...the new age of Man begins.
+
+1078
+01:31:21,943 --> 01:31:23,509
+I shall miss you.
+
+1079
+01:31:23,991 --> 01:31:26,594
+But I thought only Elves departed thus.
+
+1080
+01:31:26,674 --> 01:31:28,520
+How can Bilbo join you?
+
+1081
+01:31:28,599 --> 01:31:30,523
+Bilbo has served us well.
+
+1082
+01:31:30,924 --> 01:31:33,409
+There is always room for a friend.
+
+1083
+01:31:33,809 --> 01:31:36,337
+Have I served thee well?
+
+1084
+01:31:36,497 --> 01:31:38,463
+Need you ask such a question?
+
+1085
+01:31:40,869 --> 01:31:43,314
+I have grown weary of this world.
+
+1086
+01:31:43,513 --> 01:31:46,121
+The weight of the Ring all of these years...
+
+1087
+01:31:46,322 --> 01:31:48,487
+...has worn me far beyond my age.
+
+1088
+01:31:49,328 --> 01:31:51,693
+I would, if it pleases you...
+
+1089
+01:31:51,895 --> 01:31:54,181
+...set sail with you on the morrow.
+
+1090
+01:31:55,341 --> 01:31:59,152
+Good friend,
+savior of all we hold precious...
+
+1091
+01:31:59,833 --> 01:32:01,996
+...of course thou might join us.
+
+1092
+01:32:02,518 --> 01:32:03,882
+Mr. Frodo.
+
+1093
+01:32:04,204 --> 01:32:06,008
+We cannot be parted.
+
+1094
+01:32:06,850 --> 01:32:09,256
+But, must I go, too?
+
+1095
+01:32:09,897 --> 01:32:11,298
+Nay, dear Sam.
+
+1096
+01:32:11,462 --> 01:32:13,746
+You are still young in spirit.
+
+1097
+01:32:13,986 --> 01:32:16,074
+You and Merry and Pippin.
+
+1098
+01:32:16,793 --> 01:32:19,560
+A good life awaits you back in the Shire.
+
+1099
+01:32:19,639 --> 01:32:21,686
+With plump Hobbit wives...
+
+1100
+01:32:21,887 --> 01:32:23,811
+...good Hobbit meals...
+
+1101
+01:32:23,891 --> 01:32:28,020
+...long leisurely smokings
+of good Hobbit pipes.
+
+1102
+01:32:28,501 --> 01:32:31,426
+And laps filled
+with bouncing Hobbit babies.
+
+1103
+01:32:32,431 --> 01:32:36,200
+Now you must keep the book
+of the Hobbits up to date.
+
+1104
+01:32:38,646 --> 01:32:39,727
+I will.
+
+1105
+01:32:40,930 --> 01:32:43,617
+The Orcs and Trolls have gone to dust...
+
+1106
+01:32:44,299 --> 01:32:46,786
+...the Elves are slowly departing.
+
+1107
+01:32:47,467 --> 01:32:50,556
+Dwarves have disappeared
+into their misty mountains...
+
+1108
+01:32:51,595 --> 01:32:54,162
+...and there have been no dragons for ages.
+
+1109
+01:32:54,764 --> 01:32:55,927
+Right!
+
+1110
+01:32:57,932 --> 01:32:59,735
+What troubles you, Sam?
+
+1111
+01:32:59,775 --> 01:33:03,624
+Will there be no room for Hobbits
+in this new age of Man?
+
+1112
+01:33:04,147 --> 01:33:08,436
+I think so. For of us all,
+Hobbits are the closest to Man...
+
+1113
+01:33:08,517 --> 01:33:09,639
+...the most human.
+
+1114
+01:33:10,079 --> 01:33:12,808
+And one day they will be as Men are.
+
+1115
+01:33:13,007 --> 01:33:14,249
+Look you.
+
+1116
+01:33:14,772 --> 01:33:19,423
+Frodo is a bit larger than Bilbo,
+just as you are larger than Frodo.
+
+1117
+01:33:19,862 --> 01:33:23,792
+And younger still than you,
+and larger are Merry and Pippin.
+
+1118
+01:33:25,117 --> 01:33:28,364
+And, if you keep the book
+of the Hobbits as Frodo asked...
+
+1119
+01:33:28,482 --> 01:33:31,690
+...ages from now,
+when your stories are still told...
+
+1120
+01:33:32,173 --> 01:33:37,142
+...there will be those humans who might
+well wonder, "Is there Hobbit in me?"
+
+1121
+01:33:38,708 --> 01:33:39,949
+Is there?
+
+1122
+01:33:41,315 --> 01:33:44,643
+"Roads go ever, ever on
+
+1123
+01:33:47,931 --> 01:33:51,258
+"To the lands beyond the sea
+
+1124
+01:33:54,464 --> 01:33:57,752
+"On a white ship will I sail
+
+1125
+01:34:00,719 --> 01:34:04,689
+"Watching shadows part for me
+
+1126
+01:34:07,295 --> 01:34:11,307
+"Leaving havens gray with rain
+
+1127
+01:34:13,992 --> 01:34:17,960
+"Now that years have slipped away
+
+1128
+01:34:20,487 --> 01:34:23,935
+"Leaving friends with gentle pain
+
+1129
+01:34:26,862 --> 01:34:30,389
+"As they start another day
+
+1130
+01:34:33,357 --> 01:34:37,126
+"Roads I traveled I must leave
+
+1131
+01:34:39,854 --> 01:34:43,341
+"For I've turned the final bend
+
+1132
+01:34:46,268 --> 01:34:50,398
+"Weep not empty tears but grieve
+
+1133
+01:34:52,845 --> 01:34:57,735
+"As the road comes to an end
+
+1134
+01:34:59,500 --> 01:35:04,111
+"It's so easy not to try
+
+1135
+01:35:06,034 --> 01:35:10,045
+"Let the world go drifting by
+
+1136
+01:35:12,409 --> 01:35:15,577
+"If you never say hello
+
+1137
+01:35:18,944 --> 01:35:22,193
+"You won't have to say goodbye"
+
+1138
+01:35:28,327 --> 01:35:30,773
+And Io, as foretold...
+
+1139
+01:35:30,813 --> 01:35:34,302
+...the epoch of The Return of the King
+ends at the beginning...
+
+1140
+01:35:34,384 --> 01:35:36,948
+...of the new age of Man.
+
+1141
+01:35:38,231 --> 01:35:41,679
+"If you never say hello
+
+1142
+01:35:45,088 --> 01:35:49,938
+"You won't have to say goodbye"
+
