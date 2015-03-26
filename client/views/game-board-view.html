@@ -10,14 +10,14 @@
                 <strong>{{username}}</strong> - Score: {{score}}
               </li>
             {{/each}}
-          </ul>      
+          </ul>
       </div>
-       
+
       <div class="roundCounter">
          <!--Keep track of round progress -->
         {{#if winnerChosen}}
           <button class="playerButton" id="nextRound">Let's play another, you smarmy wench</button>
-        {{else}}      
+        {{else}}
           {{#if allCardsPlayed}}
             <h3>ROUND OVER</h3>
           {{else}}
@@ -29,8 +29,8 @@
             <p class="text">
               Left to be played: {{cardsLeft}}
             </p>
-          {{/if}}  
-       
+          {{/if}}
+
         {{/if}}
       </div>
     </div>
@@ -77,7 +77,7 @@
         <!--</div>-->
       </div>
     </div>
-      
+
   </div>
 
 </template>
