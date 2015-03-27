@@ -60,17 +60,18 @@ Template.playerHand.events({
   },
 
   "click #dealHand": function(){
-
+    var roomId = Router.current().params.room;
     var user = Meteor.user();
     console.log(user, 'this is the user');
     var numHandCards = PlayerHand.find({owner: user._id}).count();
     if(numHandCards >= 10){
-      //console.log('You already have ', numHandCards, ' why not try using them?');
+      console.log('You already have ', numHandCards, ' why not try using them?');
       return;
     }
 
     // refer to decks.js for dealHand function
-    Meteor.call("dealHand", function(err, res){
+    Meteor.call("dealHand", roomId, function(err, res){
+      console.log('called Meteor.call dealHand');
       if(err){
         throw err;
       } else {
