@@ -49,7 +49,7 @@ Meteor.methods({
     // reading the movie directory and randomly selecting a file. We read that file using the srt parser and then
     // put the data into a Javascript dictionary
     randMovies = [];
-    while (randMovies.length < 10) {
+    while (randMovies.length < 5) {
       var randN = Math.floor((Math.random() * movieFiles.length));
       var randMovie = movieFiles[randN].split('.')[0];
       if (randMovies.indexOf(randMovie) === -1) {
