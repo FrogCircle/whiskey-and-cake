@@ -1,15 +1,22 @@
 <!-- Template that shows the cards dealt to each player -->
 
 <template name="movieCloudHand">
-  <div class="playerHand container">
+  <div class="playerHand">
     <h3>Your Hand</h3>
       <!-- handlebars each method that displays 10 random cards for each player -->
+    <div>
       {{#each getOptions}}
         <div class="playCard">
-          123
+          <div class="card white">
+            <div class="card-content">
+              <p class="card-text">
+                {{text}}
+              </p>
+            </div>
+          </div>
         </div>
       {{/each}}
-
+    </div>
     <div class="questionCards">
         <!-- This is where we can put each of the cards a user has 'won' -->
       </div>
