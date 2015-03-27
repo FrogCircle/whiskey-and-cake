@@ -65,7 +65,7 @@ Meteor.methods({
   return TimesHistorianData.insert(getArticles());
 
   }
-})
+});
 
 Meteor.publish("TimesHistorianData", function() {
   return TimesHistorianData.find();
