@@ -1,76 +1,73 @@
 
-Meteor.subscribe('MovieRoundData');
+Meteor.subscribe('MovieRooms');
+
+var renderSVG = function(svgData){
+  $('.movieSVG').empty();
+  var fill = d3.scale.category20();
+  d3.layout.cloud()
+      .size([600, 300])
+      .words(svgData)
+      .padding(5)
+      .rotate(function() { return ~~(Math.random() * 2) * 90; })
+      .font("Impact")
+      .fontSize(function(d) { return d.size; })
+      .on("end", draw)
+      .start();
+  function draw(words) {
+    d3.select('.movieSVG').append("svg")
+        .attr("width", 900)
+        .attr("height", 300)
+        .style("padding-left",function(){return 150;})
+        .style("padding-top",function(){return 50;})
+        .style("padding-bottom",function(){return 100;})
+        .style("padding-right",function(){return 150;})
+      .append("g")
+        .attr("transform", "translate(150,150)")
+      .selectAll("text")
+        .data(words)
+      .enter().append("text")
+        .style("font-size", function(d) { return d.size + "px"; })
+        .style("font-family", "Impact")
+        .style("fill", function(d, i) { return fill(i); })
+        .attr("text-anchor", "middle")
+        .attr("transform", function(d) {
+          return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
+        })
+        .text(function(d) { return d.text; });
+  }
+};
 
 
 Template.movieCloudHand.helpers({
   getOptions: function(){
-    return Session.get("id");
-  }
+    var result = MovieRooms.find({"_id": "ABCD"}).fetch()[0].gameBoard.result;
+    Session.set("answer", MovieRooms.find({"_id": "ABCD"}).fetch()[0].gameBoard.chosen);
+    renderSVG(result);
+    return MovieRooms.find({"_id": "ABCD"}).fetch()[0].gameBoard.choices;
+  },
 });
 
+var getAnswer = function(){
+  return MovieRooms.find({"_id": "ABCD"}).fetch()[0].gameBoard.chosen;
+}
 
 
-
-Template.movieCloud.helpers({
-
-});
 
 // player-hand-view.html template event listeners
 Template.movieCloud.events({
     "click .movieButton": function (event) {
-      $('.movieSVG').empty();
-      Session.set("id",[]);
 
-      var renderSVG = function(svgData){
-        console.log(svgData);
-        var fill = d3.scale.category20();
-        d3.layout.cloud()
-            .size([600, 300])
-            .words(svgData)
-            .padding(5)
-            .rotate(function() { return ~~(Math.random() * 2) * 90; })
-            .font("Impact")
-            .fontSize(function(d) { return d.size; })
-            .on("end", draw)
-            .start();
-        function draw(words) {
-          d3.select('.movieSVG').append("svg")
-              .attr("width", 900)
-              .attr("height", 300)
-              .style("padding-left",function(){return 150;})
-              .style("padding-top",function(){return 50;})
-              .style("padding-bottom",function(){return 100;})
-              .style("padding-right",function(){return 150;})
-            .append("g")
-              .attr("transform", "translate(150,150)")
-            .selectAll("text")
-              .data(words)
-            .enter().append("text")
-              .style("font-size", function(d) { return d.size + "px"; })
-              .style("font-family", "Impact")
-              .style("fill", function(d, i) { return fill(i); })
-              .attr("text-anchor", "middle")
-              .attr("transform", function(d) {
-                return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
-              })
-              .text(function(d) { return d.text; });
-        }
-      };
+      // Meteor.call('createRoom', Session.get("roomId"), function(err, id){
+      //   console.log(123);
+      // });
 
-      Meteor.call('getMovieData', function(err, id){
-        var options = [];
-        var data = MovieRoundData.findOne(id);
-        for (var i = 0; i < data.choices.length; i++){
-          options.push({text: data.choices[i].split('_').join(" ")});
-        }
-        Session.set("id", options);
-        renderSVG(data.result);
-        Session.set("answer", data.chosen);
+      Meteor.call('getMovieData', Session.get("roomId"), function(err, id){
       });
     },
 
     "click .card": function (event){
       if (this.text.split(' ').join('_')===Session.get('answer')){
+        console.log(Meteor.user().username);
         alert("You Won");
       }
     }
