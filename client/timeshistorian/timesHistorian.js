@@ -2,7 +2,7 @@
 
 Template.timesHistorianHand.helpers({
   getOptions: function(){
-    return Session.get("options");
+    return CardsRoom.find({"_id": "ABCD"}).fetch()[0].gameBoard.choices;
   }
 });
 
@@ -22,6 +22,9 @@ Template.timesHistorian.events({
 
       Meteor.call('getTimesData', function(err, id){
         var options = [];
+       // Meteor.call('createRoom', Session.get("roomId"), function(err, id){
+        //   console.log(123);
+        // });
 
         // There is a very weird bug I am working on here where the data isn't
         // showing up in mongo, even though it must as the id had been returned.
