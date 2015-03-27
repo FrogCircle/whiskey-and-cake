@@ -46,13 +46,14 @@ Meteor.methods({
       GameBoard: [],
       users: []
     }, function(err, roomInserted) {
-      returnRoomId = roomInserted._id;
+      returnRoom = roomInserted;
     });
     return returnRoomId._id;
   },
 
   JoinCardsRoom: function(roomId, userId) {
     CardsRoom.update({_id: roomId}, {$push: {'users': userId}});
+    return CardsRoom.find({_id: roomId}).fetch();
   }
 });
 
