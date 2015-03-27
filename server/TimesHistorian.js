@@ -62,7 +62,10 @@ Meteor.methods({
       return {'results': parsedArticles, 'chosen': randDate, 'choices': getRandDecades(randDate)};
     };
 
-  return TimesHistorianData.insert(getArticles());
+  var data = getArticles();
+  var id =  TimesHistorianData.insert(data);
+  // should be returning id, but see the bug documentation client side
+  return data;
 
   }
 })
