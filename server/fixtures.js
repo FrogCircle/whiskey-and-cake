@@ -48,7 +48,7 @@ Meteor.methods({
     }, function(err, roomInserted) {
       returnRoomId = roomInserted._id;
     });
-    return returnRoom._id;
+    return returnRoomId._id;
   },
 
   JoinCardsRoom: function(roomId, userId) {
