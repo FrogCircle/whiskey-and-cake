@@ -1,3 +1,8 @@
+var path = document.location.pathname;
+var _roomId = path.split('/');
+_roomId = _roomId[_roomId.length-1];
+console.log('_roomId is ', _roomId);
+
 // Helper functions for player-hand-view.html
 Meteor.subscribe('CardsRoom');
 
@@ -6,7 +11,16 @@ Template.playerHand.helpers({
   playsHand: function(){
     var user = Meteor.user();
     // displays hand to user, filtered by username.
-    return PlayerHand.find({owner: user._id});
+    var usersArray = CardsRoom.find({ '_id': _roomId}).fetch()[0].users;
+  console.log('usersArray is ', usersArray);
+    var result;
+    for( var i = 0; i < usersArray.length; i++ ) {
+      if( usersArray[i]._id === user._id ) {
+        result = usersArray[i].cards;
+      }
+    }
+    //return PlayerHand.find({owner: user._id});
+    return result;
   }
 
 });
@@ -83,7 +97,7 @@ Template.playerHand.events({
     });
 
     // refer to decks.js for drawBlack function
-    Meteor.call("drawBlack", function(err, res){
+    Meteor.call("drawBlack", roomId, function(err, res){
       if(err){
         throw err;
       } else {

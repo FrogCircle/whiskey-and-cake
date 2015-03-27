@@ -18,9 +18,9 @@ Meteor.methods({
     //userArray holds an array of players that are logged in using the user-status package
     //var userArray = CardsRoom.find({ _id : roomId }, { users: 1 }).fetch();
     var gameInformation = CardsRoom.findOne({_id: roomId}, {users: 1});   // returns all users for that room
-    console.log('gameInformation is ', gameInformation);
+    //console.log('gameInformation is ', gameInformation);
     var userArray = gameInformation.users;
-    console.log('userArray is ', userArray);
+    //console.log('userArray is ', userArray);
     var judgeCounter = 0;
     for (var i = 0; i < userArray.length; i++) {
       if (userArray[i].judge === true) {
@@ -45,28 +45,48 @@ Meteor.methods({
     //iterate over all active players and insert up to 10 cards in their hand
     for (var j = 0; j < userArray.length; j++) {
       //adding .fetch() onto the end of the find method returns an array, thus we can use length
-      if (!(CardsRoom.find({_id: roomId, 'users._id': randomUserId[j]}, {'users.cards': 1}).length === 10)) {//PlayerHand
+      console.log('userArray[j] is ', userArray[j]);
+      if ( !userArray[j].cards || userArray[j].cards.length === 0 ) {//PlayerHand
         for (var i = 0; i < 10; i++) {
-          var _entry = CardsRoom.update({_id: roomId}, {$pop: {WhiteDeck: 1}}).fetch();
-          CardsRoom.update({_id: roomId, 'users._id': randomUserId[j]}, {$push: {'users.cards': _entry}});
+          var whiteCard = CardsRoom.find({_id: roomId}).fetch()[0].WhiteDeck.pop();
+          CardsRoom.update({_id: roomId}, {$pop: {WhiteDeck: 1}});
+          console.log('whiteCard is ', whiteCard);
+          CardsRoom.update({_id: roomId, 'users._id': userArray[j]._id}, {$push: {'users.$.cards': whiteCard}});
         }
       }
     }
   },
 
+  //var arrayUsers = CardsRoom.find({_id: roomId}, {'users': 1}).fetch();
+
+
+
+
+
+
   // replenishes white cards in the player's hand
   drawWhite: function(roomId) {
-    var userArray = CardsRoom.find({_id: roomId}, {users: 1});
-    for (var i = 0; i < userArray.length; i++) {
-      while (CardsRoom.find({_id: roomId, 'users._id': userArray[i]._id}, {'users.cards': 1}).length < 10) {
-        var _entry = CardsRoom.update({_id: roomId}, {$pop: {WhiteDeck: 1}}).fetch();
-        CardsRoom.update({_id: roomId, 'users._id': userArray[i]._id}, {$push: {'users.cards': _entry}});
+    var gameInformation = CardsRoom.findOne({_id: roomId}, {users: 1});   // returns all users for that room
+    var userArray = gameInformation.users;
+    //for (var i = 0; i < userArray.length; i++) {
+    //  while (CardsRoom.find({_id: roomId, 'users._id': userArray[i]._id}, {'users.cards': 1}).length < 10) {
+    //    var _entry = CardsRoom.update({_id: roomId}, {$pop: {WhiteDeck: 1}}).fetch();
+    //    CardsRoom.update({_id: roomId, 'users._id': userArray[i]._id}, {$push: {'users.cards': _entry}});
+    //  }
+    //}
+    if ( userArray[j].cards.length <= 10 ) {//PlayerHand
+      var cardLeft = 10 - userArray[j].cards.length;
+      for (var i = 0; i < cardLeft; i++) {
+        var whiteCard = CardsRoom.find({_id: roomId}).fetch()[0].WhiteDeck.pop();
+        CardsRoom.update({_id: roomId}, {$pop: {WhiteDeck: 1}});
+        console.log('whiteCard is ', whiteCard);
+        CardsRoom.update({_id: roomId, 'users._id': userArray[j]._id}, {$push: {'users.$.cards': whiteCard}});
       }
     }
   },
   // adds card to game board with the user id and removes from playerhand
   playCard: function(card, roomId) {
-    CardsRoom.update({_id: roomId, 'users._id': userArray[i]._id}, {pull: {'users.cards': card.text}});
+    CardsRoom.update({_id: roomId, 'users._id': userArray[i]._id}, {$pull: {'users.cards': card.text}});
     CardsRoom.update({_id: roomId}, {
         GameBoard: {
           no: card.no,
@@ -82,8 +102,9 @@ Meteor.methods({
   // this function starts a new hand by clearing the GameBoard and adding a black card
   drawBlack: function(roomId) {
     CardsRoom.update({_id: roomId}, {$set: {'GameBoard': []}});
-    var _entry = CardsRoom.update({_id: roomId}, {$pop: {BlackDeck: 1}}).fetch();
-    CardsRoom.update({_id: roomId}, {$push: {'GameBoard': _entry}});
+    var blackCard = CardsRoom.find({_id: roomId}).fetch()[0].BlackDeck.pop();
+    CardsRoom.update({_id: roomId}, {$pop: {BlackDeck: 1}});
+    CardsRoom.update({_id: roomId}, {$push: {'GameBoard': blackCard}});
   },
 
   //increment score of card owner

@@ -12,12 +12,12 @@
       <ul>
         {{#each loadRooms}}
         <li>
-          <a class="roomToJoin" href="{{pathFor route='cardsagainstsobriety2' data=room}}">Room</a>
+          <a class="joinExistingRoom" href="{{pathFor route='cardsagainstsobriety2' data=room}}">Room</a>
         </li>
         {{/each}}
         {{#each createRoom}}
         <li>
-          <a class="roomToJoin" href="{{pathFor route='cardsagainstsobriety2' data=roomId}}">New Room</a>
+          <a class="joinNewRoom" href="{{pathFor route='cardsagainstsobriety2' data=roomId}}">New Room</a>
         </li>
         {{/each}}
       </ul>

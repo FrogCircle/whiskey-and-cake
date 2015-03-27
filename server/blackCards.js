@@ -447,7 +447,7 @@ BlackCards = [{"cardType": "Black", "text": "_?  There's an app for that.", "exp
   {"cardType": "Black", "text": "_ sparked a city-wide riot that only ended with _.", "expansion": "NSFH"},
   {
     "cardType": "Black",
-    "text": "I�m very sorry Mrs. Smith, but Little Billy has tested positive for _.",
+    "text": "I?m very sorry Mrs. Smith, but Little Billy has tested positive for _.",
     "expansion": "NSFH"
   },
   {"cardType": "Black", "text": "Instead of beating them, Chris Brown now does _ to women.", "expansion": "NSFH"},

@@ -55,7 +55,9 @@ Meteor.methods({
   },
 
   JoinCardsRoom: function(roomId, userObj) {
+    console.log('userObj is ', userObj);
     CardsRoom.update({_id: roomId}, {$push: {'users': userObj }});
+    console.log('CardsRoom.find({_id: roomId}).fetch() is ', CardsRoom.find({_id: roomId}).fetch());
     return CardsRoom.find({_id: roomId}).fetch();
   }
 });
