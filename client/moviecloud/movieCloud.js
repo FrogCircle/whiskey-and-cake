@@ -48,6 +48,7 @@ Template.movieCloudHand.helpers({
 });
 
 var getAnswer = function(){
+
   return MovieRooms.find({"_id": "ABCD"}).fetch()[0].gameBoard.chosen;
 }
 
@@ -57,18 +58,34 @@ var getAnswer = function(){
 Template.movieCloud.events({
     "click .movieButton": function (event) {
 
-      // Meteor.call('createRoom', Session.get("roomId"), function(err, id){
+      // Meteor.call('createRoom', "ABCD", function(err, id){
       //   console.log(123);
       // });
 
-      Meteor.call('getMovieData', Session.get("roomId"), function(err, id){
+      Meteor.call('getMovieData', "ABCD", Meteor.user().username, function(err, id){
       });
     },
 
     "click .card": function (event){
+      var data = MovieRooms.find({"_id": "ABCD"}).fetch()[0];
       if (this.text.split(' ').join('_')===Session.get('answer')){
-        console.log(Meteor.user().username);
-        alert("You Won");
+        if (!data.answered){
+          // I won
+          data.answered = false;
+          var me = Meteor.user().username;
+          if (!data.scoreBoard[me]){
+            data.scoreBoard[me] = 1;
+          } else{
+            data.scoreBoard[me] = data.scoreBoard[me] + 1;
+          }
+          data.roundInfo.lastWinner = me;
+          data.roundInfo.roundNum = data.roundInfo.roundNum + 1;
+          data.answered = true;
+          Meteor.call('setWinner','ABCD', data, function(err, id){
+          })
+          alert('you won!');
+          console.log(data.scoreBoard);
+        }
       }
     }
 });
