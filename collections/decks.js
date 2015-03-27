@@ -141,5 +141,13 @@ Meteor.methods({
         }
       }
     }
+  },
+
+  newGame: function(roomId){
+    CardsRoom.update({_id: roomId}, {$set: {'GameBoard': []}});
+    CardsRoom.update({_id: roomId}, {$set: {'WhiteDeck': []}});
+    CardsRoom.update({_id: roomId}, {$set: {'BlackDeck': []}});
+    CardsRoom.update({_id: roomId}, {$set: {'RoundInfo': []}});
+    CardsRoom.update({_id: roomId}, {$set: {'users.hand': []}});
   }
 });
