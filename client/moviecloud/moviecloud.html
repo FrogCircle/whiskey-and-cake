@@ -1,8 +1,15 @@
 <template name="movieCloud">
-  <h1>Movie Cloud</h1>
-  <p>You made it to Movie Cloud</p>
-  <button class="movieButton">Get Movie Data</button>
-
-
-  {{>movieCloudHand}}
+  <div class="row">
+    <div class="col-md-2">
+      <h1>Movie Cloud</h1>
+      <p>You made it to Movie Cloud</p>
+      <button class="movieButton">Get Movie Data</button>
+      </div>
+    <div class="col-md-10">
+      <div class="movieSVG"></div>
+      <script src="bower_components/d3/d3.js"></script>
+      <script src="bower_components/d3/d3.layout.cloud.js"></script>
+      {{>movieCloudHand}}
+    </div>
+  </div>
 </template>
