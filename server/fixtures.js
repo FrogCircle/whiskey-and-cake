@@ -36,7 +36,7 @@ Meteor.methods({
       });
     }
     var returnRoom = {};
-    CardsRoom.insert({
+    return CardsRoom.insert({
       createdBy: (Meteor.userId()),
       createdAt: new Date(),
       WhiteDeck: WhiteDeck,
@@ -46,9 +46,10 @@ Meteor.methods({
       GameBoard: [],
       users: []
     }, function(err, roomInserted) {
+      console.log('roomInserted is ', roomInserted);
       returnRoom = roomInserted;
+      return returnRoom;
     });
-    return returnRoomId._id;
   },
 
   JoinCardsRoom: function(roomId, userId) {
