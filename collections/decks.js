@@ -1,7 +1,8 @@
 // create shuffled decks
 CardsRoom = new Meteor.Collection('CardsRoom');
 
-MovieRoundData = new Meteor.Collection("MovieRoundData");
+// MovieRoundData = new Meteor.Collection("MovieRoundData");
+MovieRooms = new Meteor.Collection("MovieRooms");
 TimesHistorianData = new Meteor.Collection("TimesHistorianData");
 // create collection with all user hands
 

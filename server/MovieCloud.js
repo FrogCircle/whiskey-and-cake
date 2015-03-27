@@ -78,7 +78,18 @@ var commonWords = Assets.getText('stopwords.txt');
 
 Meteor.methods({
 
-  getMovieData: function() {
+  createRoom: function(roomID){
+    var insertObj =
+    { "_id": roomID,
+      // "users": [],
+      "users": "abc",
+      "gameBoard": {"result": [], "choices": [], "chosen": ""},
+      "roundInfo": {"roundNum": 0, "scoreBoard": [], "lastWinner": ""}
+    }
+    MovieRooms.insert(insertObj);
+  },
+
+  getMovieData: function(roomID) {
     // Reading from a file of common words to keep out of word cloud and putting into an object for quick lookup
     var commonWordsDic = {};
     _.each(commonWords.split("\n"), function(word) {
@@ -180,17 +191,22 @@ Meteor.methods({
         resultArray.push(tempObj[key]);
       }
 
+      var temp = [];
+      for (var i = 0; i < randMovies.length; i++){
+        temp.push({'text': randMovies[i].split('_').join(' ')})
+      }
       // At this point the data in the format that D3 word cloud expects so we stringify and write to file
-      var stringResult = {'result': resultArray, 'choices': randMovies, 'chosen': chosen};
-      return MovieRoundData.insert(stringResult);
+      var stringResult = {'result': resultArray, 'choices': temp, 'chosen': chosen};
+      MovieRooms.update({"_id": roomID}, {$set: {'gameBoard': stringResult}});
+      // return MovieRoundData.insert(stringResult);
     };
-    var id = data_convert(data, randMovies, randMovieFile.split('.')[0]);
-    return id;
+    data_convert(data, randMovies, randMovieFile.split('.')[0]);
+    return true;
     //return data_convert(data, randMovies, randMovieFile.split('.')[0]);
   }
 
 });
 
-Meteor.publish("MovieRoundData", function() {
-  return MovieRoundData.find();
+Meteor.publish("MovieRooms", function(roomID) {
+  return MovieRooms.find();
 });
