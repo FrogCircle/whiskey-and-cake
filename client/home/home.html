@@ -10,9 +10,14 @@
       <h4>Cards Against Sobriety</h4>
       <p>Available Rooms</p>
       <ul>
+        {{#each loadRooms}}
+        <li>
+          <a class="roomToJoin" href="{{pathFor route='cardsagainstsobriety2' data=room}}">Room</a>
+        </li>
+        {{/each}}
         {{#each createRoom}}
         <li>
-          <a class="roomToJoin" data-roomid="hello" href="{{pathFor route='cardsagainstsobriety2' data=roomId}}">New Room</a>
+          <a class="roomToJoin" href="{{pathFor route='cardsagainstsobriety2' data=roomId}}">New Room</a>
         </li>
         {{/each}}
       </ul>
