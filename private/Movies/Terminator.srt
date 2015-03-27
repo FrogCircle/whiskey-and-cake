@@ -431,11 +431,11 @@ balancers that adjust the sound to fit...</i>
 
 97
 00:20:46,769 --> 00:20:48,704
-<i>♪ In love again ♪</i>
+<i>? In love again ?</i>
 
 98
 00:20:49,672 --> 00:20:53,075
-<i>♪ Drivin' on the inside shoulder ♪</i>
+<i>? Drivin' on the inside shoulder ?</i>
 
 99
 00:20:53,242 --> 00:20:54,542
@@ -443,15 +443,15 @@ Sorry.
 
 100
 00:20:54,610 --> 00:20:56,261
-<i>♪ ...for you to smooth things over ♪</i>
+<i>? ...for you to smooth things over ?</i>
 
 101
 00:20:56,328 --> 00:20:57,863
-<i>♪ Hang on ♪</i>
+<i>? Hang on ?</i>
 
 102
 00:20:58,188 --> 00:21:00,035
-<i>♪ Don't stand up... ♪</i>
+<i>? Don't stand up... ?</i>
 
 103
 00:21:01,133 --> 00:21:03,000
@@ -514,7 +514,7 @@ I thought you were...</i>
 
 116
 00:21:47,380 --> 00:21:49,347
-<i>♪ Ow, o-oo-ooh ♪</i>
+<i>? Ow, o-oo-ooh ?</i>
 
 117
 00:21:50,015 --> 00:21:51,549
@@ -925,15 +925,15 @@ Wednesday night...</i>
 
 206
 00:28:43,244 --> 00:28:46,445
-<i>♪ On the run, I'm a moving target ♪</i>
+<i>? On the run, I'm a moving target ?</i>
 
 207
 00:28:46,513 --> 00:28:49,648
-<i>♪ On the town, it's hit-and-run... ♪</i>
+<i>? On the town, it's hit-and-run... ?</i>
 
 208
 00:28:55,640 --> 00:28:57,690
-<i>♪ Caught in a photoplay ♪</i>
+<i>? Caught in a photoplay ?</i>
 
 209
 00:28:57,691 --> 00:29:02,595
@@ -942,7 +942,7 @@ Wednesday night...</i>
 
 210
 00:29:04,398 --> 00:29:08,869
-<i>♪ Photoplay ♪</i>
+<i>? Photoplay ?</i>
 
 211
 00:29:15,592 --> 00:29:17,460
@@ -973,31 +973,31 @@ Liquor, corner of third and Cameron.</i>
 
 217
 00:30:24,395 --> 00:30:26,329
-<i>♪ Intimacy ♪</i>
+<i>? Intimacy ?</i>
 
 218
 00:30:26,397 --> 00:30:28,431
-<i>♪ Intimacy ♪</i>
+<i>? Intimacy ?</i>
 
 219
 00:30:28,899 --> 00:30:30,332
-<i>♪ Ya ya ya ya ♪</i>
+<i>? Ya ya ya ya ?</i>
 
 220
 00:30:30,400 --> 00:30:32,835
-<i>♪ Intimacy ♪</i>
+<i>? Intimacy ?</i>
 
 221
 00:30:32,903 --> 00:30:34,704
-<i>♪ Intimacy ♪</i>
+<i>? Intimacy ?</i>
 
 222
 00:30:35,072 --> 00:30:36,338
-<i>♪ Ya ya ya ya... ♪</i>
+<i>? Ya ya ya ya... ?</i>
 
 223
 00:30:36,406 --> 00:30:37,874
-<i>♪ I've got to... ♪</i>
+<i>? I've got to... ?</i>
 
 224
 00:30:54,308 --> 00:30:58,661
@@ -1014,19 +1014,19 @@ Don't make me bust you up, man!
 
 227
 00:31:18,315 --> 00:31:19,999
-<i>♪ Intimacy ♪</i>
+<i>? Intimacy ?</i>
 
 228
 00:31:22,019 --> 00:31:23,303
-<i>♪ Ah yah ♪</i>
+<i>? Ah yah ?</i>
 
 229
 00:31:27,591 --> 00:31:29,509
-<i>♪ ...is some intimacy ♪</i>
+<i>? ...is some intimacy ?</i>
 
 230
 00:31:30,177 --> 00:31:31,561
-<i>♪ Ya ya ya ya ♪</i>
+<i>? Ya ya ya ya ?</i>
 
 231
 00:31:56,404 --> 00:31:58,521
@@ -1153,57 +1153,57 @@ or even to the rest room.
 
 257
 00:33:43,909 --> 00:33:45,978
-<i>♪ Ohh ♪</i>
+<i>? Ohh ?</i>
 
 258
 00:33:46,745 --> 00:33:51,767
-<i>♪ I'm taken, and you'll never let me go ♪</i>
+<i>? I'm taken, and you'll never let me go ?</i>
 
 259
 00:33:52,234 --> 00:33:55,571
-<i>♪ I'm your prisoner ♪</i>
+<i>? I'm your prisoner ?</i>
 
 260
 00:33:55,673 --> 00:33:58,991
-<i>♪ I feel the heat of your desire ♪</i>
+<i>? I feel the heat of your desire ?</i>
 
 261
 00:33:59,004 --> 00:34:02,207
-<i>♪ Touch that pistol fire ♪</i>
+<i>? Touch that pistol fire ?</i>
 
 262
 00:34:02,329 --> 00:34:05,596
-<i>♪ You've got me burnin' ♪</i>
+<i>? You've got me burnin' ?</i>
 
 263
 00:34:05,597 --> 00:34:07,632
-<i>♪ You've got me burnin' ♪</i>
+<i>? You've got me burnin' ?</i>
 
 264
 00:34:07,667 --> 00:34:10,801
 - Hey, that guy didn't pay.
-<i>- ♪ You've got me burnin' ♪</i>
+<i>- ? You've got me burnin' ?</i>
 
 265
 00:34:10,886 --> 00:34:13,454
 - (CRACK)
-<i>- ♪ In the third degree ♪</i>
+<i>- ? In the third degree ?</i>
 
 266
 00:34:14,477 --> 00:34:17,442
-<i>♪ You've got me burnin' ♪</i>
+<i>? You've got me burnin' ?</i>
 
 267
 00:34:17,444 --> 00:34:20,813
-<i>♪ You've got me burnin' ♪</i>
+<i>? You've got me burnin' ?</i>
 
 268
 00:34:20,816 --> 00:34:22,664
-<i>♪ You've got me burnin' ♪</i>
+<i>? You've got me burnin' ?</i>
 
 269
 00:34:22,665 --> 00:34:26,886
-<i>♪ In the third degree ♪</i>
+<i>? In the third degree ?</i>
 
 270
 00:34:31,874 --> 00:34:32,925
@@ -1211,7 +1211,7 @@ or even to the rest room.
 
 271
 00:34:32,992 --> 00:34:35,361
-<i>♪ Can't stop my body's achin' ♪</i>
+<i>? Can't stop my body's achin' ?</i>
 
 272
 00:34:36,229 --> 00:34:38,180
@@ -1219,27 +1219,27 @@ or even to the rest room.
 
 273
 00:34:46,789 --> 00:34:49,758
-<i>♪ You've got me burnin' ♪</i>
+<i>? You've got me burnin' ?</i>
 
 274
 00:34:49,759 --> 00:34:52,844
-<i>♪ You've got me burnin' ♪</i>
+<i>? You've got me burnin' ?</i>
 
 275
 00:34:52,845 --> 00:34:54,730
-<i>♪ You've got me burnin' ♪</i>
+<i>? You've got me burnin' ?</i>
 
 276
 00:34:54,831 --> 00:34:58,050
-<i>♪ In the third degree ♪</i>
+<i>? In the third degree ?</i>
 
 277
 00:34:58,718 --> 00:35:01,620
-<i>♪ You've got me burnin' ♪</i>
+<i>? You've got me burnin' ?</i>
 
 278
 00:35:01,622 --> 00:35:04,139
-<i>♪ You've got me burnin'... ♪</i>
+<i>? You've got me burnin'... ?</i>
 
 279
 00:35:48,100 --> 00:35:51,003
@@ -3276,12 +3276,12 @@ just so that I can get it straight.
 733
 01:41:15,981 --> 01:41:19,417
 <i>- Gasolina, por favor.
-- ¿Cuánto?</i>
+- �Cu�nto?</i>
 
 734
 01:41:19,885 --> 01:41:23,988
 <i>- Llena el tanque.</i>
-- Fill her up, <i>sí.</i>
+- Fill her up, <i>s�.</i>
 
 735
 01:41:27,625 --> 01:41:32,797
@@ -3323,7 +3323,7 @@ We loved a lifetime's worth.
 
 743
 01:42:14,239 --> 01:42:17,559
-<i>Usted es muy hermosa, señora,
+<i>Usted es muy hermosa, se�ora,
 y tengo pena decirle</i>
 
 744
@@ -3334,7 +3334,7 @@ pero si no, mi padre me va a pegar.</i>
 745
 01:42:23,464 --> 01:42:27,400
 - What did he just say?
-- He says you're very beautiful, señora...
+- He says you're very beautiful, se�ora...
 
 746
 01:42:27,468 --> 01:42:30,838
@@ -3353,7 +3353,7 @@ Pretty good hustle, kid.
 749
 01:42:36,878 --> 01:42:39,647
 <i>- Cuatro
-- Sí, sí.</i>
+- S�, s�.</i>
 
 750
 01:42:40,615 --> 01:42:42,016
@@ -3361,11 +3361,11 @@ Pretty good hustle, kid.
 
 751
 01:42:43,518 --> 01:42:45,519
-<i>¡Miren, miren!</i>
+<i>�Miren, miren!</i>
 
 752
 01:42:47,472 --> 01:42:50,658
-<i>¡Allá! ¡Viene una tormenta!</i>
+<i>�All�! �Viene una tormenta!</i>
 
 753
 01:42:52,893 --> 01:42:54,862

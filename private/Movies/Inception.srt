@@ -1586,7 +1586,7 @@ can get up to in five minutes?
 353
 00:29:04,993 --> 00:29:07,911
 <font color="#808080">COBB :</font> You've got the basic layout.
-Bookstore, café.
+Bookstore, caf�.
 
 354
 00:29:08,079 --> 00:29:09,746
@@ -2195,7 +2195,7 @@ IN FOREIGN LANGUAGE)</font>
 
 483
 00:38:05,366 --> 00:38:07,117
-One café.
+One caf�.
 
 484
 00:38:11,455 --> 00:38:12,622
@@ -2207,11 +2207,11 @@ Shh.
 
 486
 00:38:18,254 --> 00:38:19,713
-One café.
+One caf�.
 
 487
 00:38:20,756 --> 00:38:22,215
-One café.
+One caf�.
 
 488
 00:38:23,384 --> 00:38:24,551

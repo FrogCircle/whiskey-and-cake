@@ -1,11 +1,26 @@
+var path = document.location.pathname;
+var _roomId = path.split('/');
+_roomId = _roomId[_roomId.length-1];
+console.log('_roomId is ', _roomId);
+
 // Helper functions for player-hand-view.html
+Meteor.subscribe('CardsRoom');
 
 Template.playerHand.helpers({
   //
   playsHand: function(){
     var user = Meteor.user();
     // displays hand to user, filtered by username.
-    return PlayerHand.find({owner: user._id});
+    var usersArray = CardsRoom.find({ '_id': _roomId}).fetch()[0].users;
+  console.log('usersArray is ', usersArray);
+    var result;
+    for( var i = 0; i < usersArray.length; i++ ) {
+      if( usersArray[i]._id === user._id ) {
+        result = usersArray[i].cards;
+      }
+    }
+    //return PlayerHand.find({owner: user._id});
+    return result;
   }
 
 });
@@ -60,17 +75,19 @@ Template.playerHand.events({
   },
 
   "click #dealHand": function(){
-
+    var roomId = Router.current().params.room;
     var user = Meteor.user();
     console.log(user, 'this is the user');
-    var numHandCards = PlayerHand.find({owner: user._id}).count();
+    var numHandCards = CardsRoom.find({_id: roomId, 'users._id': user._id }, {'users.cards': 1}).count();
+    //var numHandCards = PlayerHand.find({owner: user._id}).count();
     if(numHandCards >= 10){
-      //console.log('You already have ', numHandCards, ' why not try using them?');
+      console.log('You already have ', numHandCards, ' why not try using them?');
       return;
     }
 
     // refer to decks.js for dealHand function
-    Meteor.call("dealHand", function(err, res){
+    Meteor.call("dealHand", roomId, function(err, res){
+      console.log('called Meteor.call dealHand');
       if(err){
         throw err;
       } else {
@@ -80,7 +97,7 @@ Template.playerHand.events({
     });
 
     // refer to decks.js for drawBlack function
-    Meteor.call("drawBlack", function(err, res){
+    Meteor.call("drawBlack", roomId, function(err, res){
       if(err){
         throw err;
       } else {

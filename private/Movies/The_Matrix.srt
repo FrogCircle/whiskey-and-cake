@@ -3879,7 +3879,7 @@ What is that?
 
 901
 01:18:48,890 --> 01:18:50,307
-Oh, déjà vu.
+Oh, d�j� vu.
 
 902
 01:18:53,812 --> 01:18:54,895
@@ -3888,7 +3888,7 @@ What did you just say?
 903
 01:18:55,147 --> 01:18:56,647
 Nothing.
-Just déjà vu.
+Just d�j� vu.
 
 904
 01:18:56,898 --> 01:18:58,524
@@ -3918,7 +3918,7 @@ What is it?
 
 910
 01:19:15,125 --> 01:19:19,545
-A déjà vu is usually a glitch in the
+A d�j� vu is usually a glitch in the
 Matrix when they change something.
 
 911

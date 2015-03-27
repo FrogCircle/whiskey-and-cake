@@ -1117,7 +1117,7 @@ It's their problem.
 254
 00:18:12,351 --> 00:18:15,437
 Your answer isn't,
-�face the wall.�
+?face the wall.?
 
 255
 00:18:16,147 --> 00:18:17,688
@@ -1203,12 +1203,12 @@ Have you remembered nothing?
 
 274
 00:19:43,737 --> 00:19:44,738
-�In competition...
+?In competition...
 
 275
 00:19:44,863 --> 00:19:47,699
-- �... individual ambition
-serves the common good.�
+- ?... individual ambition
+serves the common good.?
 
 276
 00:19:47,824 --> 00:19:49,744
@@ -1307,12 +1307,12 @@ Adam Smith said:
 
 298
 00:21:06,823 --> 00:21:08,784
-�The best result comes...
+?The best result comes...
 
 299
 00:21:09,741 --> 00:21:12,911
 "...from everyone in the group
-doing what's best for himself.�
+doing what's best for himself.?
 
 300
 00:21:13,036 --> 00:21:15,708
@@ -1358,7 +1358,7 @@ Thank you.
 
 310
 00:21:55,040 --> 00:21:57,709
-�C� of �S� equals �C� of �T.�
+?C? of ?S? equals ?C? of ?T.?
 
 311
 00:23:00,610 --> 00:23:04,197
@@ -1633,7 +1633,7 @@ MIT CAMPUS
 372
 00:28:33,921 --> 00:28:37,384
 Have they actually taken the word
-�classified� out of the dictionary?
+?classified? out of the dictionary?
 
 373
 00:28:37,676 --> 00:28:39,887
@@ -1682,8 +1682,8 @@ You made the cover of <i>Fortune</i> again.
 
 383
 00:29:07,872 --> 00:29:10,751
-Please note the use of the word �you,�
-not �we.�
+Please note the use of the word ?you,?
+not ?we.?
 
 384
 00:29:11,794 --> 00:29:13,879
@@ -1913,8 +1913,8 @@ for the Department of Defense?
 
 434
 00:33:03,200 --> 00:33:06,954
-Oppenheimer used to say, �A genius
-sees the answer before the question.�
+Oppenheimer used to say, ?A genius
+sees the answer before the question.?
 
 435
 00:33:07,037 --> 00:33:08,622
@@ -2062,7 +2062,7 @@ calling itself <i>Novaya Svoboda</i>...
 
 467
 00:35:44,450 --> 00:35:47,037
-...the �New Freedom,�
+...the ?New Freedom,?
 has control of the bomb...
 
 468
@@ -2297,7 +2297,7 @@ I'll pick you up Friday...
 520
 00:40:17,864 --> 00:40:22,201
 One more thing. Do you have a name,
-or should I just keep calling you �miss�?
+or should I just keep calling you ?miss??
 
 521
 00:40:24,871 --> 00:40:26,038
@@ -3197,8 +3197,8 @@ and I thought to myself:
 
 731
 01:03:06,001 --> 01:03:10,256
-�How can I miss seeing a guest lecture
-by the inimitable John Nash?�
+?How can I miss seeing a guest lecture
+by the inimitable John Nash??
 
 732
 01:03:13,259 --> 01:03:14,510
@@ -3445,7 +3445,7 @@ The prodigal roommate revealed.
 
 790
 01:08:44,359 --> 01:08:46,320
-�Saw my name on the lecture slate�?
+?Saw my name on the lecture slate??
 
 791
 01:08:47,322 --> 01:08:49,448
@@ -3459,7 +3459,7 @@ Tell me who you see.
 793
 01:08:52,411 --> 01:08:54,704
 How do you say
-�Charles Herman� in Russian?
+?Charles Herman? in Russian?
 
 794
 01:08:54,954 --> 01:08:57,122
@@ -4476,7 +4476,7 @@ What?
 
 1030
 01:33:14,024 --> 01:33:17,652
-�Schizophrenic break from reality,� right?
+?Schizophrenic break from reality,? right?
 Psychological bullshit!
 
 1031
@@ -5538,8 +5538,8 @@ at a maximum speed of...
 
 1280
 01:58:00,451 --> 01:58:03,621
-...leaves the tire of �B�
-and flies to the tire of bicycle �A�...
+...leaves the tire of ?B?
+and flies to the tire of bicycle ?A?...
 
 1281
 01:58:03,704 --> 01:58:06,916

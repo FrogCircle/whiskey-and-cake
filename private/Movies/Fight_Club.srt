@@ -6629,7 +6629,7 @@ I've ever heard.
 
 1514
 01:49:57,172 --> 01:50:00,163
-<i>I was living in a state of perpetual d茅j脿 vu.</i>
+<i>I was living in a state of perpetual d?j? vu.</i>
 
 1515
 01:50:00,976 --> 01:50:03,035
@@ -7071,7 +7071,7 @@ Is anybody here?
 
 1615
 01:55:56,447 --> 01:55:58,540
-<i>D茅j脿 vu all over again.</i>
+<i>D?j? vu all over again.</i>
 
 1616
 01:56:00,184 --> 01:56:02,675

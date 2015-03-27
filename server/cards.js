@@ -1327,7 +1327,7 @@ BlackCards = [{"cardType": "White", "text": "Flying sex snakes.", "expansion": "
   {"cardType": "White", "text": "Low-flying planes.", "expansion": "NSFH"},
   {"cardType": "White", "text": "Monkies flinging their own shit.", "expansion": "NSFH"},
   {"cardType": "White", "text": "My robot duplicate.", "expansion": "NSFH"},
-  {"cardType": "White", "text": "Other people�s children.", "expansion": "NSFH"},
+  {"cardType": "White", "text": "Other people?s children.", "expansion": "NSFH"},
   {"cardType": "White", "text": "People who can't take a joke. Seriously.", "expansion": "NSFH"},
   {"cardType": "White", "text": "Popping a boner during Sex Ed class.", "expansion": "NSFH"},
   {"cardType": "White", "text": "Projectile vomiting.", "expansion": "NSFH"},
@@ -1340,7 +1340,7 @@ BlackCards = [{"cardType": "White", "text": "Flying sex snakes.", "expansion": "
     "expansion": "NSFH"
   },
   {"cardType": "White", "text": "Slow seductive tentacle rape.", "expansion": "NSFH"},
-  {"cardType": "White", "text": "Talking like a pirate, y�arr!", "expansion": "NSFH"},
+  {"cardType": "White", "text": "Talking like a pirate, y?arr!", "expansion": "NSFH"},
   {"cardType": "White", "text": "Tenderly kissing a unicorn's horn.", "expansion": "NSFH"},
   {"cardType": "White", "text": "That bastard Jesus!", "expansion": "NSFH"},
   {"cardType": "White", "text": "The last shreads of dignity.", "expansion": "NSFH"},
@@ -1365,7 +1365,7 @@ BlackCards = [{"cardType": "White", "text": "Flying sex snakes.", "expansion": "
   {"cardType": "White", "text": "Nazi Zombie Robot Ninjas.", "expansion": "NSFH"},
   {"cardType": "White", "text": "Redneck gypsies.", "expansion": "NSFH"},
   {"cardType": "White", "text": "Scissoring.", "expansion": "NSFH"},
-  {"cardType": "White", "text": "A guy and two robots who won�t shut up.", "expansion": "NSFH"},
+  {"cardType": "White", "text": "A guy and two robots who won?t shut up.", "expansion": "NSFH"},
   {"cardType": "White", "text": "A shotgun wedding.", "expansion": "NSFH"},
   {"cardType": "White", "text": "Anne Frank's diary", "expansion": "NSFH"},
   {"cardType": "White", "text": "Autoerotic asphyxiation.", "expansion": "NSFH"},
@@ -1389,7 +1389,7 @@ BlackCards = [{"cardType": "White", "text": "Flying sex snakes.", "expansion": "
   {"cardType": "Black", "text": "_ sparked a city-wide riot that only ended with _.", "expansion": "NSFH"},
   {
     "cardType": "Black",
-    "text": "I�m very sorry Mrs. Smith, but Little Billy has tested positive for _.",
+    "text": "I?m very sorry Mrs. Smith, but Little Billy has tested positive for _.",
     "expansion": "NSFH"
   },
   {"cardType": "Black", "text": "Instead of beating them, Chris Brown now does _ to women.", "expansion": "NSFH"},

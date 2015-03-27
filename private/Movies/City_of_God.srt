@@ -3329,7 +3329,7 @@ to your rat hole. Without limping!
 718
 01:02:19,550 --> 01:02:23,850
 Tell your buddies that no one
-robs in Li'l Z”s ghetto.
+robs in Li'l Z�s ghetto.
 
 719
 01:02:24,050 --> 01:02:26,820
@@ -4827,7 +4827,7 @@ but can't shoot.
 1042
 01:34:18,800 --> 01:34:22,820
 One bullet from Knockout Ned
-was worth ten from Li'l Z”s gang.
+was worth ten from Li'l Z�s gang.
 
 1043
 01:34:23,030 --> 01:34:27,160
@@ -4973,7 +4973,7 @@ an excuse for everything.
 
 1074
 01:36:18,380 --> 01:36:20,350
-One of Li'l Z”s soldiers
+One of Li'l Z�s soldiers
 kicked me.
 
 1075
@@ -5072,7 +5072,7 @@ a.k.a. Knockout Ned..
 1095
 01:39:03,080 --> 01:39:06,480
 was hospitalized after being
-wounded by Li'l Z”s gang.
+wounded by Li'l Z�s gang.
 
 1096
 01:39:06,680 --> 01:39:08,910
@@ -6336,7 +6336,7 @@ a.k.a. Knockout Ned..
 1374
 02:04:23,530 --> 02:04:26,620
 was hospitalized after
-being wounded by Li'l Z”s gang.
+being wounded by Li'l Z�s gang.
 
 1375
 02:04:26,830 --> 02:04:29,830
