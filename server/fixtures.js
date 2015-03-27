@@ -54,8 +54,8 @@ Meteor.methods({
     //return returnRoom;
   },
 
-  JoinCardsRoom: function(roomId, userId) {
-    CardsRoom.update({_id: roomId}, {$push: {'users': userId}});
+  JoinCardsRoom: function(roomId, userObj) {
+    CardsRoom.update({_id: roomId}, {$push: {'users': userObj }});
     return CardsRoom.find({_id: roomId}).fetch();
   }
 });
