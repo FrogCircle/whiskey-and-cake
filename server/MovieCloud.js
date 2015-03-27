@@ -146,8 +146,7 @@ Meteor.methods({
       return MovieRoundData.insert(stringResult);
     };
     var id = data_convert(data, randMovies, randMovieFile.split('.')[0]);
-    var data = MovieRoundData.findOne(id);
-    return {id: data};
+    return id;
     //return data_convert(data, randMovies, randMovieFile.split('.')[0]);
   }
 

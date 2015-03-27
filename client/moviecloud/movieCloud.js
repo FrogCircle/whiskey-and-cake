@@ -57,14 +57,15 @@ Template.movieCloud.events({
         }
       };
 
-      Meteor.call('getMovieData', function(err, data){
+      Meteor.call('getMovieData', function(err, id){
         var options = [];
-        for (var i = 0; i < data.id.choices.length; i++){
-          options.push({text: data.id.choices[i].split('_').join(" ")});
+        var data = MovieRoundData.findOne(id);
+        for (var i = 0; i < data.choices.length; i++){
+          options.push({text: data.choices[i].split('_').join(" ")});
         }
         Session.set("id", options);
-        renderSVG(data.id.result);
-        Session.set("answer", data.id.chosen);
+        renderSVG(data.result);
+        Session.set("answer", data.chosen);
       });
     },
 
