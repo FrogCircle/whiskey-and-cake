@@ -1,4 +1,5 @@
 // Helper functions for player-hand-view.html
+Meteor.subscribe('CardsRoom');
 
 Template.playerHand.helpers({
   //
@@ -63,7 +64,8 @@ Template.playerHand.events({
     var roomId = Router.current().params.room;
     var user = Meteor.user();
     console.log(user, 'this is the user');
-    var numHandCards = PlayerHand.find({owner: user._id}).count();
+    var numHandCards = CardsRoom.find({_id: roomId, 'users._id': user._id }, {'users.cards': 1}).count();
+    //var numHandCards = PlayerHand.find({owner: user._id}).count();
     if(numHandCards >= 10){
       console.log('You already have ', numHandCards, ' why not try using them?');
       return;

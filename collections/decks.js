@@ -17,7 +17,7 @@ Meteor.methods({
   dealHand: function(roomId) {
     //userArray holds an array of players that are logged in using the user-status package
     //var userArray = CardsRoom.find({ _id : roomId }, { users: 1 }).fetch();
-    var userArray = CardsRoom.find({_id: roomId}, {users: 1});   // returns all users for that room
+    var userArray = CardsRoom.findOne({_id: roomId}, {users: 1});   // returns all users for that room
     console.log('userArray is ', userArray);
     var judgeCounter = 0;
     for (var i = 0; i < userArray.length; i++) {
