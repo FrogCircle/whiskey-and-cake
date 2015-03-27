@@ -24,6 +24,24 @@ Router.route('/timeshistorian', function() {
   name: 'timeshistorian'
 });
 
+Router.route('/cardsagainstsobriety/:_id', {
+  // this template will be rendered until the subscriptions are ready
+  loadingTemplate: 'layout',
+  data: function () {
+    var data =CardsRoom.find({_id: this.params._id});
+    console.log('returned cards data ', data);
+    return data;
+  },
+  waitOn: function () {
+    // return one handle, a function, or an array
+    return Meteor.subscribe('CardsRoom', this.params._id);
+  },
+
+  action: function () {
+    this.render('movieCloudHand');
+  }
+});
+
 Router.route('/moviecloud/:_id', {
   // this template will be rendered until the subscriptions are ready
   loadingTemplate: 'layout',

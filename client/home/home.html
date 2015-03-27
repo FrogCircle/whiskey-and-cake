@@ -1,12 +1,41 @@
 <template name="home">
-  <button id="createRoom" name="createRoom">Create Room</button>
-  <button id="joinRoom" name="joinRoom">Join Room</button>
-
   <p>These are temporary links</p>
   <ul>
     <li><a href="{{pathFor route='cardsagainstsobriety'}}">Cards Against Sobreity</a></li>
     <li><a href="{{pathFor route='moviecloud'}}">Movie Cloud</a></li>
     <li><a href="{{pathFor route='timeshistorian'}}">Times Historian</a></li>
   </ul>
+  <div class="row">
+    <div class="col-md-4 well">
+      <h4>Cards Against Sobriety</h4>
+      <p>Available Rooms</p>
+      <ul>
+        <li>
+          <!--<a href="{{pathFor route='cardsagainstsobriety/:roomId'}}">Join Room</a>-->
+        </li>
+      </ul>
+      <p>Or Create Your Own Room</p>
+      <button id="createCardsRoom" name="createRoomCards">Create Room</button>
+    </div>
+    <div class="col-md-4 well">
+      <h4>Movie Cloud</h4>
+      <p>Available Rooms</p>
+      <ul>
+        <li>Put rooms here</li>
+      </ul>
+      <p>Or Create Your Own Room</p>
+      <button id="createRoomMovie" name="createRoomMovie">Create Room</button>
+    </div>
+    <div class="col-md-4 well">
+      <h4>Times Historian</h4>
+      <p>Available Rooms</p>
+      <ul>
+        <li>Put rooms here</li>
+      </ul>
+      <p>Or Create Your Own Room</p>
+      <button id="createRoomTimes" name="createRoomTimes">Create Room</button>
+    </div>
+  </div>
+
 
 </template>

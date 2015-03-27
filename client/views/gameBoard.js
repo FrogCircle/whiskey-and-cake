@@ -1,6 +1,7 @@
 Template.gameBoard.helpers({
 
   // Returns all online users
+  //CHANGE THIS TO FIND ONLY USERS IN THIS GAME
   users: function(){
     return Meteor.users.find({'status.online': true});
   },

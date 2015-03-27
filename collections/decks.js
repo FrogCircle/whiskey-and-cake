@@ -17,7 +17,7 @@ Meteor.methods({
   dealHand: function(roomId) {
     //userArray holds an array of players that are logged in using the user-status package
     //var userArray = CardsRoom.find({ _id : roomId }, { users: 1 }).fetch();
-    var userArray = CardsRoom.find({_id: roomId}, {users: 1});
+    var userArray = CardsRoom.find({_id: roomId}, {users: 1});   // returns all users for that room
     var judgeCounter = 0;
     for (var i = 0; i < userArray.length; i++) {
       if (userArray[i].judge === true) {
@@ -118,7 +118,9 @@ Meteor.methods({
 
   // rotates judge role after each round
   toggleJudge: function() {
+    //var userArray = CardsRoom.find({_id: roomId}, {users: 1});
     var userArray = CardsRoom.find({_id: roomId}, {users: 1});
+
     //iterate through all active users
     for (var i = 0; i < userArray.length; i++) {
       //if that user is the judge

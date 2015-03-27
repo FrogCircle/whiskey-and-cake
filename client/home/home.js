@@ -6,9 +6,9 @@ Template.home.helpers({
 
 // player-hand-view.html template event listeners
 Template.home.events({
-  "click #createRoom": function(){
-    Meteor.call('CreateRoom', function(){
-      console.log("in events");
+  "click #createCardsRoom": function(){
+    Meteor.call('CreateCardsRoom', function(room){
+      console.log("room ", room);
     });
     console.log("create room clicked");
   }
