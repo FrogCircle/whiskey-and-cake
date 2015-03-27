@@ -29,8 +29,8 @@ Router.route('/cardsagainstsobriety/:room', {
   loadingTemplate: 'layout',
   data: function () {
     console.log('this.params is ', this.params);
+    var data = CardsRoom.findOne({_id: this.params.room});
     console.log('returned cards data ', data);
-    var data =CardsRoom.find({_id: this.params.room});
     return data;
   },
   waitOn: function () {

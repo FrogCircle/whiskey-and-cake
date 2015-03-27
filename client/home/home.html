@@ -10,9 +10,11 @@
       <h4>Cards Against Sobriety</h4>
       <p>Available Rooms</p>
       <ul>
+        {{#each createRoom}}
         <li>
-          <a href="{{pathFor route='cardsagainstsobriety2' data=createRoom }}">New Room</a>
+          <a href="{{pathFor route='cardsagainstsobriety2' data=roomId}}">New Room</a>
         </li>
+        {{/each}}
       </ul>
       <p>Or Create Your Own Room</p>
       <button id="createCardsRoom" name="createRoomCards">Create Room</button>

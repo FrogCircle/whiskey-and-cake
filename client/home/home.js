@@ -3,6 +3,9 @@ Template.home.helpers({
     console.log("createRoom fcn called");
     console.log('Session.get(roomId) is ', Session.get('roomId'));
     return Session.get('roomId');
+  },
+  getRooms: function(roomType) {
+    //code here to get rooms for a room type
   }
 });
 
@@ -11,7 +14,7 @@ Template.home.events({
   "click #createCardsRoom": function(){
     Meteor.call('CreateCardsRoom', function(error, room){
       //room.room = '/cardsagainstsobriety/' + room.room;
-      //room = [room];
+      room = [room];
       console.log("room is ", room);
       Session.set('roomId', room);
       console.log('Session is ', Session);
