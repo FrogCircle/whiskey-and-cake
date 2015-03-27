@@ -23,3 +23,17 @@ Router.route('/timeshistorian', function() {
 }, {
   name: 'timeshistorian'
 });
+
+Router.route('/moviecloud/:_id', {
+  // this template will be rendered until the subscriptions are ready
+  loadingTemplate: 'layout',
+
+  waitOn: function () {
+    // return one handle, a function, or an array
+    return Meteor.subscribe('MovieRoundData', this.params._id);
+  },
+
+  action: function () {
+    this.render('movieCloudHand');
+  }
+});
