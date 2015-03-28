@@ -1,6 +1,23 @@
 Meteor.methods({
 
-  getTimesData: function(){
+  createRoomTimes: function(roomID){
+    var insertObj =
+    { "_id": roomID,
+      "users": [],
+      "scoreBoard": {},
+      "answered": false,
+      "gameBoard": {"result": [], "choices": [], "chosen": ""},
+      "roundInfo": {"roundNum": 0,  "lastWinner": ""}
+    }
+    TimesHistorianRoom.insert(insertObj);
+  },
+
+  setWinnerTimes: function( roomId, data ){
+    console.log(TimesHistorianRoom.update({"_id": roomId}, {$set:data}));
+  },
+
+  getTimesData: function(roomID){
+    console.log("Getting Times Data");
 
     // function to take a date and return it in the right string format
     var dateToString = function(inputDate){
@@ -48,28 +65,31 @@ Meteor.methods({
       // converting to string
       var randomDate = dateToString(randDate);
       var parsedArticles = [];
-
-      // turning aync call to a sync
-      var syncCall= Meteor.wrapAsync(HTTP.call);
-      // querying api
-      var data = syncCall('GET', "http://api.nytimes.com/svc/search/v2/articlesearch.json?begin_date="+randomDate+"&end_date="+randomDate+"&api-key=654452f497823c3cdae2119e3bdd6b4f:9:71687614");
-      // looping through results to only find ones with valid lead paragraphs
-      for (var i = 0; i < data.data.response.docs.length; i++){
-        if (data.data.response.docs[i].lead_paragraph && parsedArticles.length < 5){
-          parsedArticles.push(data.data.response.docs[i].lead_paragraph);
+      console.log(123);
+      HTTP.get("http://api.nytimes.com/svc/search/v2/articlesearch.json?begin_date="+randomDate+"&end_date="+randomDate+"&api-key=654452f497823c3cdae2119e3bdd6b4f:9:71687614",{}, function(err, data){
+        console.log(123);
+        for (var i = 0; i < data.data.response.docs.length; i++){
+          if (data.data.response.docs[i].lead_paragraph && parsedArticles.length < 5){
+            parsedArticles.push(data.data.response.docs[i].lead_paragraph);
+          }
         }
-      }
-      return {'results': parsedArticles, 'chosen': randDate, 'choices': getRandDecades(randDate)};
-    };
 
-  var data = getArticles();
-  var id =  TimesHistorianData.insert(data);
-  // should be returning id, but see the bug documentation client side
-  return data;
+        var temp = [];
+        var decades = getRandDecades(randDate);
+        for (var i = 0; i < decades.length; i++){
+          temp.push({'text': decades[i]});
+        }
+        var stringResult = {'result': parsedArticles, 'choices': temp, 'chosen': randDate};
+        console.log(stringResult);
+        console.log(TimesHistorianRoom.update({"_id": roomID}, {$set: {'gameBoard': stringResult, 'answered': false}}));
+        return true;
+      });
+    };
+    getArticles();
 
   }
 })
 
-Meteor.publish("TimesHistorianData", function() {
-  return TimesHistorianData.find();
+Meteor.publish("TimesHistorianRoom", function() {
+  return TimesHistorianRoom.find();
 });
