@@ -7,7 +7,13 @@
 var PlayerHand = {};
 var GameBoard = {};
 var RoundInfo = {};
+Meteor.call('createRoomTimes', "ABCD", function(err, id){
+  console.log(123);
+});
 
+Meteor.call('createRoom', "ABCD", function(err, id){
+  console.log(123);
+});
 Meteor.methods({
   CreateCardsRoom: function() {
     var WhiteDeck = [];

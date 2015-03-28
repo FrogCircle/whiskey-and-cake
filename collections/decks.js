@@ -109,18 +109,18 @@ Meteor.methods({
   },
 
   //increment score of card owner
-  incrementScore: function(cardOwner) {
+  incrementScore: function(roomId, cardOwner) {
     CardsRoom.update({_id: roomId, "users._id": cardOwner}, {$inc: {'users.$.score': 1}});
     Meteor.users.update({_id: cardOwner}, {$inc: {'score': 1}});
   },
 
   // signals the end of the inserting a roundOver property and setting it to true
-  endRound: function() {
+  endRound: function(roomId) {
     CardsRoom.update({_id: roomId}, {$set: {'RoundInfo.roundOver': true}})
   },
 
   // resets the round by removing the roundOver property
-  newRound: function() {
+  newRound: function(roomId) {
     var round = CardsRoom.update({_id: roomId}, {$pop: {RoundInfo: 1}}).fetch();
     //var round = RoundInfo.findOne({});
     //RoundInfo.remove({_id: round._id});
@@ -137,12 +137,12 @@ Meteor.methods({
   },
 
   // clears gameboard & starts new round
-  clearGameBoard: function() {
+  clearGameBoard: function(roomId) {
     CardsRoom.update({_id: roomId}, {$set: {'GameBoard': []}});
   },
 
   // rotates judge role after each round
-  toggleJudge: function() {
+  toggleJudge: function(roomId) {
     //var userArray = CardsRoom.find({_id: roomId}, {users: 1});
     var userArray = CardsRoom.find({_id: roomId}, {users: 1});
 

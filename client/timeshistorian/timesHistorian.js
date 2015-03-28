@@ -31,9 +31,12 @@ Template.timesHistorian.events({
       // Meteor.call('createRoomTimes', "ABCD", function(err, id){
       //   console.log(123);
       // });
-
-      Meteor.call('getTimesData', "ABCD", function(err, id){
-      });
+      if (Meteor.user().username === 'eddolan'){
+        Meteor.call('getTimesData', "ABCD", function(err, id){
+        });
+      } else{
+        alert("don't you dare touch Eddie's button. We have logged your IP and Shawn Drost will be notified immediately");
+      }
     },
 
     "click .card": function (event){
