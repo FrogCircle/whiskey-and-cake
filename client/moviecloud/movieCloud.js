@@ -61,9 +61,12 @@ Template.movieCloud.events({
       // Meteor.call('createRoom', "ABCD", function(err, id){
       //   console.log(123);
       // });
-
-      Meteor.call('getMovieData', "ABCD", Meteor.user().username, function(err, id){
-      });
+      if (Meteor.user().username === 'eddolan'){
+        Meteor.call('getMovieData', "ABCD", Meteor.user().username, function(err, id){
+        });
+      } else{
+        alert("don't you dare touch Eddie's button. We have logged your IP and Shawn Drost will be notified immediately");
+      }
     },
 
     "click .card": function (event){
