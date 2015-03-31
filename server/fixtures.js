@@ -61,9 +61,19 @@ Meteor.methods({
   },
 
   JoinCardsRoom: function(roomId, userObj) {
-    console.log('userObj is ', userObj);
-    CardsRoom.update({_id: roomId}, {$push: {'users': userObj }});
-    console.log('CardsRoom.find({_id: roomId}).fetch() is ', CardsRoom.find({_id: roomId}).fetch());
+    var gameInfo = CardsRoom.findOne({_id: roomId});
+    console.log('Join cards room called');
+    var userArray = gameInfo.users;
+    var userFound = false;
+    for( var i = 0, len = userArray.length; i < len; i++ ) {
+      if ( userArray[i]._id === userObj._id ) {
+        console.log('UserFound', userFound);
+        userFound = true;
+      }
+    }
+    if( !userFound ) {
+      CardsRoom.update({_id: roomId}, {$push: {'users': userObj }});
+    }
     return CardsRoom.find({_id: roomId}).fetch();
   }
 });

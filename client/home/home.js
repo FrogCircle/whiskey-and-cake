@@ -48,6 +48,7 @@ Template.home.events({
     var userObj = Meteor.user();
     console.log('this is', this);
     var roomId = this.room.room;
+    Session.set('roomUrl', roomId);
     Meteor.call('JoinCardsRoom', roomId, userObj, function(error, result) {
       console.log('inside joinCardsRoom ', result);
     });
