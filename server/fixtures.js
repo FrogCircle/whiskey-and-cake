@@ -31,7 +31,8 @@ Meteor.methods({
     for (var i = 0; i < BlackCards.length; i++) {
       BlackDeck.push({
         text: BlackCards[i]["text"],
-        expansion: BlackCards[i]["expansion"]
+        expansion: BlackCards[i]["expansion"],
+        no: i
       });
     }
 

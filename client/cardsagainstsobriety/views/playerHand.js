@@ -32,23 +32,28 @@ Template.playerHand.events({
 
   // user clicks on a white card
   "click .playCard": function(){
+    var card = this;
     var user = Meteor.user();
+    var isJudge;
     var _roomId = Session.get('roomUrl') || getId();
     var gameInformation = CardsRoom.findOne({_id: _roomId}, {users: 1});   // returns all users for that room
     var userArray = gameInformation.users;
     // if user is the judge, he cannot play a white card
     for( var i = 0, len = userArray.length; i < len; i++) {
       if ( userArray[i]._id === user._id ) {
-        console.log('YOU DA JUDGE BRO, NO PLAYING CARDS');
-        return;
+        if( userArray[i].judge ) {
+          isJudge = true;
+          console.log('YOU DA JUDGE BRO, NO PLAYING CARDS');
+          return;
+        }
       }
     }
 
     // each user can only play one white card per round
     //CardsRoom.find({_id: _roomId}).fetch()[0].GameBoard;
       var board = CardsRoom.find({_id: _roomId}).fetch()[0].GameBoard;
-      for( var i = 0, len = GameBoardArray.length; i < len; i++ ) {
-        if( board[i].owner === user ){
+      for( var i = 0, len = board.length; i < len; i++ ) {
+        if( board[i].owner === user._id ) {
         //if(GameBoard.find({owner: user._id}).fetch().length > 0){
           console.log("Yo, you've already played a card!");
           return;
@@ -56,9 +61,9 @@ Template.playerHand.events({
       }
 
     // refer to decks.js for playCard function
-    Meteor.call('playCard', this, _roomId, function(err, id) {
+    Meteor.call('playCard', card, _roomId, function(err, id) {
       console.log('card being played');
-      console.log(this);
+      console.log('card is ', card);
       if (err) {
         throw err;
       }
@@ -82,7 +87,7 @@ Template.playerHand.events({
       if(err){
         throw err;
       } else {
-        //console.log('Board Cleared');
+        console.log('Board Cleared');
       }
     })
   },
@@ -96,10 +101,10 @@ Template.playerHand.events({
     var numHandCards;
     for ( var  i = 0, size = userArray.length; i < size; i++) {
       if ( userArray[i]._id === user._id ) {
+        numHandCards = userArray[i].cards === undefined? 0: userArray[i].cards.length;
         if( numHandCards >= 10 ){
-          numHandCards = userArray[i].cards.length;
           console.log('You already have ', numHandCards, ' why not try using them?');
-          return;
+          //return;
         }
       }
     }
@@ -120,7 +125,7 @@ Template.playerHand.events({
       if(err){
         throw err;
       } else {
-        //console.log('Board Cleared');
+        console.log('drawBlack called');
       }
     })
   }

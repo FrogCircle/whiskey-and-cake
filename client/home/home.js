@@ -37,8 +37,9 @@ Template.home.events({
 
   "click .joinNewRoom": function() {
     var userObj = Meteor.user();
+    userObj.judge = false;
     userObj.cards = [];
-    console.log('this is', this);
+    console.log('userObj is ', userObj);
     var roomId = this.room;
     Meteor.call('JoinCardsRoom', roomId, userObj, function(error, result) {
       console.log('inside joinCardsRoom ', result);
@@ -46,7 +47,8 @@ Template.home.events({
   },
   "click .joinExistingRoom": function() {
     var userObj = Meteor.user();
-    console.log('this is', this);
+    userObj.judge = false;
+    console.log('userObj is ', userObj);
     var roomId = this.room.room;
     Session.set('roomUrl', roomId);
     Meteor.call('JoinCardsRoom', roomId, userObj, function(error, result) {

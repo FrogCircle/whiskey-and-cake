@@ -23,6 +23,21 @@ Template.gameBoard.helpers({
     // return Meteor.users.find({'status.online': true});
   },
 
+  currentUser: function() {
+    var user = Meteor.user();
+    var _roomId = Session.get('roomUrl') || getId();
+    var gameInformation = CardsRoom.findOne({_id: _roomId}, {users: 1});   // returns all users for that room
+    var userArray = gameInformation.users;
+    // if user is the judge, he cannot play a white card
+    for( var i = 0, len = userArray.length; i < len; i++) {
+      if ( userArray[i]._id === user._id ) {
+        if( userArray[i].judge ) {
+          return userArray[i];
+        }
+      }
+    }
+  },
+
   // Returns the black question card currently on the GameBoard
   question: function(){
     var _roomId = Session.get('roomUrl') || getId();
@@ -53,11 +68,22 @@ Template.gameBoard.helpers({
 
   // Returns the total number of online players
   numPlayers: function(){
-    if (Meteor.users.find({'status.online': true}).count() === 0) {
+    var _roomId = Session.get('roomUrl') || getId();
+    console.log('_roomId is ', _roomId);
+    //get number of users in room
+    var gameInformation = CardsRoom.findOne({_id: _roomId}, {users: 1});   // returns all users for that room
+    var userArray = gameInformation.users;
+    var numberPlayers = userArray.length;
+    if ( numberPlayers === 0 ) {
       return 'NO';
     } else {
-      return Meteor.users.find({'status.online': true}).count();
+      return numberPlayers;
     }
+    //if (Meteor.users.find({'status.online': true}).count() === 0) {
+    //  return 'NO';
+    //} else {
+    //  return Meteor.users.find({'status.online': true}).count();
+    //}
   },
 
   playersInRoom: function() {
@@ -129,6 +155,7 @@ Template.gameBoard.helpers({
 
 Template.gameBoard.events({
   "click .answerCards": function (event) {
+    console.log('this in answerCards ', this);
     event.stopPropagation();
     var _roomId = getId();
     // calls endRound from deck.js, which sets roundOver to true for the winnerChosen helper above

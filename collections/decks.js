@@ -49,8 +49,13 @@ Meteor.methods({
       console.log('userArray[j] is ', userArray[j]);
       if ( !userArray[j].cards || userArray[j].cards.length === 0 ) {//PlayerHand
         for (var i = 0; i < 10; i++) {
-          var whiteCard = CardsRoom.find({_id: roomId}).fetch()[0].WhiteDeck.pop();
+          var whiteDeck = CardsRoom.find({_id: roomId}).fetch()[0].WhiteDeck;
+          var cardNumber = whiteDeck.length;
+          var whiteCard = whiteDeck.pop();
+          //var whiteCard = CardsRoom.find({_id: roomId}).fetch()[0].WhiteDeck.pop();
           CardsRoom.update({_id: roomId}, {$pop: {WhiteDeck: 1}});
+          whiteCard.no = cardNumber;
+          whiteCard.owner = userArray[j]._id;
           console.log('whiteCard is ', whiteCard);
           CardsRoom.update({_id: roomId, 'users._id': userArray[j]._id}, {$push: {'users.$.cards': whiteCard}});
         }
@@ -89,20 +94,30 @@ Meteor.methods({
   },
   // adds card to game board with the user id and removes from playerhand
   playCard: function(card, roomId) {
+    console.log('in deck.js playCard');
+    console.log('car in deck.js playCard', card);
     var user = Meteor.user();
     var gameInformation = CardsRoom.findOne({_id: roomId}, {users: 1});   // returns all users for that room
     var userArray = gameInformation.users;
     for( var i = 0, len = userArray.length; i < len; i++ ) {
-      if( userArray[i].username === user ) {
-        CardsRoom.update({_id: roomId, 'users._id': userArray[i]._id}, {$pull: {'users.cards': card.text}});
-        CardsRoom.update({_id: roomId}, {
-            GameBoard: {
-              no: card.no,
-              text: card.text,
-              expansion: card.expansion,
-              black: false,
-              owner: card.owner
-            }
+      if( userArray[i]._id === user._id ) {
+        CardsRoom.update({_id: roomId, 'users._id': userArray[i]._id}, {$pull: {'users.$.cards': card.text}});
+        console.log('card inside deck.js playCard is ', card);
+/*        var cardObj = { "no": 1,
+          "text": card.text,
+          "expansion": card.expansion,
+          "black": false,
+          "owner": 'jonah'
+        };*/
+        var cardObj = { "no": card.no,
+          "text": card.text,
+          "expansion": card.expansion,
+          "black": false,
+          "owner": card.owner
+        };
+        console.log('roomId in deck.js ', roomId);
+        CardsRoom.update({_id: roomId}, { $push:
+          {"GameBoard": cardObj }
           }
         );
       }
@@ -113,7 +128,13 @@ Meteor.methods({
   drawBlack: function(roomId) {
     CardsRoom.update({_id: roomId}, {$set: {'GameBoard': []}});
     //fetches array of BlackCards from collection and pops off card. NOTE: unattached array
-    var blackCard = CardsRoom.find({_id: roomId}).fetch()[0].BlackDeck.pop();
+    var blackDeck = CardsRoom.find({_id: roomId}).fetch()[0].BlackDeck;
+    var cardNum = blackDeck.length;
+    var blackCard = blackDeck.pop();
+    blackCard.no = cardNum;
+    blackCard.black = true;
+    blackCard.owner =
+
     //this line required to remove card from collection
     CardsRoom.update({_id: roomId}, {$pop: {BlackDeck: 1}});
     CardsRoom.update({_id: roomId}, {$push: {'GameBoard': blackCard}});
