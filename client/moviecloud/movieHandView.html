@@ -1,16 +1,18 @@
 <!-- Template that shows the cards dealt to each player -->
 
 <template name="movieCloudHand">
-  <div class="playerHand" style="width:100%;">
-    <div class="playerHand container">
-      <h3>Which movie is this?</h3>
-      <div>
-        {{#each getOptions}}
-          <div class="playCard">
-            {{> whiteMovieCard}}
-          </div>
-        {{/each}}
+  {{#if ready}}
+    <div class="playerHand" style="width:100%;">
+      <div class="playerHand container">
+        <h3>Which movie is this?</h3>
+        <div>
+          {{#each getOptions.gameBoard.choices}}
+            <div class="playCard">
+              {{> whiteMovieCard}}
+            </div>
+          {{/each}}
+        </div>
       </div>
     </div>
-  </div>
+  {{/if}}
 </template>

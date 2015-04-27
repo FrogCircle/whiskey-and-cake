@@ -44,7 +44,6 @@ Router.route('/cardsagainstsobriety/:room', {
 */
 
   action: function () {
-    console.log(123);
     this.render('cardsAgainstSobriety', {to: 'show'});
   },
   name: 'cardsagainstsobriety2'

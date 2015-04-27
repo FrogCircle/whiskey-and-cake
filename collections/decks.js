@@ -12,6 +12,13 @@ TimesHistorianRoom = new Meteor.Collection("TimesHistorianRoom");
 // This is done by initializing a roundOver property of this collection when the judge picks a winner
 // Then that property is deleted when a new round is started
 
+MovieRooms.allow({
+  update: function(userId, doc, fields, modifier){
+    return true;
+  }
+});
+
+
 //This is where we hold our methods that get called from the client side
 Meteor.methods({
   // function deals a player hand at the beginning of the game

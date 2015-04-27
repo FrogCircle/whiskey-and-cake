@@ -1,0 +1,24 @@
+<template name='scoreBoard'>
+  <div class='container'>
+    <h3>ScoreBoard</h3>
+    {{> leadeboard}}
+  </div>
+</template>
+
+<template name='leadeboard'>
+  <div id='player'>
+    {{#each players}}
+      {{>playerScore}}
+    {{/each}}
+    <h4>Last Winner</h4>
+    {{lastWinner}}
+    <h4>Round Number</h4>
+    {{roundNum}}
+  </div>
+</template>
+
+<template name='playerScore'>
+  <div>
+    <b>{{name}}: </b> {{points}}
+  </div>
+</template>
