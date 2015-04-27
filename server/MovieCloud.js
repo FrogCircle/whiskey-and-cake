@@ -82,7 +82,7 @@ Meteor.methods({
     var insertObj =
     { "_id": roomID,
       "users": [],
-      "scoreBoard": {},
+      "scoreBoard": [],
       "answered": false,
       "gameBoard": {"result": [], "choices": [], "chosen": ""},
       "roundInfo": {"roundNum": 0,  "lastWinner": ""}
