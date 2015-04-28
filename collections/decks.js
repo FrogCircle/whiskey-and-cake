@@ -15,9 +15,20 @@ TimesHistorianRoom = new Meteor.Collection("TimesHistorianRoom");
 MovieRooms.allow({
   update: function(userId, doc, fields, modifier){
     return true;
+  },
+  insert: function(userId, doc, fields, modifier){
+    return true;
   }
 });
 
+TimesHistorianRoom.allow({
+  update: function(userId, doc, fields, modifier){
+    return true;
+  },
+  insert: function(userId, doc, fields, modifier){
+    return true;
+  }
+});
 
 //This is where we hold our methods that get called from the client side
 Meteor.methods({

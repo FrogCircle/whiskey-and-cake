@@ -1,16 +1,18 @@
 <!-- Template that shows the cards dealt to each player -->
 
 <template name="timesHistorianHand">
-  <div class="playerHand" style="width:100%;">
-    <div class="playerHand container">
-      <h3>What Decade is this from?</h3>
-      <div>
-        {{#each getOptions}}
-          <div class="playCard">
-            {{> whiteTimesCard}}
-          </div>
-        {{/each}}
+  {{#if ready}}
+    <div class="playerHand" style="width:100%;">
+      <div class="playerHand container">
+        <h3>{{getText.prompt}}</h3>
+        <div>
+          {{#each getOptions.gameBoard.choices}}
+            <div class="playCard">
+              {{> whiteTimesCard}}
+            </div>
+          {{/each}}
+        </div>
       </div>
     </div>
-  </div>
+  {{/if}}
 </template>

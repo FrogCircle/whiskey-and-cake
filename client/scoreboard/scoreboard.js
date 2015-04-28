@@ -1,13 +1,22 @@
 Template.leadeboard.helpers({
   players: function(){
-    return Session.get('gameData').scoreBoard;
+    if (Session.get('gameData')){
+      return Session.get('gameData').scoreBoard;
+    }
+    return;
   },
 
   lastWinner: function(){
-    return Session.get('gameData').roundInfo.lastWinner;
+    if (Session.get('gameData')){
+      return Session.get('gameData').roundInfo.lastWinner;
+    }
+    return;
   },
 
   roundNum: function(){
-    return Session.get('gameData').roundInfo.roundNum;
+    if (Session.get('gameData')){
+      return Session.get('gameData').roundInfo.roundNum;
+    }
+    return;
   }
 });
