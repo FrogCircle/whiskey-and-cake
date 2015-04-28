@@ -50,7 +50,6 @@ Meteor.methods({
       }
       return result.sort();
     };
-
     // function to get the articles
     var getArticles = function(cb){
       var startDate = new Date(1851, 8, 19);
@@ -77,7 +76,7 @@ Meteor.methods({
         randDate[3] = '0';
         randDate = randDate.join('');
         var stringResult = {'result': parsedArticles, 'choices': temp, 'chosen': randDate};
-        console.log(TimesHistorianRoom.update({"_id": roomID}, {$set: {'gameBoard': stringResult, 'answered': false}}));
+        TimesHistorianRoom.update({"_id": roomID}, {$set: {'gameBoard': stringResult, 'answered': false}});
         cb(err, data);
       });
     };

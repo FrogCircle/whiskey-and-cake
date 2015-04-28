@@ -1,8 +1,14 @@
 node_modules/
 bower_components/
 *.log
-
+.DS_Store
 build/
 dist/
 .idea
 .idea/dbnavigator.xml
+.meteor
+.DS_Store
+.gitignore
+.meteor/packages
+client/.DS_Store
+client/moviecloud/.DS_Store

@@ -29,3 +29,11 @@ node_modules/
 bower_components/
 
 .idea/
+
+
+
+.DS_Store
+.gitignore
+.meteor/packages
+client/.DS_Store
+client/moviecloud/.DS_Store

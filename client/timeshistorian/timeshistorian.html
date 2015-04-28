@@ -1,12 +1,13 @@
 <template name="timesHistorian">
   <div class="row">
     <div class="col-md-2">
-      <h1>Times Historian</h1>
-      <p>You made it to Times Historian</p>
-      <button class="timesButton">Get NYT Data</button>
+      <h1>{{getText.title}}</h1>
+      <p>{{getText.subtitle}}</p>
+      <button class="timesButton">{{getText.button}}</button>
       </div>
     <div class="col-md-10">
       <div class="articles"></div>
+      <div class="movieSVG"></div>
       {{>timesHistorianHand}}
     </div>
   </div>
