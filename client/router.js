@@ -28,25 +28,32 @@ Router.route('/timeshistorian', function() {
 Router.route('/cardsagainstsobriety/:room', {
   // this template will be rendered until the subscriptions are ready
   loadingTemplate: 'layout',
-/*
-  data: function () {
-    console.log('this.params is ', this.params);
-    var data = CardsRoom.findOne({_id: this.params.room});
-    console.log('returned cards data ', data);
-    return data;
+  onBeforeAction: function() {
+    Session.set('currentRoomId', this.params.room);
+    console.log('currentRoomId is ', this.params.room);
+    this.next();
   },
-*/
-/*
   waitOn: function () {
-    // return one handle, a function, or an array
-    return Meteor.subscribe('CardsRoom', this.params.room);
+    // subscibe only to the messages for this room
+    return Meteor.subscribe('roomMessages', this.params.room);
   },
-*/
+  data: function () {
+    var roomMessages = Messages.findOne({roomId: this.params.room});
+    return {
+      messages : roomMessages
+    }
+  },
 
   action: function () {
     this.render('cardsAgainstSobriety', {to: 'show'});
   },
-  name: 'cardsagainstsobriety2'
+  name: 'cardsagainstsobriety2',
+  onStop: function() {
+    //// Remove the user from the list of users.
+    //var roomUserId = Session.get('userRoomId');
+    //RoomUsers.remove({ _id : roomUserId });
+    Session.set('currentRoomId', null);
+  }
 });
 
 Router.route('/moviecloud/:_id', {

@@ -1,17 +1,22 @@
 chatStream = new Meteor.Stream('chat');
 chatCollection = new Meteor.Collection(null);
 
-chatStream.on('chat', function(message) {
-  chatCollection.insert({
-    userId: this.userId,
-    subscriptionId: this.subscriptionId,
-    message: message
-  });
+var getId = function() {
+  console.log('555currentRoomId in chat.js ', Session.get('currentRoomId'));
+  return Session.get('currentRoomId');
+};
+var roomId = getId() || null;
+
+
+chatStream.on(getId(), function(message) {
+  console.log('MYMSG IS ', message);
 });
 
 Template.chatBox.helpers({
   "messages": function() {
-    return chatCollection.find();
+    var roomMessages = Messages.findOne({roomId: getId()});
+    console.log('roomMessages in chatBox helpers is ', roomMessages);
+    return roomMessages.messages;
   }
 });
 
@@ -38,12 +43,15 @@ Template.chatMessage.helpers({
 Template.chatBox.events({
   "click #send": function() {
     var message = $('#chat-message').val();
-    chatCollection.insert({
-      userId: 'me',
-      message: message
+    //chatCollection.insert({
+    //  userId: 'me',
+    //  message: message
+    //});
+    Meteor.call('addMessageForRoom', getId(), message, function(data) {
+      //message data is returned via a server emit
     });
-    chatStream.emit('chat', message);
-    $('#chat-message').val('');
+    //chatStream.emit('chat', roomId, message);
+    //$('#chat-message').val('');
   }
 });
 
