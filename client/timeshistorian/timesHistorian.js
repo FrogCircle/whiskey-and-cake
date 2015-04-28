@@ -447,15 +447,39 @@ var renderLines = function(articles){
   }
 };
 
-var serveGame = function(collectionName, serverCall, renderFunc, textObj){
+
+var serveGame = function(gameName, roomID){
+
+  var gameData = {
+    timesHistorian: {
+      collectionName: 'TimesHistorianRoom',
+      serverCall: 'getTimesData',
+      renderFunc: renderLines,
+      textObj: {prompt:'What decade is this from?',
+                 title:'Times Historian',
+                 subtitle:'You made it to Times Historian',
+                 button:'Get NYT data'}
+    },
+    movieCloud: {
+      collectionName: 'MovieRooms',
+      serverCall: 'getMovieData',
+      renderFunc: renderSVG,
+      textObj: {prompt:'What Movie is this?',
+                 title:'Movie Cloud',
+                 subtitle:'You made it to Movie Cloud',
+                 button:'Get movie data'}
+    }
+  }
+  var data = gameData[gameName]
+
   Template.timesHistorianHand.created = function () {
     // The created function and the ready function work together and
     // prever the template from looking for data before it is loaded,
     // which would throw a non-breaking error in browser.
     this.subscriptions = [
-      Meteor.subscribe(collectionName)
+      Meteor.subscribe(data.collectionName)
     ];
-    collection = eval(collectionName);
+    collection = eval(data.collectionName);
   };
 
   Template.timesHistorianHand.destroyed = function () {
@@ -475,13 +499,13 @@ var serveGame = function(collectionName, serverCall, renderFunc, textObj){
       });
     },
     getText: function(){
-      return textObj;
+      return data.textObj;
     }
   });
 
   Template.timesHistorian.helpers({
     getText: function(){
-      return textObj;
+      return data.textObj;
     }
   });
 
@@ -496,17 +520,15 @@ var serveGame = function(collectionName, serverCall, renderFunc, textObj){
         // Create room populates the DB with the neccisarry document and doesn't
         // need to be called every time, only when you need to delete and recreate
         // document
-        // Meteor.call('createRoomTimes', 'ABCD');
         // If there is no game or if the current game is over
         if (!Session.get('gameData') || Session.get('gameData').answered){
           // Calling a function on the server which will update the database
-          Meteor.call(serverCall, "ABCD", Meteor.user().username, function(err, id){
+          Meteor.call(data.serverCall, roomID, Meteor.user().username, function(err, id){
             // In the call back (which runs after the data is in the db), we set the
             // game data to session which triggers full stack reactivity, but we have
             // to manually call render SVG as it is not reactive
-            Session.set('gameData', collection.findOne("ABCD"));
-            renderFunc(Session.get('gameData').gameBoard.result);
-            console.log(Session.get('gameData'));
+            Session.set('gameData', collection.findOne(roomID));
+            data.renderFunc(Session.get('gameData').gameBoard.result);
           });
         } else {
           alert("The current game is in progress and there is no winnder yet!")
@@ -558,10 +580,10 @@ var serveGame = function(collectionName, serverCall, renderFunc, textObj){
             // When updating you can't update _id so it is deleted from data object
             delete data['_id'];
             // Checking data back into db
-            collection.update("ABCD", {$set: data});
+            collection.update(roomID, {$set: data});
             // updating the Session - This will get re-set to exactlyt he same when Meteor
             // triggers the update from the server, so essentially this is latency compensation
-            Session.set('gameData',collection.findOne("ABCD"));
+            Session.set('gameData',collection.findOne(roomID));
             alert('You won!');
           } else{
             alert('You are right, but not the first one to answer')
@@ -574,14 +596,5 @@ var serveGame = function(collectionName, serverCall, renderFunc, textObj){
   });
 };
 
-
-var collection;
-// serveGame('TimesHistorianRoom', 'getTimesData', renderLines, {prompt:'What decade is this from?',
-                                                    // title:'Times Historian',
-                                                    // subtitle:'You made it to Times Historian',
-                                                    // button:'Get NYT data'});
-serveGame('MovieRooms', 'getMovieData', renderSVG, {prompt:'What Movie is this?',
-                                                    title:'Movie Cloud',
-                                                    subtitle:'You made it to Movie Cloud',
-                                                    button:'Get movie data'});
-
+serveGame('movieCloud','BCDEFG');
+// serveGame('timesHistorian','BCDEFG');

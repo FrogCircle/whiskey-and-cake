@@ -15,11 +15,17 @@ TimesHistorianRoom = new Meteor.Collection("TimesHistorianRoom");
 MovieRooms.allow({
   update: function(userId, doc, fields, modifier){
     return true;
+  },
+  insert: function(userId, doc, fields, modifier){
+    return true;
   }
 });
 
 TimesHistorianRoom.allow({
   update: function(userId, doc, fields, modifier){
+    return true;
+  },
+  insert: function(userId, doc, fields, modifier){
     return true;
   }
 });
