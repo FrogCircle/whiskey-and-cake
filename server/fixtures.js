@@ -15,7 +15,8 @@ Meteor.call('createRoom', "ABCD", function(err, id){
   console.log(123);
 });
 Meteor.methods({
-  CreateCardsRoom: function() {
+  CreateCardsRoom: function(roomName) {
+    console.log('roomName is ', roomName);
     var WhiteDeck = [];
     var BlackDeck = [];
 // in-place shuffle algorithm for BlackCards
@@ -46,6 +47,7 @@ Meteor.methods({
     var returnRoom = CardsRoom.insert({
       createdBy: (Meteor.userId()),
       createdAt: new Date(),
+      roomName: roomName,
       WhiteDeck: WhiteDeck,
       BlackDeck: BlackDeck,
       RoundInfo: {},

@@ -12,17 +12,24 @@
       <ul>
         {{#each loadRooms}}
         <li>
-          <a class="joinExistingRoom" href="{{pathFor route='cardsagainstsobriety2' data=room}}">Room</a>
+          <a class="joinExistingRoom" href="{{pathFor route='cardsagainstsobriety2' data=room}}">{{room.roomName}}</a>
         </li>
         {{/each}}
         {{#each createRoom}}
         <li>
-          <a class="joinNewRoom" href="{{pathFor route='cardsagainstsobriety2' data=roomId}}">New Room</a>
+          <a class="joinNewRoom" href="{{pathFor route='cardsagainstsobriety2' data=roomId}}">{{room.roomName}}</a>
         </li>
         {{/each}}
       </ul>
-      <p>Or Create Your Own Room</p>
-      <button id="createCardsRoom" name="createRoomCards">Create Room</button>
+      <div class="create-room-btn">
+        <p>Or Create Your Own Room</p>
+        <button id="createRoomName" name="createRoomName">Create Room</button>
+      </div>
+      <div class="create-room-name">Give your new room a name
+        <input name="cardsRoomName" id="cardsRoomName" type="text" placeholder="something clever">
+        <button id="createCardsRoom" name="createRoomCards">Create Room</button><br>
+        <a href="#" class="cancel">or Cancel</a>
+      </div>
     </div>
     <div class="col-md-4 well">
       <h4>Movie Cloud</h4>

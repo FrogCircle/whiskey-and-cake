@@ -1,21 +1,13 @@
-chatStream = new Meteor.Stream('chat');
-chatCollection = new Meteor.Collection(null);
-
 var getId = function() {
-  console.log('555currentRoomId in chat.js ', Session.get('currentRoomId'));
   return Session.get('currentRoomId');
 };
 var roomId = getId() || null;
 
-
-chatStream.on(getId(), function(message) {
-  console.log('MYMSG IS ', message);
-});
-
 Template.chatBox.helpers({
   "messages": function() {
     var roomMessages = Messages.findOne({roomId: getId()});
-    console.log('roomMessages in chatBox helpers is ', roomMessages);
+    console.log('roomMessages in chatBox helpers is ', roomMessages.messages);
+    scroll();
     return roomMessages.messages;
   }
 });
@@ -41,19 +33,33 @@ Template.chatMessage.helpers({
 });
 
 Template.chatBox.events({
-  "click #send": function() {
-    var message = $('#chat-message').val();
-    //chatCollection.insert({
-    //  userId: 'me',
-    //  message: message
-    //});
-    Meteor.call('addMessageForRoom', getId(), message, function(data) {
-      //message data is returned via a server emit
-    });
-    //chatStream.emit('chat', roomId, message);
-    //$('#chat-message').val('');
+  "click #send": function () {
+    sendChat();
+  },
+  "keypress #chat-message": function(e) {
+    if(e.which === 13 ) {
+      sendChat();
+    }
   }
 });
+
+function sendChat() {
+  var message = $('#chat-message').val();
+  Meteor.call('addMessageForRoom', getId(), message, function(data) {
+    //message data is returned via a server emit
+  });
+  $('#chat-message').val('');
+}
+
+function scroll() {
+  setTimeout(function () {
+    //force chat messages to scroll to bottom
+    var chatBox = $('#messages');
+    var height = chatBox[0].scrollHeight;
+    chatBox.scrollTop(height);
+  }, 200);
+}
+
 
 function getUsername(id) {
   Meteor.subscribe('user-info', id);
