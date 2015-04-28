@@ -4,7 +4,7 @@ Meteor.methods({
     var insertObj =
     { "_id": roomID,
       "users": [],
-      "scoreBoard": {},
+      "scoreBoard": [],
       "answered": false,
       "gameBoard": {"result": [], "choices": [], "chosen": ""},
       "roundInfo": {"roundNum": 0,  "lastWinner": ""}
@@ -12,12 +12,7 @@ Meteor.methods({
     TimesHistorianRoom.insert(insertObj);
   },
 
-  setWinnerTimes: function( roomId, data ){
-    console.log(TimesHistorianRoom.update({"_id": roomId}, {$set:data}));
-  },
-
   getTimesData: function(roomID){
-    console.log("Getting Times Data");
 
     // function to take a date and return it in the right string format
     var dateToString = function(inputDate){
@@ -47,7 +42,7 @@ Meteor.methods({
       year = year.split('');
       year[3] = '0';
       result.push(year.join(''));
-      while (result.length < 10){
+      while (result.length < 5){
         randN = Math.floor((Math.random() * decades.length));
         if (result.indexOf(decades[randN]) === -1){
           result.push(decades[randN]);
@@ -57,7 +52,7 @@ Meteor.methods({
     };
 
     // function to get the articles
-    var getArticles = function(){
+    var getArticles = function(cb){
       var startDate = new Date(1851, 8, 19);
       var endDate = new Date(1999,12,31);
       // getting random date
@@ -65,9 +60,7 @@ Meteor.methods({
       // converting to string
       var randomDate = dateToString(randDate);
       var parsedArticles = [];
-      console.log(123);
       HTTP.get("http://api.nytimes.com/svc/search/v2/articlesearch.json?begin_date="+randomDate+"&end_date="+randomDate+"&api-key=654452f497823c3cdae2119e3bdd6b4f:9:71687614",{}, function(err, data){
-        console.log(123);
         for (var i = 0; i < data.data.response.docs.length; i++){
           if (data.data.response.docs[i].lead_paragraph && parsedArticles.length < 5){
             parsedArticles.push(data.data.response.docs[i].lead_paragraph);
@@ -79,13 +72,17 @@ Meteor.methods({
         for (var i = 0; i < decades.length; i++){
           temp.push({'text': decades[i]});
         }
+        randDate = '' + randDate.getFullYear();
+        randDate = randDate.split('');
+        randDate[3] = '0';
+        randDate = randDate.join('');
         var stringResult = {'result': parsedArticles, 'choices': temp, 'chosen': randDate};
-        console.log(stringResult);
         console.log(TimesHistorianRoom.update({"_id": roomID}, {$set: {'gameBoard': stringResult, 'answered': false}}));
-        return true;
+        cb(err, data);
       });
     };
-    getArticles();
+    var result = Meteor.wrapAsync(getArticles)
+    return result();
 
   }
 });

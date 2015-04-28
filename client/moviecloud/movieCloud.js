@@ -46,7 +46,6 @@ Template.movieCloud.events({
           // game data to session which triggers full stack reactivity, but we have
           // to manually call render SVG as it is not reactive
           Session.set('gameData', MovieRooms.findOne("ABCD"));
-          console.log(Session.get('gameData'));
           renderSVG(Session.get('gameData').gameBoard.result);
         });
       } else {

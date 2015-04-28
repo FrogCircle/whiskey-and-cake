@@ -18,6 +18,11 @@ MovieRooms.allow({
   }
 });
 
+TimesHistorianRoom.allow({
+  update: function(userId, doc, fields, modifier){
+    return true;
+  }
+});
 
 //This is where we hold our methods that get called from the client side
 Meteor.methods({
