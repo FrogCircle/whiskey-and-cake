@@ -1,3 +1,5 @@
+var roomId = Session.get('currentRoomId');
+console.log('roomId is ', roomId);
 
 var renderSVG = function(svgData){
   $('.movieSVG').empty();
@@ -449,7 +451,7 @@ var renderLines = function(articles){
 
 
 var serveGame = function(gameName, roomID){
-
+  console.log('+++++++', Session.get('gameName'));
   var gameData = {
     timesHistorian: {
       collectionName: 'TimesHistorianRoom',
@@ -474,7 +476,7 @@ var serveGame = function(gameName, roomID){
 
   Template.timesHistorianHand.created = function () {
     // The created function and the ready function work together and
-    // prever the template from looking for data before it is loaded,
+    // prevent the template from looking for data before it is loaded,
     // which would throw a non-breaking error in browser.
     this.subscriptions = [
       Meteor.subscribe(data.collectionName)
@@ -491,7 +493,9 @@ var serveGame = function(gameName, roomID){
 
   Template.timesHistorianHand.helpers({
     getOptions: function(){
-      return Session.get('gameData');
+      console.log('getOptions in timesHistorianHandHelpers');
+      console.log(22222, Session.get(roomID));
+      return Session.get(roomID);
     },
     ready: function () {
       return _.all(Template.instance().subscriptions, function (sub) {
@@ -511,7 +515,7 @@ var serveGame = function(gameName, roomID){
 
   var getAnswer = function(){
     // helper function to get the answer
-    return Session.get('gameData').gameBoard.chosen;
+    return Session.get(roomID).gameBoard.chosen;
   };
 
   // player-hand-view.html template event listeners
@@ -521,14 +525,19 @@ var serveGame = function(gameName, roomID){
         // need to be called every time, only when you need to delete and recreate
         // document
         // If there is no game or if the current game is over
-        if (!Session.get('gameData') || Session.get('gameData').answered){
+        if (!Session.get(roomID) || Session.get(roomID).answered){
           // Calling a function on the server which will update the database
           Meteor.call(data.serverCall, roomID, Meteor.user().username, function(err, id){
             // In the call back (which runs after the data is in the db), we set the
             // game data to session which triggers full stack reactivity, but we have
             // to manually call render SVG as it is not reactive
-            Session.set('gameData', collection.findOne(roomID));
-            data.renderFunc(Session.get('gameData').gameBoard.result);
+            //Session.set(roomID, collection.findOne(roomID));
+            var y = collection.findOne(roomID);
+            console.log('roomID is ', roomID);
+            console.log('y is ', y);
+            console.log(5555555555, Session.get(roomID));
+            console.log(6666666666, Session.get('currentRoomId'));
+            data.renderFunc(Session.get(roomID).gameBoard.result);
           });
         } else {
           alert("The current game is in progress and there is no winnder yet!")
@@ -564,7 +573,7 @@ var serveGame = function(gameName, roomID){
         // Getting the data from Session
         // Rather than making several updates to the DB we 'check out' the data
         // and only make 1 update
-        var data = Session.get('gameData');
+        var data = Session.get(roomID);
         // Checking to see if it is the right answer
         if (this.text.split(' ').join('_')===getAnswer()){
           // Checking to see if the round has already been won
@@ -583,7 +592,7 @@ var serveGame = function(gameName, roomID){
             collection.update(roomID, {$set: data});
             // updating the Session - This will get re-set to exactlyt he same when Meteor
             // triggers the update from the server, so essentially this is latency compensation
-            Session.set('gameData',collection.findOne(roomID));
+            Session.set(roomID,collection.findOne(roomID));
             alert('You won!');
           } else{
             alert('You are right, but not the first one to answer')
@@ -596,5 +605,8 @@ var serveGame = function(gameName, roomID){
   });
 };
 
-serveGame('movieCloud','BCDEFG');
+Meteor.subscribe("TimesHistorianRoom");
+Meteor.subscribe("MovieRooms");
+
+//serveGame('movieCloud','BCDEFG');
 // serveGame('timesHistorian','BCDEFG');

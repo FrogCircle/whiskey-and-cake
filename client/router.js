@@ -26,15 +26,13 @@ Router.route('/timeshistorian', function() {
 
 
 Router.route('/cardsagainstsobriety/:room', {
-  // this template will be rendered until the subscriptions are ready
-  //loadingTemplate: 'layout',
   onBeforeAction: function() {
     Session.set('currentRoomId', this.params.room);
     this.next();
   },
   waitOn: function () {
     // subscibe only to the messages for this room
-    return Meteor.subscribe('roomMessages', this.params.room);
+    Meteor.subscribe('roomMessages', this.params.room);
   },
   data: function () {
     var roomMessages = Messages.findOne({roomId: this.params.room});
@@ -42,48 +40,45 @@ Router.route('/cardsagainstsobriety/:room', {
       messages : roomMessages
     }
   },
-
   action: function () {
     this.render('cardsAgainstSobriety', {to: 'show'});
   },
   name: 'cardsagainstsobriety2',
+  //see controller below
   controller: 'CASController'
 });
 
-Router.route('/moviecloud/:_id', {
+Router.route('/moviecloud/:room', {
   // this template will be rendered until the subscriptions are ready
-  loadingTemplate: 'layout',
-
-  waitOn: function () {
-    // return one handle, a function, or an array
-    return Meteor.subscribe('MovieRoundData', this.params._id);
+  //loadingTemplate: 'layout',
+  onBeforeAction: function() {
+    Session.set('currentRoomId', this.params.room);
+    console.log('Session.get(currentRoomId is ', Session.get('currentRoomId'));
+    Meteor.subscribe('MovieRooms', this.params.room);
+    Meteor.subscribe('roomMessages', this.params.room);
+    this.next();
   },
-
+  waitOn: function () {
+    console.log(111);
+    // return one handle, a function, or an array
+    //Meteor.subscribe('roomMessages', this.params.room);
+    //Meteor.subscribe('MovieRooms', this.params.room);
+  },
   action: function () {
-    this.render('movieCloudHand');
-  }
+    //var movieRoom = this.params.room;
+    //Session.set('gameName', this.params.room);
+    //serveGame('movieCloud', movieRoom);
+    this.render('timesHistorian', {to: 'show'});
+  },
+  name: 'moviecloudroom'
 });
 
 CASController = RouteController.extend({
   unload: function() {
     var roomId = Session.get('currentRoomId');
-    console.log('roomId987 is ', roomId);
-    //remove user from CardsRoom
+    //remove user from CardsRoom when they click away from room
     var userId = Meteor.user()._id;
-    console.log('userId is ', userId);
-    var gameInformation = CardsRoom.update({_id: roomId}, {$pull:{users: {'_id': userId}}});
-    console.log('gameInformation is ', gameInformation);
-    var usersArray = CardsRoom.findOne({ '_id': roomId}).users;
-    console.log('usersArray from Router111 is ', usersArray);
-    //  , function(err, room) {
-    //  var newUserArray = _.filter(room.users, function(elem, index) {
-    //    if( elem._id !== userId ) return elem;
-    //  });
-    //  console.log('newUserArray is ', newUserArray);
-    //  room.users = newUserArray;
-    //  room.save();
-    //});
-    Session.set('currentRoomId', null);
+    var gameInformation = CardsRoom.update({_id: roomId}, {$pull: {users: {'_id': userId}}});
+    //TODO: remove user if they close webpage or browser (disconnect)
   }
-
 });

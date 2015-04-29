@@ -5,10 +5,13 @@ var roomId = getId() || null;
 
 Template.chatBox.helpers({
   "messages": function() {
-    var roomMessages = Messages.findOne({roomId: getId()});
-    console.log('roomMessages in chatBox helpers is ', roomMessages.messages);
+    var x = Session.get('currentRoomId');
+    var room = Messages.findOne({roomId: x});
+    console.log('x is ', x);
+    console.log('roomMessages is ', room);
+    //console.log('room messages in chatBox helpers is ', room.messages);
     scroll();
-    return roomMessages.messages;
+    return room;
   }
 });
 
@@ -45,6 +48,8 @@ Template.chatBox.events({
 
 function sendChat() {
   var message = $('#chat-message').val();
+  console.log('message is ', message);
+  console.log('getId() is ', getId());
   Meteor.call('addMessageForRoom', getId(), message, function(data) {
     //message data is returned via a server emit
   });
@@ -53,7 +58,7 @@ function sendChat() {
 
 function scroll() {
   setTimeout(function () {
-    //force chat messages to scroll to bottom
+   //force chat messages to scroll to bottom
     var chatBox = $('#messages');
     var height = chatBox[0].scrollHeight;
     chatBox.scrollTop(height);

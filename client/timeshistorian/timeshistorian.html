@@ -1,14 +1,21 @@
 <template name="timesHistorian">
   <div class="row">
-    <div class="col-md-2">
-      <h1>{{getText.title}}</h1>
-      <p>{{getText.subtitle}}</p>
-      <button class="timesButton">{{getText.button}}</button>
-      </div>
-    <div class="col-md-10">
+    <div class="col-md-8">
       <div class="articles"></div>
       <div class="movieSVG"></div>
       {{>timesHistorianHand}}
+    </div>
+    <div class="col-md-4">
+      <h1>{{getText.title}}</h1>
+
+      <p>{{getText.subtitle}}</p>
+      <button class="timesButton">{{getText.button}}</button>
+      <hr>
+      <div class="well well-sm">
+        {{#if currentUser}}
+          {{> mainBox}}
+        {{/if}}
+      </div>
     </div>
   </div>
 </template>

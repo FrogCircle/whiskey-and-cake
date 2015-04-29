@@ -7,3 +7,5 @@ if (Meteor.isClient) {
 //with autopublish turned off, subscribe functions are necessary to get what the server-side is
 //publishing
 Meteor.subscribe("CardsRoom");
+
+

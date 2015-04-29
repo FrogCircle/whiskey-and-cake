@@ -77,21 +77,20 @@ var parser = function() {
 var commonWords = Assets.getText('stopwords.txt');
 
 var updateCollection = function(collection, roomId, updateObj){
-  if (!collection.findOne(roomId)){
-    collection.insert({ "_id": roomId,
-      "users": [],
-      "scoreBoard": [],
-      "answered": false,
-      "gameBoard": {"result": [], "choices": [], "chosen": ""},
-      "roundInfo": {"roundNum": 0,  "lastWinner": ""}
-    });
-  };
+  //if (!collection.findOne(roomId)){
+  //  collection.insert({ "_id": roomId,
+  //    "users": [],
+  //    "scoreBoard": [],
+  //    "answered": false,
+  //    "gameBoard": {"result": [], "choices": [], "chosen": ""},
+  //    "roundInfo": {"roundNum": 0,  "lastWinner": ""}
+  //  });
+  //};
   collection.update({"_id": roomId}, updateObj);
 };
 
 
 Meteor.methods({
-
   getMovieData: function(roomID, winner) {
     // Reading from a file of common words to keep out of word cloud and putting into an object for quick lookup
     var commonWordsDic = {};
@@ -203,8 +202,38 @@ Meteor.methods({
     };
     data_convert(data, randMovies, randMovieFile.split('.')[0]);
     return true;
-  }
+  },
+  createMovieOrTimesRoom: function(collection, roomName, userId, username) {
+    console.log('createMovieOrTimesRoom called', collection, roomName, userId, username);
+    var returnRoom = collection.insert({
+      "users": [],
+      "scoreBoard": [],
+      "answered": false,
+      "gameBoard": {"result": [], "choices": [], "chosen": ""},
+      "roundInfo": {"roundNum": 0, "lastWinner": ""},
+      "createdAt": new Date(),
+      "createdBy": userId,
+      "roomName" : roomName
+    }, function(err, roomInserted) {
+      console.log('roomInserted is ', roomInserted);
+      returnRoom = roomInserted;
+    });
+    Messages.insert({
+      createdById: userId,
+      createdByName: username,
+      createdAt: new Date(),
+      roomId: returnRoom,
+      messages: []
+    }, function (err, messageInserted) {
+      console.log('messageInserted is ', messageInserted);
+      if( err ) {
+        console.log('error while creating doc in messages collection');
+      }
+    });
 
+    console.log('returnRoom is ', returnRoom);
+    return {room: returnRoom};
+  }
 });
 
 Meteor.publish("MovieRooms", function(roomID) {
