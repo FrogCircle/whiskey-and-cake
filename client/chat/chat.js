@@ -5,10 +5,13 @@ var roomId = getId() || null;
 
 Template.chatBox.helpers({
   "messages": function() {
-    var roomMessages = Messages.findOne({roomId: getId()});
-    console.log('roomMessages in chatBox helpers is ', roomMessages.messages);
+    var x = Session.get('currentRoomId');
+    var room = Messages.findOne({roomId: x});
+    console.log('x is ', x);
+    console.log('roomMessages is ', room);
+    //console.log('room messages in chatBox helpers is ', room.messages);
     scroll();
-    return roomMessages.messages;
+    return room;
   }
 });
 

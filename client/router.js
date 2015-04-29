@@ -32,7 +32,7 @@ Router.route('/cardsagainstsobriety/:room', {
   },
   waitOn: function () {
     // subscibe only to the messages for this room
-    return Meteor.subscribe('roomMessages', this.params.room);
+    Meteor.subscribe('roomMessages', this.params.room);
   },
   data: function () {
     var roomMessages = Messages.findOne({roomId: this.params.room});
@@ -54,14 +54,20 @@ Router.route('/moviecloud/:room', {
   onBeforeAction: function() {
     Session.set('currentRoomId', this.params.room);
     console.log('Session.get(currentRoomId is ', Session.get('currentRoomId'));
+    Meteor.subscribe('MovieRooms', this.params.room);
+    Meteor.subscribe('roomMessages', this.params.room);
     this.next();
   },
   waitOn: function () {
     console.log(111);
     // return one handle, a function, or an array
-    return Meteor.subscribe('MovieRooms', this.params.room);
+    //Meteor.subscribe('roomMessages', this.params.room);
+    //Meteor.subscribe('MovieRooms', this.params.room);
   },
   action: function () {
+    //var movieRoom = this.params.room;
+    //Session.set('gameName', this.params.room);
+    //serveGame('movieCloud', movieRoom);
     this.render('timesHistorian', {to: 'show'});
   },
   name: 'moviecloudroom'

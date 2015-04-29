@@ -1,3 +1,5 @@
+var roomId = Session.get('currentRoomId');
+console.log('roomId is ', roomId);
 
 var renderSVG = function(svgData){
   $('.movieSVG').empty();
@@ -449,7 +451,7 @@ var renderLines = function(articles){
 
 
 var serveGame = function(gameName, roomID){
-
+  console.log('+++++++', Session.get('gameName'));
   var gameData = {
     timesHistorian: {
       collectionName: 'TimesHistorianRoom',
@@ -529,7 +531,12 @@ var serveGame = function(gameName, roomID){
             // In the call back (which runs after the data is in the db), we set the
             // game data to session which triggers full stack reactivity, but we have
             // to manually call render SVG as it is not reactive
-            Session.set(roomID, collection.findOne(roomID));
+            //Session.set(roomID, collection.findOne(roomID));
+            var y = collection.findOne(roomID);
+            console.log('roomID is ', roomID);
+            console.log('y is ', y);
+            console.log(5555555555, Session.get(roomID));
+            console.log(6666666666, Session.get('currentRoomId'));
             data.renderFunc(Session.get(roomID).gameBoard.result);
           });
         } else {
@@ -601,7 +608,5 @@ var serveGame = function(gameName, roomID){
 Meteor.subscribe("TimesHistorianRoom");
 Meteor.subscribe("MovieRooms");
 
-var movieRoom = Session.get('currentRoomId');
-serveGame('movieCloud', movieRoom);
 //serveGame('movieCloud','BCDEFG');
 // serveGame('timesHistorian','BCDEFG');
