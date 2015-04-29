@@ -1,6 +1,6 @@
 <template name="home">
   <p>These are temporary links</p>
-  <ul>
+  <ul class="rooms-list">
     <li><a href="{{pathFor route='cardsagainstsobriety'}}">Cards Against Sobreity</a></li>
     <li><a href="{{pathFor route='moviecloud'}}">Movie Cloud</a></li>
     <li><a href="{{pathFor route='timeshistorian'}}">Times Historian</a></li>
@@ -9,20 +9,32 @@
     <div class="col-md-4 well">
       <h4>Cards Against Sobriety</h4>
       <p>Available Rooms</p>
-      <ul>
+      <ul class="rooms-list">
         {{#each loadRooms}}
         <li>
-          <a class="joinExistingRoom" href="{{pathFor route='cardsagainstsobriety2' data=room}}">Room</a>
+          <a class="joinExistingRoom" href="{{pathFor route='cardsagainstsobriety2' data=room}}">{{room.roomName}}</a>
+          {{#if roomOwner }}
+          <div class="delete-room-div">
+            <a class="delete-room-link" href="#">Delete (you're owner)</a>
+          </div>
+          {{/if}}
         </li>
         {{/each}}
         {{#each createRoom}}
         <li>
-          <a class="joinNewRoom" href="{{pathFor route='cardsagainstsobriety2' data=roomId}}">New Room</a>
+          <a class="joinNewRoom" href="{{pathFor route='cardsagainstsobriety2' data=roomId}}">{{room.roomName}}</a>
         </li>
         {{/each}}
       </ul>
-      <p>Or Create Your Own Room</p>
-      <button id="createCardsRoom" name="createRoomCards">Create Room</button>
+      <div class="create-room-btn">
+        <p>Or Create Your Own Room</p>
+        <button id="createRoomName" name="createRoomName">Create Room</button>
+      </div>
+      <div class="create-room-name">Give your new room a name
+        <input name="cardsRoomName" id="cardsRoomName" type="text" placeholder="something clever">
+        <button id="createCardsRoom" name="createRoomCards">Create Room</button><br>
+        <a href="#" class="cancel">or Cancel</a>
+      </div>
     </div>
     <div class="col-md-4 well">
       <h4>Movie Cloud</h4>

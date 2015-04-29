@@ -1,8 +1,5 @@
 var getId = function() {
-  var path = document.location.pathname;
-  var _roomId = path.split('/');
-  _roomId = _roomId[_roomId.length-1];
-  return _roomId;
+  return Session.get('currentRoomId');
 };
 // Helper functions for player-hand-view.html
 Meteor.subscribe('CardsRoom');
@@ -14,7 +11,7 @@ Template.playerHand.helpers({
     var _roomId = Session.get('roomUrl') || getId();
     // displays hand to user, filtered by username.
     var usersArray = CardsRoom.find({ '_id': _roomId}).fetch()[0].users;
-    console.log('usersArray is ', usersArray);
+    console.log('usersArray+++ is ', usersArray);
     var result;
     for( var i = 0; i < usersArray.length; i++ ) {
       if( usersArray[i]._id === user._id ) {
@@ -54,7 +51,6 @@ Template.playerHand.events({
       var board = CardsRoom.find({_id: _roomId}).fetch()[0].GameBoard;
       for( var i = 0, len = board.length; i < len; i++ ) {
         if( board[i].owner === user._id ) {
-        //if(GameBoard.find({owner: user._id}).fetch().length > 0){
           console.log("Yo, you've already played a card!");
           return;
         }

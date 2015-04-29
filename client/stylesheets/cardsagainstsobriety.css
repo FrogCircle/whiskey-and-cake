@@ -235,4 +235,46 @@ header {
 }
 /* End of Playerhand Group */
 
+#messages {
+  height: 300px;
+  overflow-y: scroll;
+  scrollbar-face-color: #336699; scrollbar-3dlight-color: #336699; scrollbar-base-color: #336699;
+  scrollbar-track-color: #336699; scrollbar-darkshadow-color: #000; scrollbar-arrow-color: #000;
+  scrollbar-shadow-color: #fff; scrollbar-highlight-color: #fff;
+  background-color: #eaeaea;
+  padding: 3px 0;
+  margin-bottom: 5px;
+}
 
+.chat-user {
+  display: inline-table;
+  width: 22%;
+  text-align: right;
+  padding: 0 5px 0 0;
+}
+
+.chat-message {
+  display: inline-table;
+  width: 75%;
+  text-align: left;
+  padding: 0 0 0 5px;
+}
+
+.create-room-name {
+  display: none;
+}
+
+.rooms-list {
+  list-style-type: none;
+  padding-left: 10px;
+}
+
+.delete-room-div {
+  display: inline-block;
+  float: right;
+}
+
+.delete-room-link {
+  font-size: 0.9em;
+  font-style: italic;
+}

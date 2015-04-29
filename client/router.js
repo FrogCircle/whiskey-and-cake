@@ -27,26 +27,27 @@ Router.route('/timeshistorian', function() {
 
 Router.route('/cardsagainstsobriety/:room', {
   // this template will be rendered until the subscriptions are ready
-  loadingTemplate: 'layout',
-/*
-  data: function () {
-    console.log('this.params is ', this.params);
-    var data = CardsRoom.findOne({_id: this.params.room});
-    console.log('returned cards data ', data);
-    return data;
+  //loadingTemplate: 'layout',
+  onBeforeAction: function() {
+    Session.set('currentRoomId', this.params.room);
+    this.next();
   },
-*/
-/*
   waitOn: function () {
-    // return one handle, a function, or an array
-    return Meteor.subscribe('CardsRoom', this.params.room);
+    // subscibe only to the messages for this room
+    return Meteor.subscribe('roomMessages', this.params.room);
   },
-*/
+  data: function () {
+    var roomMessages = Messages.findOne({roomId: this.params.room});
+    return {
+      messages : roomMessages
+    }
+  },
 
   action: function () {
     this.render('cardsAgainstSobriety', {to: 'show'});
   },
-  name: 'cardsagainstsobriety2'
+  name: 'cardsagainstsobriety2',
+  controller: 'CASController'
 });
 
 Router.route('/moviecloud/:_id', {
@@ -61,4 +62,28 @@ Router.route('/moviecloud/:_id', {
   action: function () {
     this.render('movieCloudHand');
   }
+});
+
+CASController = RouteController.extend({
+  unload: function() {
+    var roomId = Session.get('currentRoomId');
+    console.log('roomId987 is ', roomId);
+    //remove user from CardsRoom
+    var userId = Meteor.user()._id;
+    console.log('userId is ', userId);
+    var gameInformation = CardsRoom.update({_id: roomId}, {$pull:{users: {'_id': userId}}});
+    console.log('gameInformation is ', gameInformation);
+    var usersArray = CardsRoom.findOne({ '_id': roomId}).users;
+    console.log('usersArray from Router111 is ', usersArray);
+    //  , function(err, room) {
+    //  var newUserArray = _.filter(room.users, function(elem, index) {
+    //    if( elem._id !== userId ) return elem;
+    //  });
+    //  console.log('newUserArray is ', newUserArray);
+    //  room.users = newUserArray;
+    //  room.save();
+    //});
+    Session.set('currentRoomId', null);
+  }
+
 });

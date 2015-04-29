@@ -15,7 +15,8 @@ Meteor.call('createRoom', "ABCD", function(err, id){
   console.log(123);
 });
 Meteor.methods({
-  CreateCardsRoom: function() {
+  CreateCardsRoom: function(roomName) {
+    console.log('roomName is ', roomName);
     var WhiteDeck = [];
     var BlackDeck = [];
 // in-place shuffle algorithm for BlackCards
@@ -46,6 +47,7 @@ Meteor.methods({
     var returnRoom = CardsRoom.insert({
       createdBy: (Meteor.userId()),
       createdAt: new Date(),
+      roomName: roomName,
       WhiteDeck: WhiteDeck,
       BlackDeck: BlackDeck,
       RoundInfo: {},
@@ -56,9 +58,21 @@ Meteor.methods({
       console.log('roomInserted is ', roomInserted);
       returnRoom = roomInserted;
     });
+    Messages.insert({
+      createdById: (Meteor.user()._id),
+      createdByName: (Meteor.user().username),
+      createdAt: new Date(),
+      roomId: returnRoom,
+      messages: []
+    }, function (err, messageInserted) {
+      console.log('messageInserted is ', messageInserted);
+      if( err ) {
+        console.log('error while creating doc in messages collection');
+      }
+    });
+
+    console.log('returnRoom is ', returnRoom);
     return {room: returnRoom};
-    //console.log('returnRoom is ', returnRoom);
-    //return returnRoom;
   },
 
   JoinCardsRoom: function(roomId, userObj) {
@@ -76,6 +90,18 @@ Meteor.methods({
       CardsRoom.update({_id: roomId}, {$push: {'users': userObj }});
     }
     return CardsRoom.find({_id: roomId}).fetch();
+  },
+  deleteRoom: function(roomId, userId){
+    //check if user has rights to delete this room, i.e. created the room
+    var room = CardsRoom.findOne({_id: roomId});
+    var roomOwner = room.createdBy;
+    if( roomOwner === userId ) {
+      //delete room in Rooms collection, returns 1 if successful, 0 if not
+      var removeRoomCheck = CardsRoom.remove({_id: roomId});
+      //delete messages for room in Messages collection, returns 1 if successful, 0 if not
+      var removeMessagesCheck = Messages.remove({roomId: roomId});
+      //no need to return the rooms since the collection is being published (and subscribed to by the user
+    }
   }
 });
 

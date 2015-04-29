@@ -1,8 +1,6 @@
 <template name='mainBox'>
-  <div class='container'>
     <h3>Talk Smack</h3>
     {{> chatBox}}
-  </div>
 </template>
 
 <template name='chatBox'>
@@ -17,6 +15,6 @@
 
 <template name='chatMessage'>
   <div>
-    <b>{{user}}:</b> {{message}}
+    <div class="chat-user"><b>{{createdByName}}:</b></div><div class="chat-message"> {{message}}</div>
   </div>
 </template>

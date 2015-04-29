@@ -1,28 +1,40 @@
 <template name="cardsAgainstSobriety">
-  <div class="bs-docs-header">
-      <h1>
-        Welcome to Cards Against Sobriety,
+  <div class="row">
+
+    <div class="bs-docs-header col-md-7 col-md-offset-1">
+        <h2>
+          Welcome to Cards Against Sobriety,
+          {{#if currentUser}}
+            Beautiful {{currentUser.username}}.
+            <br/>
+            Let's get <strong>DRUNK</strong>
+          {{else}}
+            Dangerous Stranger, please sign in.
+          {{/if}}
+        </h2>
+
         {{#if currentUser}}
-          Beautiful {{currentUser.username}}.
-          <br/>
-          Let's get <strong>DRUNK</strong>
-        {{else}}
-          Dangerous Stranger, please sign in.
+          {{> gameBoard}}
         {{/if}}
-      </h1>
-
+    </div>
+    <div class="col-md-4 well well-sm">
       {{#if currentUser}}
-        {{> gameBoard}}
+        {{> mainBox}}
       {{/if}}
+    </div>
+
+  </div>
+  <div class="row">
+      <div class="bs-docs-container col-md-offset-1" id="player">
+        {{#if currentUser}}
+          {{> playerHand}}
+        {{else}}
+          <div class="footer">A lady came up to me one day and said 'Sir! You are drunk', to which I replied 'I am drunk
+            today madam,
+            and tomorrow I shall be sober but you will still be ugly.? - Winston Churchill</div>
+        {{/if}}
+      </div>
+
   </div>
 
-  <div class="bs-docs-container" id="player">
-      {{#if currentUser}}
-        {{> playerHand}}
-      {{else}}
-        <div class="footer">A lady came up to me one day and said 'Sir! You are drunk', to which I replied 'I am drunk
-          today madam,
-          and tomorrow I shall be sober but you will still be ugly.? - Winston Churchill</div>
-      {{/if}}
-  </div>
 </template>

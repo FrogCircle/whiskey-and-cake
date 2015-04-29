@@ -1,21 +1,15 @@
 var getId = function() {
-  var path = document.location.pathname;
-  var _roomId = path.split('/');
-  _roomId = _roomId[_roomId.length-1];
-  console.log('getId called');
-  return _roomId;
+  return Session.get('currentRoomId');
 };
 
 Template.gameBoard.helpers({
 
-  // Returns all online users
-  //CHANGE THIS TO FIND ONLY USERS IN THIS GAME
+  // Returns all online users in this game
   users: function(){
-    //var _roomId = getId();
-    var _roomId = Session.get('roomUrl') || getId();
-    console.log('room id in users is', _roomId);
+    var roomId = Session.get('currentRoomId');
+    console.log('PBPBPB roomId in gameBoard is ', roomId);
     //returns an array of user objects
-    var gameInformation = CardsRoom.findOne({_id: _roomId}, {users: 1});   // returns all users for that room
+    var gameInformation = CardsRoom.findOne({_id: roomId});   // returns all users for that room
     var userArray = gameInformation.users;
 
     console.log('tesing', userArray);

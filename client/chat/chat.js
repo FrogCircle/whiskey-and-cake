@@ -1,17 +1,14 @@
-chatStream = new Meteor.Stream('chat');
-chatCollection = new Meteor.Collection(null);
-
-chatStream.on('chat', function(message) {
-  chatCollection.insert({
-    userId: this.userId,
-    subscriptionId: this.subscriptionId,
-    message: message
-  });
-});
+var getId = function() {
+  return Session.get('currentRoomId');
+};
+var roomId = getId() || null;
 
 Template.chatBox.helpers({
   "messages": function() {
-    return chatCollection.find();
+    var roomMessages = Messages.findOne({roomId: getId()});
+    console.log('roomMessages in chatBox helpers is ', roomMessages.messages);
+    scroll();
+    return roomMessages.messages;
   }
 });
 
@@ -36,16 +33,33 @@ Template.chatMessage.helpers({
 });
 
 Template.chatBox.events({
-  "click #send": function() {
-    var message = $('#chat-message').val();
-    chatCollection.insert({
-      userId: 'me',
-      message: message
-    });
-    chatStream.emit('chat', message);
-    $('#chat-message').val('');
+  "click #send": function () {
+    sendChat();
+  },
+  "keypress #chat-message": function(e) {
+    if(e.which === 13 ) {
+      sendChat();
+    }
   }
 });
+
+function sendChat() {
+  var message = $('#chat-message').val();
+  Meteor.call('addMessageForRoom', getId(), message, function(data) {
+    //message data is returned via a server emit
+  });
+  $('#chat-message').val('');
+}
+
+function scroll() {
+  setTimeout(function () {
+    //force chat messages to scroll to bottom
+    var chatBox = $('#messages');
+    var height = chatBox[0].scrollHeight;
+    chatBox.scrollTop(height);
+  }, 200);
+}
+
 
 function getUsername(id) {
   Meteor.subscribe('user-info', id);
