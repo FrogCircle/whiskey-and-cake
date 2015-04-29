@@ -30,6 +30,15 @@ TimesHistorianRoom.allow({
   }
 });
 
+CardsRoom.allow({
+  update: function(userId, doc, fields, modifier){
+    return true;
+  },
+  insert: function(userId, doc, fields, modifier){
+    return true;
+  }
+});
+
 //This is where we hold our methods that get called from the client side
 Meteor.methods({
   // function deals a player hand at the beginning of the game

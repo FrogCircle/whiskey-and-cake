@@ -45,6 +45,8 @@ Template.chatBox.events({
 
 function sendChat() {
   var message = $('#chat-message').val();
+  console.log('message is ', message);
+  console.log('getId() is ', getId());
   Meteor.call('addMessageForRoom', getId(), message, function(data) {
     //message data is returned via a server emit
   });
@@ -53,7 +55,7 @@ function sendChat() {
 
 function scroll() {
   setTimeout(function () {
-    //force chat messages to scroll to bottom
+   //force chat messages to scroll to bottom
     var chatBox = $('#messages');
     var height = chatBox[0].scrollHeight;
     chatBox.scrollTop(height);

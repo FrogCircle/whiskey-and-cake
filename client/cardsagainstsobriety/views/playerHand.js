@@ -94,6 +94,7 @@ Template.playerHand.events({
     console.log(user, 'this is the user');
     var gameInformation = CardsRoom.findOne({_id: _roomId}, {users: 1});   // returns all users for that room
     var userArray = gameInformation.users;
+    console.log('____++++++userArray is ', userArray);
     var numHandCards;
     for ( var  i = 0, size = userArray.length; i < size; i++) {
       if ( userArray[i]._id === user._id ) {

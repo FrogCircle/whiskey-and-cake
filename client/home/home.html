@@ -8,21 +8,16 @@
   <div class="row">
     <div class="col-md-4 well">
       <h4>Cards Against Sobriety</h4>
-      <p>Available Rooms</p>
+      <p>Available Rooms – Click to Ennter</p>
       <ul class="rooms-list">
-        {{#each loadRooms}}
+        {{#each loadCardRooms}}
         <li>
           <a class="joinExistingRoom" href="{{pathFor route='cardsagainstsobriety2' data=room}}">{{room.roomName}}</a>
           {{#if roomOwner }}
           <div class="delete-room-div">
-            <a class="delete-room-link" href="#">Delete (you're owner)</a>
+            <a class="delete-room-link" href="#">Delete room</a>
           </div>
           {{/if}}
-        </li>
-        {{/each}}
-        {{#each createRoom}}
-        <li>
-          <a class="joinNewRoom" href="{{pathFor route='cardsagainstsobriety2' data=roomId}}">{{room.roomName}}</a>
         </li>
         {{/each}}
       </ul>
@@ -36,23 +31,70 @@
         <a href="#" class="cancel">or Cancel</a>
       </div>
     </div>
+
+
+
     <div class="col-md-4 well">
       <h4>Movie Cloud</h4>
-      <p>Available Rooms</p>
-      <ul>
-        <li>Put rooms here</li>
+      <p>Available Rooms – Click to Ennter</p>
+      <ul class="rooms-list">
+        {{#each loadMovieRooms}}
+          <li>
+            <a class="joinMovieRoom" href="{{pathFor route='moviecloudroom' data=room}}">{{room.roomName}}</a>
+            {{#if roomOwner }}
+              <div class="delete-room-div">
+                <a class="delete-movie-room-link" href="#">Delete room</a>
+              </div>
+            {{/if}}
+          </li>
+        {{/each}}
       </ul>
-      <p>Or Create Your Own Room</p>
-      <button id="createRoomMovie" name="createRoomMovie">Create Room</button>
+      <div class="create-room-btn">
+        <p>Or Create Your Own Room</p>
+        <button id="createMovieRoomName" name="createRoomName">Create Room</button>
+      </div>
+      <div class="create-room-name">Give your new room a name
+        <input name="movieRoomName" id="movieRoomName" type="text" placeholder="something clever">
+        <button id="createMovieRoom" name="createMovieCards">Create Room</button><br>
+        <a href="#" class="cancel">or Cancel</a>
+      </div>
     </div>
+
+
+
+
+
+
+
     <div class="col-md-4 well">
       <h4>Times Historian</h4>
-      <p>Available Rooms</p>
-      <ul>
-        <li>Put rooms here</li>
+      <p>Available Rooms – Click to Ennter</p>
+      <ul class="rooms-list">
+        {{#each loadTimesRooms}}
+          <li>
+            <a class="joinExistingRoom" href="{{pathFor route='cardsagainstsobriety2' data=room}}">{{room.roomName}}</a>
+            {{#if roomOwner }}
+              <div class="delete-room-div">
+                <a class="delete-room-link" href="#">Delete room</a>
+              </div>
+            {{/if}}
+          </li>
+        {{/each}}
+        {{#each createRoom}}
+          <li>
+            <a class="joinNewRoom" href="{{pathFor route='cardsagainstsobriety2' data=roomId}}">{{room.roomName}}</a>
+          </li>
+        {{/each}}
       </ul>
-      <p>Or Create Your Own Room</p>
-      <button id="createRoomTimes" name="createRoomTimes">Create Room</button>
+      <div class="create-room-btn">
+        <p>Or Create Your Own Room</p>
+        <button id="createRoomName" name="createRoomName">Create Room</button>
+      </div>
+      <div class="create-room-name">Give your new room a name
+        <input name="cardsRoomName" id="cardsRoomName" type="text" placeholder="something clever">
+        <button id="createCardsRoom" name="createRoomCards">Create Room</button><br>
+        <a href="#" class="cancel">or Cancel</a>
+      </div>
     </div>
   </div>
 

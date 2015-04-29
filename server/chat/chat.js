@@ -24,18 +24,17 @@ Meteor.methods({
   addMessageForRoom: function(roomId, message) {
     //check if Messages already created for this room, create document if not
     //add message to document
-    //console.log('Meteor.user() is ', Meteor.user());
     var newMessage = {
       createdById: (Meteor.user()._id),
       createdByName: (Meteor.user().username),
       createdAt: new Date(),
       message: message
     };
-    //  var status = Messages.update({roomId: roomId}, {$push: {messages: newMessage}});
-    //  console.log('status is ', status);
-    //  if( status === 1) {
-    //    chatStream.emit(roomId, 'testing testing testing ' + message);
-    //  }
-    //}
+    var status = Messages.update({roomId: roomId}, {$push: {messages: newMessage}});
+    console.log('status is ', status);
+    if( status === 0 ) {
+      //send back error message
+      //chatStream.emit(roomId, 'testing testing testing ' + message);
+    }
   }
 });
