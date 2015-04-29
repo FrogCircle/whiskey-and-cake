@@ -16,16 +16,14 @@ Meteor.methods({
         return 'room does not exist';
       }
       else {
-        return room.messages.slice(room.messages.length - 101, room.messages.length - 1);
+        var begin = room.messages.length <= 100? 0: room.messages.length - 100;
+        return room.messages.slice(begin, room.messages.length - 1);
       }
     });
   },
   addMessageForRoom: function(roomId, message) {
     //check if Messages already created for this room, create document if not
     //add message to document
-    console.log('roomId is ', roomId);
-    console.log('message is ', message);
-    var messagesForRoom;
     //console.log('Meteor.user() is ', Meteor.user());
     var newMessage = {
       createdById: (Meteor.user()._id),
@@ -33,10 +31,11 @@ Meteor.methods({
       createdAt: new Date(),
       message: message
     };
-    var status = Messages.update({roomId: roomId}, {$push: {messages: newMessage}});
-    console.log('status is ', status);
-    if( status === 1) {
-      chatStream.emit(roomId, 'testing testing testing ' + message);
-    }
+    //  var status = Messages.update({roomId: roomId}, {$push: {messages: newMessage}});
+    //  console.log('status is ', status);
+    //  if( status === 1) {
+    //    chatStream.emit(roomId, 'testing testing testing ' + message);
+    //  }
+    //}
   }
 });

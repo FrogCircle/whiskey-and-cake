@@ -1,6 +1,6 @@
 <template name="home">
   <p>These are temporary links</p>
-  <ul>
+  <ul class="rooms-list">
     <li><a href="{{pathFor route='cardsagainstsobriety'}}">Cards Against Sobreity</a></li>
     <li><a href="{{pathFor route='moviecloud'}}">Movie Cloud</a></li>
     <li><a href="{{pathFor route='timeshistorian'}}">Times Historian</a></li>
@@ -9,10 +9,15 @@
     <div class="col-md-4 well">
       <h4>Cards Against Sobriety</h4>
       <p>Available Rooms</p>
-      <ul>
+      <ul class="rooms-list">
         {{#each loadRooms}}
         <li>
           <a class="joinExistingRoom" href="{{pathFor route='cardsagainstsobriety2' data=room}}">{{room.roomName}}</a>
+          {{#if roomOwner }}
+          <div class="delete-room-div">
+            <a class="delete-room-link" href="#">Delete (you're owner)</a>
+          </div>
+          {{/if}}
         </li>
         {{/each}}
         {{#each createRoom}}

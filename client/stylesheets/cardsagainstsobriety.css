@@ -263,3 +263,18 @@ header {
 .create-room-name {
   display: none;
 }
+
+.rooms-list {
+  list-style-type: none;
+  padding-left: 10px;
+}
+
+.delete-room-div {
+  display: inline-block;
+  float: right;
+}
+
+.delete-room-link {
+  font-size: 0.9em;
+  font-style: italic;
+}

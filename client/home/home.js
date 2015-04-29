@@ -1,23 +1,21 @@
 Template.home.helpers({
-/*
-  createRoom: function(){
-    console.log("createRoom fcn called");
-    console.log('Session.get(roomId) is ', Session.get('roomId'));
-    return Session.get('roomId');
-  },
-*/
-  getRooms: function(roomType) {
-    //code here to get rooms for a room type
-  },
   loadRooms: function(){
-    console.log('CardsRoom.find().fetch is ', CardsRoom.find().fetch());
     var array = CardsRoom.find().fetch();
+    console.log('Roomsarray on homepage is ', array);
     var result = [];
     for (var i = 0, size = array.length; i < size; i++) {
-      result.push({room: {room: array[i]._id, roomName: array[i].roomName}});
+      result.push({room: {room: array[i]._id, roomName: array[i].roomName, owner: array[i].createdBy}});
     }
-    console.log('result is ', result);
-    return result;
+    return result.reverse();
+  },
+  roomOwner: function(){
+    console.log('this is ', this);
+    if( this.room.owner === Meteor.user()._id ) {
+      return true;
+    } else {
+      return false;
+    }
+
   }
 });
 
@@ -37,36 +35,44 @@ Template.home.events({
 
   "click #createCardsRoom": function(){
     var newRoomName = $('#cardsRoomName').val();
-    Meteor.call('CreateCardsRoom', newRoomName, function(error, room){
-      console.log('room is ', room);
-      holder.push(room);
-      Session.set('roomId', holder);
-      console.log('Session is ', Session);
-    });
-    console.log("create room clicked");
-    //show createRoomButton
-    $('.create-room-btn').css('display', 'block');
-    $('.create-room-name').css('display', 'none');
+    if( newRoomName.length === 0 ) {
+      alert('Your room needs a name, come on!');
+    } else {
+      Meteor.call('CreateCardsRoom', newRoomName, function(error, room){
+        holder.push(room);
+        Session.set('roomId', holder);
+      });
+      //show createRoomButton
+      $('.create-room-btn').css('display', 'block');
+      $('.create-room-name').css('display', 'none');
+    }
   },
 
   "click .joinNewRoom": function() {
     var userObj = Meteor.user();
     userObj.judge = false;
     userObj.cards = [];
-    console.log('userObj is ', userObj);
     var roomId = this.room;
     Meteor.call('JoinCardsRoom', roomId, userObj, function(error, result) {
-      console.log('inside joinCardsRoom ', result);
     });
   },
   "click .joinExistingRoom": function() {
     var userObj = Meteor.user();
     userObj.judge = false;
-    console.log('userObj is ', userObj);
     var roomId = this.room.room;
     Session.set('roomUrl', roomId);
     Meteor.call('JoinCardsRoom', roomId, userObj, function(error, result) {
-      console.log('inside joinCardsRoom ', result);
     });
+  },
+  "click .delete-room-link": function(e) {
+    //var x = $(this).closest('li').find('a');
+    var checkDelete = confirm('Are you sure you want to delete this room?');
+    if ( checkDelete ) {
+      var x = $(this);
+      var roomId = x[0].room.room;
+      var userId = Meteor.user()._id;
+      //call delete room
+      Meteor.call('deleteRoom', roomId, userId);
+    }
   }
 });

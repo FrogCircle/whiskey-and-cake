@@ -27,10 +27,9 @@ Router.route('/timeshistorian', function() {
 
 Router.route('/cardsagainstsobriety/:room', {
   // this template will be rendered until the subscriptions are ready
-  loadingTemplate: 'layout',
+  //loadingTemplate: 'layout',
   onBeforeAction: function() {
     Session.set('currentRoomId', this.params.room);
-    console.log('currentRoomId is ', this.params.room);
     this.next();
   },
   waitOn: function () {
@@ -48,12 +47,7 @@ Router.route('/cardsagainstsobriety/:room', {
     this.render('cardsAgainstSobriety', {to: 'show'});
   },
   name: 'cardsagainstsobriety2',
-  onStop: function() {
-    //// Remove the user from the list of users.
-    //var roomUserId = Session.get('userRoomId');
-    //RoomUsers.remove({ _id : roomUserId });
-    Session.set('currentRoomId', null);
-  }
+  controller: 'CASController'
 });
 
 Router.route('/moviecloud/:_id', {
@@ -68,4 +62,28 @@ Router.route('/moviecloud/:_id', {
   action: function () {
     this.render('movieCloudHand');
   }
+});
+
+CASController = RouteController.extend({
+  unload: function() {
+    var roomId = Session.get('currentRoomId');
+    console.log('roomId987 is ', roomId);
+    //remove user from CardsRoom
+    var userId = Meteor.user()._id;
+    console.log('userId is ', userId);
+    var gameInformation = CardsRoom.update({_id: roomId}, {$pull:{users: {'_id': userId}}});
+    console.log('gameInformation is ', gameInformation);
+    var usersArray = CardsRoom.findOne({ '_id': roomId}).users;
+    console.log('usersArray from Router111 is ', usersArray);
+    //  , function(err, room) {
+    //  var newUserArray = _.filter(room.users, function(elem, index) {
+    //    if( elem._id !== userId ) return elem;
+    //  });
+    //  console.log('newUserArray is ', newUserArray);
+    //  room.users = newUserArray;
+    //  room.save();
+    //});
+    Session.set('currentRoomId', null);
+  }
+
 });
