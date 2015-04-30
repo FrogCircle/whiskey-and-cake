@@ -232,10 +232,6 @@ Meteor.methods({
   }
 });
 
-Meteor.publish("MovieRooms", function(roomID) {
-  return MovieRooms.find();
-});
-
 Meteor.methods({
   getTimesData: function(roomID){
 
@@ -310,8 +306,4 @@ Meteor.methods({
     return result();
 
   }
-});
-
-Meteor.publish("TimesHistorianRoom", function() {
-  return TimesHistorianRoom.find();
 });

@@ -1,4 +1,4 @@
-Template.home.helpers({
+ Template.home.helpers({
   loadCardRooms: function(){
     var array = CardsRoom.find().fetch();
     var result = [];
@@ -170,36 +170,12 @@ Template.home.events({
     Meteor.call('JoinCardsRoom', roomId, userObj, function(error, result) {
     });
   },
-  "click .joinMovieRoom": function() {
-  },
-  "click .delete-room-link": function(e) {
+  "click .delete-room": function(e) {
     var checkDelete = confirm('Are you sure you want to delete this room?');
     if ( checkDelete ) {
-      var x = $(this);
-      var roomId = x[0].room.room;
+      var roomId = $(this)[0].room.room;
       var userId = Meteor.user()._id;
-      //call delete room
-      Meteor.call('deleteCardsRoom', roomId, userId);
-    }
-  },
-  "click .delete-movie-room-link": function(e) {
-    var checkDelete = confirm('Are you sure you want to delete this room?');
-    if ( checkDelete ) {
-      var x = $(this);
-      var roomId = x[0].room.room;
-      var userId = Meteor.user()._id;
-      //call delete room
-      Meteor.call('deleteMovieRoom', roomId, userId);
-    }
-  },
-  "click .delete-times-room-link": function(e) {
-    var checkDelete = confirm('Are you sure you want to delete this room?');
-    if ( checkDelete ) {
-      var x = $(this);
-      var roomId = x[0].room.room;
-      var userId = Meteor.user()._id;
-      //call delete room
-      Meteor.call('deleteTimesRoom', roomId, userId);
+      Meteor.call('deleteRoom', roomId, userId, e.target.name);
     }
   }
 
