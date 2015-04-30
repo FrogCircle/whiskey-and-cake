@@ -11,6 +11,8 @@
       <p>{{getText.subtitle}}</p>
       <button class="timesButton">{{getText.button}}</button>
       <hr>
+      {{> scoreBoard}}
+      <hr>
       <div class="well well-sm">
         {{#if currentUser}}
           {{> mainBox}}

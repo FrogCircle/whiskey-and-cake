@@ -204,7 +204,6 @@ Meteor.methods({
     return true;
   },
   createMovieOrTimesRoom: function(collection, roomName, userId, username) {
-    console.log('createMovieOrTimesRoom called', collection, roomName, userId, username);
     var returnRoom = collection.insert({
       "users": [],
       "scoreBoard": [],
@@ -215,7 +214,6 @@ Meteor.methods({
       "createdBy": userId,
       "roomName" : roomName
     }, function(err, roomInserted) {
-      console.log('roomInserted is ', roomInserted);
       returnRoom = roomInserted;
     });
     Messages.insert({
@@ -225,19 +223,13 @@ Meteor.methods({
       roomId: returnRoom,
       messages: []
     }, function (err, messageInserted) {
-      console.log('messageInserted is ', messageInserted);
       if( err ) {
         console.log('error while creating doc in messages collection');
       }
     });
 
-    console.log('returnRoom is ', returnRoom);
     return {room: returnRoom};
   }
-});
-
-Meteor.publish("MovieRooms", function(roomID) {
-  return MovieRooms.find();
 });
 
 Meteor.methods({
@@ -314,8 +306,4 @@ Meteor.methods({
     return result();
 
   }
-});
-
-Meteor.publish("TimesHistorianRoom", function() {
-  return TimesHistorianRoom.find();
 });
