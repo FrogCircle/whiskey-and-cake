@@ -26,8 +26,15 @@ Router.route('/cardsagainstsobriety/:room', {
     this.render('cardsAgainstSobriety', {to: 'show'});
   },
   name: 'cardsagainstsobriety2',
+  unload: function() {
+    //remove user from room when they click away from room
+    var roomId = Session.get('currentRoomId');
+    var userId = Meteor.user()._id;
+    removeUserFromRoom(roomId, userId, CardsRoom);
+  }
+
   //see controller below
-  controller: 'CASController'
+  //controller: 'CASController'
 });
 
 Router.route('/moviecloud/:room', {
@@ -47,8 +54,16 @@ Router.route('/moviecloud/:room', {
     this.render('timesHistorian', {to: 'show'});
     serveGame('movieCloud', this.params.room);
     Session.set('currentRoomId', this.params.room);
+    Session.set('gameTypeColl', 'MovieRooms');
   },
-  name: 'moviecloudroom'
+  name: 'moviecloudroom',
+  unload: function() {
+    //remove user from room when they click away from room
+    var roomId = Session.get('currentRoomId');
+    var userId = Meteor.user()._id;
+    removeUserFromRoom(roomId, userId, MovieRooms);
+  }
+
 });
 
 Router.route('/timeshistorian/:room', {
@@ -68,8 +83,15 @@ Router.route('/timeshistorian/:room', {
     this.render('timesHistorian', {to: 'show'});
     serveGame('timesHistorian', this.params.room);
     Session.set('currentRoomId', this.params.room);
+    Session.set('gameTypeColl', 'TimesHistorianRoom');
   },
-  name: 'timeshistorianroom'
+  name: 'timeshistorianroom',
+  unload: function() {
+    //remove user from room when they click away from room
+    var roomId = Session.get('currentRoomId');
+    var userId = Meteor.user()._id;
+    removeUserFromRoom(roomId, userId, TimesHistorianRoom);
+  }
 });
 
 CASController = RouteController.extend({
@@ -81,6 +103,11 @@ CASController = RouteController.extend({
     //TODO: remove user if they close webpage or browser (disconnect)
   }
 });
+
+var removeUserFromRoom = function(roomId, userId, coll) {
+  var gameInformation = coll.update({_id: roomId}, {$pull: {users: {'_id': userId}}});
+  //TODO: remove user if they close webpage or browser (disconnect)
+};
 
 
 
@@ -590,6 +617,30 @@ function serveGame (gameName, roomID){
   Template.timesHistorian.helpers({
     getText: function(){
       return data.textObj;
+    },
+    numPlayers: function(){
+      var roomId = Session.get('roomUrl') || getId();
+      var collDict = { 'MovieRooms': MovieRooms, 'TimesHistorianRoom': TimesHistorianRoom };
+      var coll = collDict[Session.get('gameTypeColl')];
+      //get number of users in room
+      var gameInformation = coll.findOne({_id: roomId}, {users: 1});   // returns all users for that room
+      var userArray = gameInformation.users;
+      var numberPlayers = userArray.length;
+      if ( numberPlayers === 0 ) {
+        return 'NO';
+      } else {
+        return numberPlayers;
+      }
+    },
+    users: function(){
+      var roomId = Session.get('currentRoomId');
+      var collDict = { 'MovieRooms': MovieRooms, 'TimesHistorianRoom': TimesHistorianRoom };
+      var coll = collDict[Session.get('gameTypeColl')];
+      //returns an array of user objects
+      var gameInformation = coll.findOne({_id: roomId});   // returns all users for that room
+      var userArray = gameInformation.users;
+      return userArray;
+      // return Meteor.users.find({'status.online': true});
     }
   });
 

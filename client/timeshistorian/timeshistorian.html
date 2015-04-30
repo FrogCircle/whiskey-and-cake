@@ -1,15 +1,33 @@
 <template name="timesHistorian">
   <div class="row">
     <div class="col-md-8">
+      <h1>{{getText.title}}</h1>
+      <div class="bottom-spacer">
+        <span>Start a new round </span><button class="timesButton">{{getText.button}}</button>
+      </div>
       <div class="articles"></div>
       <div class="movieSVG"></div>
       {{>timesHistorianHand}}
     </div>
     <div class="col-md-4">
+<!--
       <h1>{{getText.title}}</h1>
 
       <p>{{getText.subtitle}}</p>
       <button class="timesButton">{{getText.button}}</button>
+-->
+
+      <div class="playerBoard well well-sm">
+        <h4>Currently there are {{numPlayers}} players in the room.</h4>
+        <ul class="no-list-item">
+          {{#each users}}
+            <li>
+              <strong>{{username}}</strong> - Score: {{score}}
+            </li>
+          {{/each}}
+        </ul>
+      </div>
+
       <hr>
       {{> scoreBoard}}
       <hr>

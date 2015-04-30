@@ -7,12 +7,9 @@ Template.gameBoard.helpers({
   // Returns all online users in this game
   users: function(){
     var roomId = Session.get('currentRoomId');
-    console.log('PBPBPB roomId in gameBoard is ', roomId);
     //returns an array of user objects
     var gameInformation = CardsRoom.findOne({_id: roomId});   // returns all users for that room
     var userArray = gameInformation.users;
-
-    console.log('tesing', userArray);
     return userArray;
     // return Meteor.users.find({'status.online': true});
   },
@@ -63,7 +60,6 @@ Template.gameBoard.helpers({
   // Returns the total number of online players
   numPlayers: function(){
     var _roomId = Session.get('roomUrl') || getId();
-    console.log('_roomId is ', _roomId);
     //get number of users in room
     var gameInformation = CardsRoom.findOne({_id: _roomId}, {users: 1});   // returns all users for that room
     var userArray = gameInformation.users;
@@ -149,7 +145,6 @@ Template.gameBoard.helpers({
 
 Template.gameBoard.events({
   "click .answerCards": function (event) {
-    console.log('this in answerCards ', this);
     event.stopPropagation();
     var _roomId = getId();
     // calls endRound from deck.js, which sets roundOver to true for the winnerChosen helper above

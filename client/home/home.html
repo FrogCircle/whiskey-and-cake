@@ -6,7 +6,7 @@
       <ul class="rooms-list">
         {{#each loadCardRooms}}
         <li>
-          <a class="joinExistingRoom" href="{{pathFor route='cardsagainstsobriety2' data=room}}">{{room.roomName}}</a>
+          <a class="joinExistingRoom" data-room="cards" href="{{pathFor route='cardsagainstsobriety2' data=room}}">{{room.roomName}}</a>
           {{#if roomOwner }}
           <div class="delete-room-div">
             <a name="CAS" class="delete-room" href="#">Delete room</a>
@@ -27,14 +27,13 @@
     </div>
 
 
-
     <div class="col-md-4 well">
       <h4>Movie Cloud</h4>
       <p>Available Rooms – Click to Ennter</p>
       <ul class="rooms-list">
         {{#each loadMovieRooms}}
           <li>
-            <a class="joinMovieRoom" href="{{pathFor route='moviecloudroom' data=room}}">{{room.roomName}}</a>
+            <a class="joinExistingRoom" data-room="movie" href="{{pathFor route='moviecloudroom' data=room}}">{{room.roomName}}</a>
             {{#if roomOwner }}
               <div class="delete-room-div">
                 <a name="MC" class="delete-room" href="#">Delete room</a>
@@ -53,13 +52,15 @@
         <a href="#" class="cancel">or Cancel</a>
       </div>
     </div>
+
+
     <div class="col-md-4 well">
       <h4>Times Historian</h4>
-      <p>Available Rooms – Click to Ennter</p>
+      <p>Available Rooms – Click to Enter</p>
       <ul class="rooms-list">
         {{#each loadTimesRooms}}
           <li>
-            <a class="joinExistingRoom" href="{{pathFor route='timeshistorianroom' data=room}}">{{room.roomName}}</a>
+            <a class="joinExistingRoom" data-room="times" href="{{pathFor route='timeshistorianroom' data=room}}">{{room.roomName}}</a>
             {{#if roomOwner }}
               <div class="delete-room-div">
                 <a name="TH" class="delete-room" href="#">Delete room</a>
