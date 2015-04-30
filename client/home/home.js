@@ -41,25 +41,8 @@ Template.home.events({
     $this.parent().parent().find('.create-room-name').css('display', 'block');
 
   },
-
-  "click #createMovieRoomName": function(e){
-    //hide createRoomName button and show createRoomDiv
-    var $this = $(e.target);
-    $this.closest('.create-room-btn').css('display', 'none');
-    $this.parent().parent().find('.create-room-name').css('display', 'block');
-  },
-
-  "click #createTimesRoomName": function(e){
-    //hide createRoomName button and show createRoomDiv
-    var $this = $(e.target);
-    $this.closest('.create-room-btn').css('display', 'none');
-    $this.parent().parent().find('.create-room-name').css('display', 'block');
-  },
-
   "click .cancel": function(e) {
     var $this = $(e.target);
-    //$('.create-room-btn').css('display', 'block');
-    //$('.create-room-name').css('display', 'none');
     $this.closest('.well').find('.create-room-btn').css('display', 'block');
     $this.parent().parent().find('.create-room-name').css('display', 'none');
 
