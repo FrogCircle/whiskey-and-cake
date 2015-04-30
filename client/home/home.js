@@ -137,20 +137,26 @@ Template.home.events({
     }
   },
 
-  "click .joinNewRoom": function() {
-    var userObj = Meteor.user();
-    userObj.judge = false;
-    userObj.cards = [];
-    var roomId = this.room;
-    Meteor.call('JoinCardsRoom', roomId, userObj, function(error, result) {
-    });
-  },
-  "click .joinExistingRoom": function() {
+  //"click .joinNewRoom": function() {
+  //  var userObj = Meteor.user();
+  //  userObj.judge = false;
+  //  userObj.cards = [];
+  //  var roomId = this.room;
+  //  Meteor.call('JoinCardsRoom', roomId, userObj, function(error, result) {
+  //  });
+  //},
+
+  "click .joinExistingRoom": function(e) {
+    var $this = $(e.target);
+    var data = $this.data('room');
+    console.log('data is ', data);
+    var collDict = { cards: 'CardsRoom', movie: 'MovieRooms', times: 'TimesHistorianRoom' };
+    console.log('collDict[data] is ', collDict[data]);
     var userObj = Meteor.user();
     userObj.judge = false;
     var roomId = this.room.room;
     Session.set('roomUrl', roomId);
-    Meteor.call('JoinCardsRoom', roomId, userObj, function(error, result) {
+    Meteor.call('JoinCardsRoom', roomId, userObj, collDict[data], function(error, result) {
     });
   },
   "click .delete-room": function(e) {

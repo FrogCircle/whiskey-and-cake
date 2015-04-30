@@ -271,10 +271,19 @@ header {
 
 .delete-room-div {
   display: inline-block;
+  display: inline-block;
   float: right;
 }
 
 .delete-room-link {
   font-size: 0.9em;
   font-style: italic;
+}
+
+.no-list-item {
+  list-style-type: none;
+}
+
+.bottom-spacer {
+  margin-bottom: 15px;
 }

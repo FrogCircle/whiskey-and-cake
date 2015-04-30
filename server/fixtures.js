@@ -64,8 +64,11 @@ Meteor.methods({
     return {room: returnRoom};
   },
 
-  JoinCardsRoom: function(roomId, userObj) {
-    var gameInfo = CardsRoom.findOne({_id: roomId});
+  JoinCardsRoom: function(roomId, userObj, coll) {
+    var collDict = { 'CardsRoom': CardsRoom, 'MovieRooms': MovieRooms, 'TimesHistorianRoom': TimesHistorianRoom };
+    var collToUpdate = collDict[coll];
+    console.log('collToUpdate is ', collToUpdate);
+    var gameInfo = collToUpdate.findOne({_id: roomId});
     console.log('Join cards room called');
     var userArray = gameInfo.users;
     var userFound = false;
@@ -76,9 +79,9 @@ Meteor.methods({
       }
     }
     if( !userFound ) {
-      CardsRoom.update({_id: roomId}, {$push: {'users': userObj }});
+      collToUpdate.update({_id: roomId}, {$push: {'users': userObj }});
     }
-    return CardsRoom.find({_id: roomId}).fetch();
+    return collToUpdate.find({_id: roomId}).fetch();
   },
   deleteRoom: function(roomId, userId, collection){
     //check if user has rights to delete this room, i.e. created the room
