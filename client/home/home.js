@@ -5,7 +5,6 @@ Template.home.helpers({
     for (var i = 0, size = array.length; i < size; i++) {
       result.push({room: {room: array[i]._id, roomName: array[i].roomName, owner: array[i].createdBy}});
     }
-    console.log('loadCardRooms is ', result);
     return result.reverse();
   },
   roomOwner: function(){
@@ -20,7 +19,6 @@ Template.home.helpers({
     var result = movieRooms.map(function(elem, index){
       return {room: {room: elem._id, roomName: elem.roomName, owner: elem.createdBy}};
     }).reverse();
-    console.log('loadMovieRooms result is ', result);
     return result;
   },
   loadTimesRooms: function(){
@@ -28,7 +26,6 @@ Template.home.helpers({
     var result = TimesHistorianRooms.map(function(elem, index){
       return {room: {room: elem._id, roomName: elem.roomName, owner: elem.createdBy}};
     }).reverse();
-    console.log('loadMovieRooms result is ', result);
     return result;
 
   }
@@ -39,8 +36,6 @@ var holder = [];
 Template.home.events({
   "click #createRoomName": function(e){
     //hide createRoomName button and show createRoomDiv
-    //$('.create-room-btn').css('display', 'none');
-    //$('.create-room-name').css('display', 'block');
     var $this = $(e.target);
     $this.closest('.create-room-btn').css('display', 'none');
     $this.parent().parent().find('.create-room-name').css('display', 'block');
@@ -48,6 +43,13 @@ Template.home.events({
   },
 
   "click #createMovieRoomName": function(e){
+    //hide createRoomName button and show createRoomDiv
+    var $this = $(e.target);
+    $this.closest('.create-room-btn').css('display', 'none');
+    $this.parent().parent().find('.create-room-name').css('display', 'block');
+  },
+
+  "click #createTimesRoomName": function(e){
     //hide createRoomName button and show createRoomDiv
     var $this = $(e.target);
     $this.closest('.create-room-btn').css('display', 'none');
@@ -64,7 +66,6 @@ Template.home.events({
   },
 
   "click #createCardsRoom": function(e){
-    console.log('createCardsRoom called ');
     var $this = $(e.target);
     var newRoomName = $('#cardsRoomName').val();
       $('#cardsRoomName').val('aa');
@@ -84,24 +85,72 @@ Template.home.events({
   },
 
   "click #createMovieRoom": function(e){
-    console.log('createMovieRoom called ');
     var userId = Meteor.user()._id;
     var username = Meteor.user().username;
     var $this = $(e.target);
     var newRoomName = $('#movieRoomName').val();
-    console.log('newRoomName is ', newRoomName);
     if( newRoomName.length === 0 ) {
       alert('Your room needs a name, come on!');
     } else {
-      Meteor.call('createMovieOrTimesRoom', MovieRooms, newRoomName, userId,  username,  function(err, room){
-        holder.push(room);
-        Session.set('roomId', holder);
+      MovieRooms.insert({
+        "users": [],
+        "scoreBoard": [],
+        "answered": false,
+        "gameBoard": {"result": [], "choices": [], "chosen": ""},
+        "roundInfo": {"roundNum": 0, "lastWinner": ""},
+        "createdAt": new Date(),
+        "createdBy": userId,
+        "roomName" : newRoomName
+      }, function(err, roomInserted) {
+        Messages.insert({
+          createdById: userId,
+          createdByName: username,
+          createdAt: new Date(),
+          roomId: roomInserted,
+          messages: []
+        }, function (err, messageInserted) {
+          if( err ) {
+            console.log('error while creating doc in messages collection');
+          }
+        });
       });
-      //show createRoomButton and hide the div with input box for room name
       $this.parent().parent().find('.create-room-btn').css('display', 'block');
       $this.parent().parent().find('.create-room-name').css('display', 'none');
-      //clear out input
-      $('#movieRoomName').val('');
+    }
+  },
+
+  "click #createTimesRoom": function(e){
+    var userId = Meteor.user()._id;
+    var username = Meteor.user().username;
+    var $this = $(e.target);
+    var newRoomName = $('#timesRoomName').val();
+    if( newRoomName.length === 0 ) {
+      alert('Your room needs a name, come on!');
+    } else {
+      TimesHistorianRoom.insert({
+        "users": [],
+        "scoreBoard": [],
+        "answered": false,
+        "gameBoard": {"result": [], "choices": [], "chosen": ""},
+        "roundInfo": {"roundNum": 0, "lastWinner": ""},
+        "createdAt": new Date(),
+        "createdBy": userId,
+        "roomName" : newRoomName
+      }, function(err, roomInserted) {
+        Messages.insert({
+          createdById: userId,
+          createdByName: username,
+          createdAt: new Date(),
+          roomId: roomInserted,
+          messages: []
+        }, function (err, messageInserted) {
+          if( err ) {
+            console.log('error while creating doc in messages collection');
+          }
+        });
+      });
+      $this.parent().parent().find('.create-room-btn').css('display', 'block');
+      $this.parent().parent().find('.create-room-name').css('display', 'none');
     }
   },
 
@@ -120,6 +169,8 @@ Template.home.events({
     Session.set('roomUrl', roomId);
     Meteor.call('JoinCardsRoom', roomId, userObj, function(error, result) {
     });
+  },
+  "click .joinMovieRoom": function() {
   },
   "click .delete-room-link": function(e) {
     var checkDelete = confirm('Are you sure you want to delete this room?');
@@ -140,5 +191,18 @@ Template.home.events({
       //call delete room
       Meteor.call('deleteMovieRoom', roomId, userId);
     }
+  },
+  "click .delete-times-room-link": function(e) {
+    var checkDelete = confirm('Are you sure you want to delete this room?');
+    if ( checkDelete ) {
+      var x = $(this);
+      var roomId = x[0].room.room;
+      var userId = Meteor.user()._id;
+      //call delete room
+      Meteor.call('deleteTimesRoom', roomId, userId);
+    }
   }
+
 });
+
+

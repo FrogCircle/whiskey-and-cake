@@ -7,9 +7,6 @@ Template.chatBox.helpers({
   "messages": function() {
     var x = Session.get('currentRoomId');
     var room = Messages.findOne({roomId: x});
-    console.log('x is ', x);
-    console.log('roomMessages is ', room);
-    //console.log('room messages in chatBox helpers is ', room.messages);
     scroll();
     return room;
   }
@@ -48,8 +45,6 @@ Template.chatBox.events({
 
 function sendChat() {
   var message = $('#chat-message').val();
-  console.log('message is ', message);
-  console.log('getId() is ', getId());
   Meteor.call('addMessageForRoom', getId(), message, function(data) {
     //message data is returned via a server emit
   });

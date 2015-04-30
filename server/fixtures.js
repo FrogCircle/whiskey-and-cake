@@ -114,6 +114,18 @@ Meteor.methods({
       var removeMessagesCheck = Messages.remove({roomId: roomId});
       //no need to return the rooms since the collection is being published (and subscribed to by the user
     }
+  },
+  deleteTimesRoom: function(roomId, userId){
+    //check if user has rights to delete this room, i.e. created the room
+    var room = TimesHistorianRoom.findOne({_id: roomId});
+    var roomOwner = room.createdBy;
+    if( roomOwner === userId ) {
+      //delete room in Rooms collection, returns 1 if successful, 0 if not
+      var removeRoomCheck = TimesHistorianRoom.remove({_id: roomId});
+      //delete messages for room in Messages collection, returns 1 if successful, 0 if not
+      var removeMessagesCheck = Messages.remove({roomId: roomId});
+      //no need to return the rooms since the collection is being published (and subscribed to by the user
+    }
   }
 });
 
